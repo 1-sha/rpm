@@ -1,0 +1,21 @@
+uuid: 8e38992e-2333-428b-9cf4-7e9591f94134
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_unedate
+    - node.type.test
+  module:
+    - datetime
+id: node.test.field_unedate
+field_name: field_unedate
+entity_type: node
+bundle: test
+label: 'UNE DATE'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime
