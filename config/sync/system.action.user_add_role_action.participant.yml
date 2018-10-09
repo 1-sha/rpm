@@ -1,0 +1,14 @@
+uuid: 8a01399c-650a-4aa7-905e-8d0c8a067638
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.participant
+  module:
+    - user
+id: user_add_role_action.participant
+label: 'Add the Participant role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: participant
