@@ -1,0 +1,22 @@
+uuid: 834bfa3b-bc69-4b0d-ae47-56864db2d67e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - agov_base
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: agov_base_messages
+theme: agov_base
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

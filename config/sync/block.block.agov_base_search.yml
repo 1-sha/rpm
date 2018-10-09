@@ -1,0 +1,22 @@
+uuid: 2676d128-4a49-4815-96f8-a97dfafe1c68
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - agov_base
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: agov_base_search
+theme: agov_base
+region: secondary_menu
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

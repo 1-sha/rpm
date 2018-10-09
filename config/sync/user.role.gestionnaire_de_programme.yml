@@ -4,6 +4,6 @@ status: true
 dependencies: {  }
 id: gestionnaire_de_programme
 label: 'Gestionnaire de programme'
-weight: 4
+weight: -9
 is_admin: null
 permissions: {  }

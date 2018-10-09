@@ -1,0 +1,22 @@
+uuid: 13227540-5378-4d7a-8774-69112a97ef79
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - agov_whitlam
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: agov_whitlam_help
+theme: agov_whitlam
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

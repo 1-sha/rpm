@@ -1,0 +1,22 @@
+uuid: 4315bf3b-7c26-4313-92d7-478ea8e40c16
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - agov_base
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: agov_base_help
+theme: agov_base
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
