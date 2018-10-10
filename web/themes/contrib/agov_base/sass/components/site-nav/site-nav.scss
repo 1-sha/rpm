@@ -1,0 +1,136 @@
+// Dependencies.
+@import 'init';
+
+// Site navigation
+//
+// Use site navigation to help the user to navigate between main sections.
+// @see http://guides.service.gov.au/design-guide/patterns/navigation.html#site-navigation
+//
+// Markup: site-nav.hbs
+//
+// Style guide: components.navigation.site-nav
+
+.site-nav,
+%site-nav {
+  background-color: $non-white;
+  box-shadow: 0 -6px $light-grey inset;
+  overflow: hidden;
+
+  @include respond-to('medium') {
+    overflow: visible;
+  }
+
+  &__anchor-active {
+    background-color: transparent;
+    border-color: $button-bg-colour--active;
+  }
+
+  // Wrapper class to override UI Kit.
+  &__wrapper {
+    .site-nav__list-item {
+      > a {
+        text-decoration: none;
+
+        @include respond-to('medium') {
+          border-bottom: 6px solid transparent;
+        }
+
+        &:hover,
+        &:focus,
+        &.is-active {
+          @extend %site-nav__anchor-active;
+        }
+      }
+    }
+
+    // Level 2 list, list item and anchor are missing from the UI Kit.
+    .site-nav__list-level-2 {
+      // Do not use display none to hide the sub menu. Keep it in the DOM for
+      // keyboard navigation.
+      height: 0;
+      overflow: hidden;
+      position: absolute;
+      list-style-type: none;
+      z-index: 10;
+      margin: 0;
+      padding: 0;
+      min-width: 250px;
+      width: auto;
+      background-color: $link-colour--hover;
+      // Hide from mobile menu.
+      display: none;
+
+      @include respond-to('medium') {
+        display: block;
+      }
+    }
+
+    .site-nav__list-item-level-2 {
+      float: none;
+      text-align: left;
+
+      &,
+      &:first-child,
+      &:last-child {
+        padding: 0;
+      }
+
+      > a {
+        @include padding(8px 16px);
+        text-decoration: none;
+        border-bottom: 0;
+        display: block;
+
+        &:hover,
+        &:focus {
+          background-color: $button-bg-colour;
+          color: $button-text-colour;
+        }
+      }
+    }
+
+    // Visually indicate a top level item when hovering.
+    .site-nav__list-item:hover > a,
+      // Visually indicate sub items are focused.
+    .site-nav__list-item > a:focus,
+      // Keep visual indicate when tabbing through children.
+    .site-nav__list-item.opened > a {
+      @extend %site-nav__anchor-active;
+    }
+  }
+
+  // Make the keyboard navigation and dropdown menus work.
+
+  // Standard dropdown hover.
+  &__list-item:hover > ul,
+    // Open during keyboard nav when the top level anchor comes into focus.
+  &__list-item a:focus + ul,
+    // Maintain the opened state when tabbing through the items.
+  &__list-item.opened > ul {
+    height: auto;
+  }
+}
+
+// Fix for resposive nav adding overflow
+// it's not needed on desktop, and breaks our second level menu items.
+
+.js .nav-collapse {
+  @include respond-to('medium') {
+    overflow: visible;
+  }
+}
+
+// Fix for contextual links affected by responsive nav.
+.nav-collapse ul[hidden] {
+  display: none;
+}
+
+.contextual-region .contextual .contextual-links li {
+  float: none;
+  text-align: left;
+
+  a {
+    border: 0;
+    height: auto;
+  }
+}

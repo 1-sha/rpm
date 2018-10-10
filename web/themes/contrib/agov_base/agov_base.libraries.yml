@@ -1,0 +1,79 @@
+google_open_sans:
+  version: 1.x
+  css:
+    base:
+      //fonts.googleapis.com/css?family=Open+Sans:400italic,700,400: { type: external }
+
+gov_au_ui_kit:
+  version: 1.x
+  css:
+    component:
+      css/ui-kit.css: {}
+
+base:
+  version: 1.x
+  css:
+    base:
+      css/base/text/text.css: {}
+      css/base/grouping/grouping.css: {}
+      css/base/embedded/embedded.css: {}
+      css/base/headings/headings.css: {}
+      css/base/links/links.css: {}
+      css/base/tables/tables.css: {}
+      css/base/forms/forms.css: {}
+
+base_components:
+  version: 1.x
+  css:
+    component:
+      css/components/autocomplete/autocomplete.css: {}
+      css/components/breadcrumb/breadcrumb.css: {}
+      css/components/clearfix/clearfix.css: {}
+      css/components/highlight-mark/highlight-mark.css: {}
+      css/components/inline-links/inline-links.css: {}
+      css/components/messages/messages.css: {}
+      css/components/more-link/more-link.css: {}
+      css/components/pager/pager.css: {}
+      css/components/print-none/print-none.css: {}
+      css/components/progress-bar/progress-bar.css: {}
+      css/components/resizable-textarea/resizable-textarea.css: {}
+      css/components/responsive-video/responsive-video.css: {}
+      css/components/skip-link/skip-link.css: {}
+      css/components/tabs/tabs.css: {}
+      css/components/unstyled-list/unstyled-list.css: {}
+      css/components/visually-hidden/visually-hidden.css: {}
+      css/components/watermark/watermark.css: {}
+
+agov_components:
+  version: 1.x
+  css:
+    component:
+      css/components/box/box.css: {}
+      css/components/button/button.css: {}
+      css/components/comment/comment.css: {}
+      css/components/date/date.css: {}
+      css/components/divider/divider.css: {}
+      css/components/footer-bottom/footer-bottom.css: {}
+      css/components/footer-top/footer-top.css: {}
+      css/components/form-item/form-item.css: {}
+      css/components/header/header.css: {}
+      css/components/site-nav/site-nav.css: {}
+      css/components/nav-toggle/nav-toggle.css: {}
+      css/components/search/search.css: {}
+      css/components/social/social.css: {}
+      css/components/tags/tags.css: {}
+      css/components/teaser/teaser.css: {}
+      css/components/three-column-menu/three-column-menu.css: {}
+  js:
+    sass/components/site-nav/responsive-nav.min.js: {}
+    sass/components/site-nav/site-nav.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+
+layouts:
+  version: 1.x
+  css:
+    layout:
+      css/layouts/landing-page/landing-page.css: {}

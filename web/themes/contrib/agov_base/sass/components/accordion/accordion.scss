@@ -1,0 +1,47 @@
+// Dependencies.
+@import 'init';
+
+// Accordion
+//
+// Use content accordions if the user only needs a selection of the information on a page.
+// @see http://guides.service.gov.au/design-guide/patterns/navigation.html#site-navigation
+//
+// Markup: accordion.hbs
+//
+// :hover - Hover styling.
+//
+// Style guide: components.accordion
+
+details,
+.accordion {
+  border-right: 1px solid $border-colour;
+  border-left: 1px solid $border-colour;
+}
+
+// Fix for Accordion summary inheriting UI Kit button styles.
+
+body>main .accordion-button,
+body>main summary {
+  &[role="button"] {
+    background-color: $background-secondary-colour;
+    color: $body-text-colour;
+    height: auto;
+    padding: $small-spacing $large-spacing $small-spacing $small-spacing;
+    border: 0;
+    margin: 0;
+
+    [aria-expanded='true'] & {
+      border-bottom: 1px solid $border-colour;
+    }
+
+    &:last-child {
+      border-bottom-width: 1px;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: $border-colour;
+      color: $body-text-colour;
+    }
+  }
+}

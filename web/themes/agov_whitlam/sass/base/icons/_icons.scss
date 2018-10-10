@@ -1,0 +1,14 @@
+// Global icons
+//
+// A collection of SVG icons providing UI elements, social media logos and design elements.
+// Used inline (as shown here as a sprite) their colour can be changed with CSS.
+// Used as a background image, or in an image tag their colour if fixed.
+//
+// Each icon has a corresponding SVG file which can be used in css like <code>background: icon-url('search.svg')</code>
+
+.icon {
+  @include margin-right(.15);
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+}

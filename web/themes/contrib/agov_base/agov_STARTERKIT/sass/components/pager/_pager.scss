@@ -1,0 +1,23 @@
+// Pager
+//
+// Paged navigation is a list of page numbers when more than 1 page of content
+// is available.
+
+.pager,
+%pager {
+  // Inherit from agov_base.
+
+  // A page item in the pager list.
+  &__item {
+    // Inherit from agov_base.
+  }
+
+  // The current page's list item.
+  &__current-item {
+    // Inherit from agov_base.
+  }
+
+  &__link {
+    // Inherit from agov_base.
+  }
+}

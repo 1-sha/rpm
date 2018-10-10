@@ -1,0 +1,39 @@
+// Dependencies.
+@import 'init';
+
+// Embedded content
+//
+// Weight: 2
+//
+// Style guide: base.embedded
+
+// Image
+//
+// An &lt;img&gt; tag represents an image.
+//
+// Markup: embedded-img.hbs
+//
+// Style guide: base.embedded.img
+
+img,
+svg {
+  height: auto;
+}
+
+// Scalable vector
+//
+// A &lt;svg&gt; tag represents an image encoded as a Scalable Vector Graphic.
+//
+// Markup: embedded-svg.hbs
+//
+// Style guide: base.embedded.svg
+
+svg:not(:root) {
+  // Correct overflow not hidden in IE 9/10/11.
+  overflow: hidden;
+}
+
+// Media
+.media {
+  margin-bottom: $base-spacing;
+}

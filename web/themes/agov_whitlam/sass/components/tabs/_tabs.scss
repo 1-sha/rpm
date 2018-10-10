@@ -1,0 +1,20 @@
+// Tabs
+//
+// Use tab navigation to style a links list as horizontal tabs. Tabs wrap on top of each other for smaller breakpoints.
+// @see http://guides.service.gov.au/design-guide/components/link-styles/index.html#in-page-tabs-experimental
+
+.inline-tab-nav--secondary {
+
+  a {
+
+    &.is-active {
+      border-color: $border-contrast-colour;
+      background-color: $non-white; 
+    }
+
+    &:hover,
+    &:focus {
+      border-color: $border-contrast-colour;
+    }
+  }
+}

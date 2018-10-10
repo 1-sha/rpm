@@ -1,0 +1,23 @@
+// Box
+//
+// A simple box styling.
+
+.box,
+%box {
+
+  &__title {
+    // Inherit from agov_base.
+  }
+
+// Icon box - with border
+
+  &--with-border {
+    border-top: 6px solid $border-highlight-colour;
+  }
+
+// Icon box
+
+  &--icon {
+    // Inherit from agov_base.
+  }
+}

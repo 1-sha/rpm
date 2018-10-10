@@ -1,0 +1,98 @@
+// Dependencies.
+@import 'init';
+
+// Search
+//
+// A simple search styling.
+//
+// Markup: search.hbs
+//
+// Style guide: components.search
+
+
+.search,
+%search {
+  position: relative;
+
+  &__wrapper {
+    @include padding(20px 0);
+
+    @include respond-to('header-desktop') {
+      padding: 0;
+      position: relative;
+      bottom: 0;
+      display: none;
+    }
+
+    &--light {
+      display: none;
+      float: right;
+
+      @include respond-to('header-desktop') {
+        display: block;
+      }
+    }
+  }
+
+  &__inner-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+
+  &__input-wrapper {
+    margin: 0;
+    // scss-lint:disable ImportantRule
+    display: block !important;
+  }
+
+  &__input {
+    @include padding(4px 0 8px);
+    background-color: transparent;
+    border-style: solid;
+    border-color: inherit;
+    border-width: 0 0 3px;
+    width: 100%;
+
+    &--light {
+      @include placeholder(lighten($header-bg-colour, 30%));
+      color: $header-colour;
+    }
+  }
+
+  &__button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1.5em;
+    height: 1.5em;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-indent: -999em;
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+
+    &,
+    &:hover,
+    &:focus {
+      background-image: icon-url('search.svg');
+    }
+
+    &--light {
+      &,
+      &:hover,
+      &:focus {
+        background-image: icon-url('search.svg');
+      }
+    }
+  }
+}
+
+// Override UI-Kit button style for our icon button.
+
+body > main .search .search__button {
+  background-color: transparent;
+  color: $non-black;
+}

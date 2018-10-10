@@ -1,0 +1,12 @@
+// Local navigation
+//
+// Stacked list for in this section navigation
+
+.local-nav {
+
+  ul a:hover,
+  ul a:focus {
+    border-color: $border-contrast-colour;
+    background-color: $focus-colour;
+  }
+}

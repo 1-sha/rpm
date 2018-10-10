@@ -1,0 +1,60 @@
+// Search
+//
+// A simple search styling.
+
+
+.search,
+%search {
+  // Inherit from agov_base.
+
+  &__wrapper {
+    // Inherit from agov_base.
+
+    &--light {
+      // Inherit from agov_base.
+    }
+  }
+
+  &__inner-wrapper {
+    // Inherit from agov_base.
+  }
+
+  &__input-wrapper {
+    // Inherit from agov_base.
+  }
+
+  &__input {
+    // Inherit from agov_base.
+
+    &--light {
+      @include placeholder(lighten($header-bg-colour, 30%));
+      color: $header-colour;
+      border-color: $header-colour;
+
+      &:hover,
+      &:focus {
+        // Inherit from agov_base.
+      }
+    }
+  }
+
+  &__button {
+    // Inherit from agov_base.
+
+    &,
+    &:focus,
+    &:hover {
+      // Inherit from agov_base.
+    }
+
+    &--light {
+      // Inherit from agov_base.
+
+      &,
+      &:focus,
+      &:hover {
+        background-image: icon-url('search--white.svg');
+      }
+    }
+  }
+}

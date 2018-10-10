@@ -1,0 +1,16 @@
+// Dependencies.
+@import 'init';
+
+// Breadcrumb navigation
+//
+// The path to the current page in the form of a list of links.
+//
+// @see http://guides.service.gov.au/design-guide/patterns/navigation/index.html#breadcrumbs
+//
+// Markup: breadcrumb.hbs
+//
+// Style guide: components.navigation.breadcrumb
+
+.breadcrumbs {
+  background-color: transparent;
+}

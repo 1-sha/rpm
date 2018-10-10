@@ -1,0 +1,29 @@
+// Header
+//
+// The header of page.
+
+.header,
+%header {
+  background-color: $header-bg-colour;
+  color: $header-colour;
+
+  &__logo {
+    // Inherit from agov_base.
+  }
+
+  &__logo-image {
+    // Inherit from agov_base.
+  }
+
+  .region {
+    // Inherit from agov_base.
+  }
+
+  .search__wrapper {
+    // Inherit from agov_base.
+  }
+}
+
+header[role='banner'] {
+  @extend %header;
+}

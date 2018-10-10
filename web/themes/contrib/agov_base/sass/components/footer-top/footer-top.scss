@@ -1,0 +1,50 @@
+// scss-lint:disable SelectorDepth
+
+// Dependencies.
+@import 'init';
+
+// Footer Top
+//
+// The footer top region of page
+//
+// Markup: footer-top.hbs
+//
+// Style guide: components.footer-top
+
+footer[role='contentinfo'] .footer-top,
+%footer-top {
+  padding-bottom: $large-spacing;
+  margin-bottom: $large-spacing;
+
+  h2 {
+    @include visually-hidden;
+  }
+
+  &__menu {
+    @include margin-top(1);
+
+    &:first-child {
+      border-top: 0;
+      margin-top: 0;
+    }
+
+    ul {
+      @include unstyled-list;
+      margin-bottom: 0;
+    }
+
+    li {
+      @include inline-list-item;
+    }
+
+    &--nested {
+      @include padding-left(.5);
+      @include padding-top(.5);
+      @include font-size(s);
+    }
+  }
+}
+
+footer[role='contentinfo'] {
+  padding-top: $large-spacing;
+}

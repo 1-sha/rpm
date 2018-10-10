@@ -1,0 +1,39 @@
+// Add eyeglass-inline-svg to inline svg files.
+@import 'file-text';
+@import 'inline-svg';
+
+// Assets
+//
+// Use the `image-url()` & `font-url()` function to correctly generate paths
+// to image and font files. Code taken from [this css-tricks article](https://css-tricks.com/snippets/sass/simple-asset-helper-functions/)
+// by Hugo Giraudel.
+//
+// Weight: -1
+//
+// Style guide: sass.assets
+
+// Base path for image assets.
+$image-base-path: 'sass/components/';
+
+// Base path for icon assets.
+$icon-base-path: 'sass/base/icons/source/';
+
+
+// Image asset helper
+// @param {String} $file - Asset file name, including extension
+// @return {URL} - A `url()` function leading to the image
+// @require {function} asset-url
+@function image-url($file) {
+  @return file-text($image-base-path + $file);
+}
+
+// Icon asset helper
+// @param {String} $file - Asset file name, including extension
+// @return {URL} - A `url()` function leading to the font
+// @require {function} asset-url
+
+// Use eyeglass-inline-svg to inline svg files as correctly url-encoded data URIs.
+// https://www.npmjs.com/package/eyeglass-inline-svg
+@function icon-url($file) {
+  @return inline-svg-file($icon-base-path + $file);
+}

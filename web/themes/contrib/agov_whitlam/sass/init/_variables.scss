@@ -1,0 +1,15 @@
+// Import UI-Kit variables so we can use and override them.
+// @see https://github.com/AusDTO/gov-au-ui-kit/blob/develop/assets/sass/_variables.scss
+@import 'gov-au-ui-kit/assets/sass/variables';
+
+// Point to a URL until fallback image assets are available by other means.
+$gov-ui-kit-image-base-url: 'https://gov-au-ui-kit.apps.staging.digital.gov.au/latest/img/';
+
+// Form vertical rhythm.
+$base-spacing-px: $base-leading * 16px;
+$form-element-vertical-rhythm: (50px - 2px - $base-spacing-px)/2;
+
+// Drupal RTL support: Rather than include a separate *-rtl.css file, Zen 6 uses
+// Drupal 8's standard [dir='rtl'] selector for RTL language support. You can
+// turn off all RTL CSS by setting the following variable to false.
+$include-rtl: false;

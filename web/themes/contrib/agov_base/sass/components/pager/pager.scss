@@ -1,0 +1,75 @@
+// Dependencies.
+@import 'init';
+
+// Pager
+//
+// Paged navigation is a list of page numbers when more than 1 page of content
+// is available.
+//
+// Markup: pager.hbs
+//
+// Style guide: components.navigation.pager
+
+.pager,
+%pager {
+  @include print-none;
+  @include unstyled-list;
+  @include margin(1 0);
+  clear: both;
+
+  &__item {
+    display: inline-block;
+    vertical-align: top;
+
+    &.is-active {
+      border-bottom-width: 1px;
+    }
+
+    a {
+      @include padding(3px .5);
+      display: inline-block;
+      text-decoration: none;
+      border-bottom-width: 0;
+
+      .pager__item:last-child &,
+      %pager__item:last-child & {
+        margin-right: 0;
+      }
+
+      &:hover,
+      &:focus {
+        // Add your styles.
+      }
+    }
+
+    &--first a,
+    &--last a,
+    &--prev a,
+    &--next a {
+      @include image-replace;
+      background-position: 50% 3px;
+      background-color: transparent;
+      background-repeat: no-repeat;
+      background-size: 24px 24px;
+      width: 2rem;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    &--first a {
+      background-image: icon-url('doubleleft.svg');
+    }
+
+    &--prev a {
+      background-image: icon-url('left.svg');
+    }
+
+    &--next a {
+      background-image: icon-url('right.svg');
+    }
+
+    &--last a {
+      background-image: icon-url('doubleright.svg');
+    }
+  }
+}

@@ -1,0 +1,44 @@
+// scss-lint:disable ColorKeyword; ColorVariable
+
+// Colors
+//
+// Colour variables for use to skin the site.
+//
+// Weight: -1
+//
+// Style guide: sass.colors
+
+// Import UI-Kit colours so we can use and override them.
+// @see https://github.com/AusDTO/gov-au-ui-kit/blob/develop/assets/sass/utils/_colours.scss
+@import 'gov-au-ui-kit/assets/sass/utils/colours';
+
+// Base aGov colours.
+$primary-light:  #666666;
+$primary-dark:   #313131;
+
+// Override UI-Kit colour scheme.
+// The colour referenced as by aqua too often to override without replacing it.
+$aqua:          $primary-light;
+$dark-aqua:     darken($primary-light, 5%);
+$darker-aqua:   darken($primary-light, 10%);
+$light-aqua:    lighten($primary-light, 30%);
+$lighter-aqua:  lighten($primary-light, 60%);
+
+$navy:          $primary-dark;
+$dark-navy:     darken($primary-dark, 10%);
+
+$link-colour:                   $non-black;
+$link-colour--hover:            $light-aqua;
+$button-bg-colour:              $aqua;
+$button-bg-colour--hover:       $darker-aqua;
+$button-bg-colour--active:      $dark-aqua;
+$button-bg-colour--disabled:    $light-grey;
+$button-inverted-text-colour:   $navy;
+$border-highlight-colour:       $aqua;
+$border-contrast-colour:        $navy;
+$focus-colour:                  $lighter-aqua;
+$input-focus-colour:            $light-aqua;
+
+
+$header-bg-colour:              #fff;
+$header-colour:                 $non-black;

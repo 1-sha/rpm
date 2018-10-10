@@ -1,0 +1,20 @@
+// Dependencies.
+@import 'init';
+
+// Date
+//
+// Styling of date for pages. Emulates UI-Kit meta element.
+//
+// Markup: date.hbs
+//
+// Style guide: components.date
+
+.date,
+%date {
+  font-size: $small-font-size;
+  margin-bottom: $small-spacing;
+
+  time {
+    color: $grey;
+  }
+}

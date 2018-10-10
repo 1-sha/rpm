@@ -1,0 +1,48 @@
+// Dependencies.
+@import 'init';
+
+// More link
+//
+// To make the link completely hidden until a user tabs to the link, combine it
+// with the `visually-hidden` component.
+//
+// Markup: more-link.hbs
+//
+// Style guide: components.navigation.more-link
+
+.more-link,
+%more-link {
+  @include margin(1 0 0);
+
+  @media print {
+    display: none;
+  }
+
+  a {
+    @include padding(.25);
+    display: inline-block;
+    position: relative;
+    margin-right: $base-spacing;
+    font-weight: $heading-font-weight;
+    color: $button-bg-colour;
+
+    &:hover,
+    &:focus {
+      color: $non-black;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: -($medium-spacing);
+      display: block;
+      width: $medium-spacing;
+      height: 100%;
+      background-image: icon-url('right.svg');
+      background-repeat: no-repeat;
+      background-position: right 50%;
+      background-size: contain;
+    }
+  }
+}

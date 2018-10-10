@@ -1,0 +1,37 @@
+// Button
+//
+// In addition to the default styling of `<button>` and
+// `<input type="submit|image|reset|button">` elements, the `.button` class and
+// its variants can apply buttons styles to various elements (like an `<a>`
+// link).
+
+%button {
+  background-color: $button-bg-colour;
+  color: $button-text-colour;
+  border-color: $button-bg-colour--hover;
+
+  &:hover,
+  &:focus {
+    background-color: $button-bg-colour--hover;
+    color: $button-text-colour;
+  }
+
+  &:active {
+    background-color: $button-bg-colour--active;
+  }
+
+  &--large {
+    // Inherit from agov_base.
+  }
+
+  &--wide {
+    // Inherit from agov_base.
+  }
+}
+
+// Override UI-Kit link colours.
+
+body > main .button,
+footer[role='contentinfo'] .button {
+  @extend %button;
+}

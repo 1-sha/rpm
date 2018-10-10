@@ -1,0 +1,77 @@
+// Dependencies.
+@import 'init';
+
+// Header
+//
+// The header of page.
+//
+// Markup: header.hbs
+//
+// Style guide: components.header
+
+.header,
+%header {
+  position: relative;
+
+  @include respond-to('medium') {
+    margin-bottom: 0;
+  }
+
+  .region {
+    @include padding(30px 0 25px);
+    position: relative;
+
+    @include respond-to('medium') {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  .search__wrapper {
+    @include respond-to('medium') {
+      // Same width as the side column.
+      padding-left: $large-spacing;
+      flex: 0 0 33.33%;
+      width: 33.33%;
+    }
+  }
+
+  &__logo-image {
+    max-width: 50%;
+
+    @include respond-to('medium') {
+      max-width: 100%;
+    }
+  }
+}
+
+// Override UI-Kit link style.
+header[role='banner'] a.header__logo {
+  border-bottom: 0;
+
+  &:focus,
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+
+
+// Overrides
+//
+// Occasionally certain drupal selectors will need to be overridden.
+
+.toolbar {
+  // The admin toolbar is inherting some of our global styles, causing it to look
+  // different when accessed from the amaysim theme.
+  -moz-osx-font-smoothing: auto;
+
+  li {
+    margin-bottom: 0;
+  }
+
+  a {
+    border: 0;
+  }
+}

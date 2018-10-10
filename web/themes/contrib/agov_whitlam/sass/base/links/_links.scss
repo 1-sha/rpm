@@ -1,0 +1,40 @@
+// Links
+//
+// Hyperlinks are used to allow the user to navigate to other resources or to
+// download a resource.
+//
+// The order of link states are based on Eric Meyer's article:
+// http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
+
+%link {
+  color: $link-colour;
+  border-bottom: solid 1px $link-colour--hover;
+}
+
+%link--hover {
+  background-color: $link-colour--hover;
+  color: $link-colour;
+}
+
+:visited {
+  border-color: $link-colour--hover;
+}
+
+// Override UI-Kit link colours.
+
+header[role='banner'] a,
+[class^='breadcrumbs'] a,
+body > main a,
+footer[role='contentinfo'] a {
+  @extend %link;
+
+  &:hover,
+  &:active,
+  &:focus {
+    @extend %link--hover;
+  }
+
+  &:focus {
+    // Inherit from agov_base.
+  }
+}

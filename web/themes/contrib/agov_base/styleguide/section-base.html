@@ -1,0 +1,3120 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>aGov base styleguide</title>
+
+  <meta name="description" content="">
+  <meta name="generator" content="kss-node">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="kss-assets/kss.css">
+  <link rel="stylesheet" href="../css/style-guide/kss-only.css">
+<link rel="stylesheet" href="../css/styles.css">
+
+</head>
+<body id="kss-node" class="kss-offscreen is-moved">
+
+<header class="kss-header">
+  <h1 class="kss-doc-title">Offscreen example</h1>
+  <a class="kss-offscreen__toggle is-active" aria-expanded="true" aria-controls="offscreen-item" role="button">Open or close the menu</a>
+</header>
+<div class="kss-offscreen__inner">
+
+<div class="kss-sidebar kss-offscreen__item" id="offscreen-item">
+
+  <div class="kss-search">
+    <label for="kss-search" style="display: none;">Search</label>
+    <input id="kss-search" type="text" />
+  </div>
+
+  <nav class="kss-nav">
+    <ul class="kss-nav__menu">
+      <li class="kss-nav__menu-item">
+        <a class="kss-nav__menu-link" href="./">
+          <span class="kss-nav__ref">0</span
+          ><span class="kss-nav__name">Overview</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a class="kss-nav__menu-link" href="section-sass.html">
+          <span class="kss-nav__ref">1</span><span class="kss-nav__name">Colors and Sass</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a class="kss-nav__menu-link" href="section-base.html">
+          <span class="kss-nav__ref">2</span><span class="kss-nav__name">Base</span>
+        </a>
+            <ul class="kss-nav__menu-child">
+              <li class="kss-nav__menu-item ">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-headings">
+                  <span class="kss-nav__ref ">2.1</span
+                  ><span class="kss-nav__name">Headings</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item ">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-icons">
+                  <span class="kss-nav__ref ">2.2</span
+                  ><span class="kss-nav__name">Global icons</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item ">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-link">
+                  <span class="kss-nav__ref ">2.3</span
+                  ><span class="kss-nav__name">Links</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item ">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-grouping">
+                  <span class="kss-nav__ref ">2.4</span
+                  ><span class="kss-nav__name">Grouping content</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-grouping-blockquote">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.4.1</span
+                  ><span class="kss-nav__name">Blockquotes</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-grouping-code">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.4.2</span
+                  ><span class="kss-nav__name">Code</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-grouping-figure">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.4.3</span
+                  ><span class="kss-nav__name">Figures</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-grouping-hr">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.4.4</span
+                  ><span class="kss-nav__name">Horizontal rule</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-grouping-lists">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.4.5</span
+                  ><span class="kss-nav__name">Lists</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-grouping-p">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.4.6</span
+                  ><span class="kss-nav__name">Body copy</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-grouping-pre">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.4.7</span
+                  ><span class="kss-nav__name">Preformatted text</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item ">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-text">
+                  <span class="kss-nav__ref ">2.5</span
+                  ><span class="kss-nav__name">Text-level semantics</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-text-abbr">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.5.1</span
+                  ><span class="kss-nav__name">Abbreviation / Acroynym</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-text-b">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.5.2</span
+                  ><span class="kss-nav__name">Bold</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-text-cite">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.5.3</span
+                  ><span class="kss-nav__name">Cite</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-text-del">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.5.4</span
+                  ><span class="kss-nav__name">Deleted text</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-text-dfn">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.5.5</span
+                  ><span class="kss-nav__name">Definition</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-text-i">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.5.6</span
+                  ><span class="kss-nav__name">Italics</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-text-ins">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.5.7</span
+                  ><span class="kss-nav__name">Inserted text</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-text-mark">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.5.8</span
+                  ><span class="kss-nav__name">Marked text</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-text-q">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.5.9</span
+                  ><span class="kss-nav__name">Quote</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-text-s">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.5.10</span
+                  ><span class="kss-nav__name">Strikethrough text</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-text-small">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.5.11</span
+                  ><span class="kss-nav__name">Small text</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-text-sub">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.5.12</span
+                  ><span class="kss-nav__name">Superscript / Subscript</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-text-u">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.5.13</span
+                  ><span class="kss-nav__name">Underlined text</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item ">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-embedded">
+                  <span class="kss-nav__ref ">2.6</span
+                  ><span class="kss-nav__name">Embedded content</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-embedded-img">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.6.1</span
+                  ><span class="kss-nav__name">Image</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-embedded-svg">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.6.2</span
+                  ><span class="kss-nav__name">Scalable vector</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item ">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-forms">
+                  <span class="kss-nav__ref ">2.7</span
+                  ><span class="kss-nav__name">Forms</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-forms-button">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.7.1</span
+                  ><span class="kss-nav__name">Buttons</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-forms-fieldset">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.7.2</span
+                  ><span class="kss-nav__name">Fieldsets</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-forms-input">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.7.3</span
+                  ><span class="kss-nav__name">Inputs</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-forms-input-checkbox">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.7.4</span
+                  ><span class="kss-nav__name">Checkboxes</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-forms-input-radio">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.7.5</span
+                  ><span class="kss-nav__name">Radio buttons</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-forms-label">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.7.6</span
+                  ><span class="kss-nav__name">Labels</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-forms-select">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.7.7</span
+                  ><span class="kss-nav__name">Select list</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item kss-nav__menu-subchild">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-forms-textarea">
+                  <span class="kss-nav__ref kss-nav__ref-child">2.7.8</span
+                  ><span class="kss-nav__name">Text areas</span>
+                </a>
+              </li>
+              <li class="kss-nav__menu-item ">
+                <a class="kss-nav__menu-link" href="section-base.html#kssref-base-table">
+                  <span class="kss-nav__ref ">2.8</span
+                  ><span class="kss-nav__name">Tables</span>
+                </a>
+              </li>
+            </ul>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a class="kss-nav__menu-link" href="section-layouts.html">
+          <span class="kss-nav__ref">3</span><span class="kss-nav__name">Layouts</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a class="kss-nav__menu-link" href="section-utils.html">
+          <span class="kss-nav__ref">4</span><span class="kss-nav__name">utils</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a class="kss-nav__menu-link" href="section-components.html">
+          <span class="kss-nav__ref">5</span><span class="kss-nav__name">Components</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<article role="main" class="kss-main">
+
+    <div id="kssref-base" class="kss-section kss-section--depth-1">
+
+      <div class="kss-style">
+        <h1 class="kss-title kss-title--level-1">
+          <a class="kss-title__permalink" href="#kssref-base">
+            <span class="kss-title__ref">
+              2
+            </span>
+            Base
+          </a>
+        </h1>
+
+          <div class="kss-description">
+            <p>These are the base styles applied to HTML elements.</p>
+
+          </div>
+
+      </div>
+
+
+        <div class="kss-source kss-style">
+          Source: <code>styles.scss</code>, line 12
+        </div>
+
+    </div>
+    <section id="kssref-base-headings" class="kss-section kss-section--depth-2">
+
+      <div class="kss-style">
+        <h2 class="kss-title kss-title--level-2">
+          <a class="kss-title__permalink" href="#kssref-base-headings">
+            <span class="kss-title__ref">
+              2.1
+            </span>
+            Headings
+          </a>
+        </h2>
+
+          <div class="kss-description">
+            <p>All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code>,
+are available. <code>%h1</code> through <code>%h6</code> classes are also
+available, for when you want to match the font styling of a heading but still
+want your text to be displayed inline.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <h1 class="">Heading Level 1 (h1)</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+<h2 class="">Heading Level 2 (h2)</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+<h3 class="">Heading Level 3 (h3)</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+<h4 class="">Heading Level 4 (h4)</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+<h5 class="">Heading Level 5 (h5)</h5>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+<h6 class="">Heading Level 6 (h6)</h6>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+
+<h1 class="">A Heading Level 1 (h1) with enough text to wrap to another line</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+<h2 class="">Heading Level 2 (h2) with enough text to wrap to another line; Heading Level 2 (h2) with enough text to wrap to another line</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+<h3 class="">Heading Level 3 (h3) with enough text to wrap to another line; Heading Level 3 (h3) with enough text to wrap to another line</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+<h4 class="">Heading Level 4 (h4) with enough text to wrap to another line; Heading Level 4 (h4) with enough text to wrap to another line; Heading Level 4 (h4) with enough text to wrap to another line</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+<h5 class="">Heading Level 5 (h5) with enough text to wrap to another line; Heading Level 5 (h5) with enough text to wrap to another line; Heading Level 5 (h5) with enough text to wrap to another line</h5>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+<h6 class="">Heading Level 6 (h6) with enough text to wrap to another line; Heading Level 6 (h6) with enough text to wrap to another line; Heading Level 6 (h6) with enough text to wrap to another line</h6>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;h1 class&#x3D;&quot;&quot;&gt;Heading Level 1 (h1)&lt;/h1&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.&lt;/p&gt;
+&lt;h2 class&#x3D;&quot;&quot;&gt;Heading Level 2 (h2)&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.&lt;/p&gt;
+&lt;h3 class&#x3D;&quot;&quot;&gt;Heading Level 3 (h3)&lt;/h3&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.&lt;/p&gt;
+&lt;h4 class&#x3D;&quot;&quot;&gt;Heading Level 4 (h4)&lt;/h4&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.&lt;/p&gt;
+&lt;h5 class&#x3D;&quot;&quot;&gt;Heading Level 5 (h5)&lt;/h5&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.&lt;/p&gt;
+&lt;h6 class&#x3D;&quot;&quot;&gt;Heading Level 6 (h6)&lt;/h6&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.&lt;/p&gt;
+
+&lt;h1 class&#x3D;&quot;&quot;&gt;A Heading Level 1 (h1) with enough text to wrap to another line&lt;/h1&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.&lt;/p&gt;
+&lt;h2 class&#x3D;&quot;&quot;&gt;Heading Level 2 (h2) with enough text to wrap to another line; Heading Level 2 (h2) with enough text to wrap to another line&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.&lt;/p&gt;
+&lt;h3 class&#x3D;&quot;&quot;&gt;Heading Level 3 (h3) with enough text to wrap to another line; Heading Level 3 (h3) with enough text to wrap to another line&lt;/h3&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.&lt;/p&gt;
+&lt;h4 class&#x3D;&quot;&quot;&gt;Heading Level 4 (h4) with enough text to wrap to another line; Heading Level 4 (h4) with enough text to wrap to another line; Heading Level 4 (h4) with enough text to wrap to another line&lt;/h4&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.&lt;/p&gt;
+&lt;h5 class&#x3D;&quot;&quot;&gt;Heading Level 5 (h5) with enough text to wrap to another line; Heading Level 5 (h5) with enough text to wrap to another line; Heading Level 5 (h5) with enough text to wrap to another line&lt;/h5&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.&lt;/p&gt;
+&lt;h6 class&#x3D;&quot;&quot;&gt;Heading Level 6 (h6) with enough text to wrap to another line; Heading Level 6 (h6) with enough text to wrap to another line; Heading Level 6 (h6) with enough text to wrap to another line&lt;/h6&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.&lt;/p&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/headings/headings.scss</code>, line 4
+        </div>
+
+    </section>
+    <section id="kssref-base-icons" class="kss-section kss-section--depth-2">
+
+      <div class="kss-style">
+        <h2 class="kss-title kss-title--level-2">
+          <a class="kss-title__permalink" href="#kssref-base-icons">
+            <span class="kss-title__ref">
+              2.2
+            </span>
+            Global icons
+          </a>
+        </h2>
+
+          <div class="kss-description">
+            <p>A collection of SVG icons providing UI elements, social media logos and design elements.
+Used inline (as shown here as a sprite) their colour can be changed with CSS.
+Used as a background image, or in an image tag their colour if fixed.</p>
+<p>Each icon has a corresponding SVG file which can be used in css like <code>background: icon-url(&#39;search.svg&#39;)</code></p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <svg id="svg-social-email"       viewBox="0 0 2048 2048" class="icon"><path d="M1920 838v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/></svg>
+<svg id="svg-social-rss"         viewBox="0 0 2048 2048" class="icon"><path d="M704 1472q0 80-56 136t-136 56-136-56-56-136 56-136 136-56 136 56 56 136zm512 123q2 28-17 48-18 21-47 21h-135q-25 0-43-16.5t-20-41.5q-22-229-184.5-391.5t-391.5-184.5q-25-2-41.5-20t-16.5-43v-135q0-29 21-47 17-17 43-17h5q160 13 306 80.5t259 181.5q114 113 181.5 259t80.5 306zm512 2q2 27-18 47-18 20-46 20h-143q-26 0-44.5-17.5t-19.5-42.5q-12-215-101-408.5t-231.5-336-336-231.5-408.5-102q-25-1-42.5-19.5t-17.5-43.5v-143q0-28 20-46 18-18 44-18h3q262 13 501.5 120t425.5 294q187 186 294 425.5t120 501.5z"/></svg>
+<svg id="svg-social-facebook"    viewBox="0 0 2048 2048" class="icon"><path d="M1471 140v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg>
+<svg id="svg-social-twitter"     viewBox="0 0 2048 2048" class="icon"><path d="M1812 536q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg>
+<svg id="svg-social-instragram"  viewBox="0 0 2048 2048" class="icon"><path d="M1618 1554v-648h-135q20 63 20 131 0 126-64 232.5t-174 168.5-240 62q-197 0-337-135.5t-140-327.5q0-68 20-131h-141v648q0 26 17.5 43.5t43.5 17.5h1069q25 0 43-17.5t18-43.5zm-284-533q0-124-90.5-211.5t-218.5-87.5q-127 0-217.5 87.5t-90.5 211.5 90.5 211.5 217.5 87.5q128 0 218.5-87.5t90.5-211.5zm284-360v-165q0-28-20-48.5t-49-20.5h-174q-29 0-49 20.5t-20 48.5v165q0 29 20 49t49 20h174q29 0 49-20t20-49zm174-208v1142q0 81-58 139t-139 58h-1142q-81 0-139-58t-58-139v-1142q0-81 58-139t139-58h1142q81 0 139 58t58 139z"/></svg>
+<svg id="svg-social-linkedin"    viewBox="0 0 2048 2048" class="icon"><path d="M605 753v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg>
+<svg id="svg-social-youtube"     viewBox="0 0 2048 2048" class="icon"><path d="M1408 1024q0-37-30-54l-512-320q-31-20-65-2-33 18-33 56v640q0 38 33 56 16 8 31 8 20 0 34-10l512-320q30-17 30-54zm512 0q0 96-1 150t-8.5 136.5-22.5 147.5q-16 73-69 123t-124 58q-222 25-671 25t-671-25q-71-8-124.5-58t-69.5-123q-14-65-21.5-147.5t-8.5-136.5-1-150 1-150 8.5-136.5 22.5-147.5q16-73 69-123t124-58q222-25 671-25t671 25q71 8 124.5 58t69.5 123q14 65 21.5 147.5t8.5 136.5 1 150z"/></svg>
+<svg id="svg-content-book"       viewBox="0 0 2048 2048" class="icon"><path d="M1831 606q40 57 18 129l-275 906q-19 64-76.5 107.5t-122.5 43.5h-923q-77 0-148.5-53.5t-99.5-131.5q-24-67-2-127 0-4 3-27t4-37q1-8-3-21.5t-3-19.5q2-11 8-21t16.5-23.5 16.5-23.5q23-38 45-91.5t30-91.5q3-10 .5-30t-.5-28q3-11 17-28t17-23q21-36 42-92t25-90q1-9-2.5-32t.5-28q4-13 22-30.5t22-22.5q19-26 42.5-84.5t27.5-96.5q1-8-3-25.5t-2-26.5q2-8 9-18t18-23 17-21q8-12 16.5-30.5t15-35 16-36 19.5-32 26.5-23.5 36-11.5 47.5 5.5l-1 3q38-9 51-9h761q74 0 114 56t18 130l-274 906q-36 119-71.5 153.5t-128.5 34.5h-869q-27 0-38 15-11 16-1 43 24 70 144 70h923q29 0 56-15.5t35-41.5l300-987q7-22 5-57 38 15 59 43zm-1064 2q-4 13 2 22.5t20 9.5h608q13 0 25.5-9.5t16.5-22.5l21-64q4-13-2-22.5t-20-9.5h-608q-13 0-25.5 9.5t-16.5 22.5zm-83 256q-4 13 2 22.5t20 9.5h608q13 0 25.5-9.5t16.5-22.5l21-64q4-13-2-22.5t-20-9.5h-608q-13 0-25.5 9.5t-16.5 22.5z"/></svg>
+<svg id="svg-content-bus"        viewBox="0 0 2048 2048" class="icon"><path d="M640 1344q0-53-37.5-90.5t-90.5-37.5-90.5 37.5-37.5 90.5 37.5 90.5 90.5 37.5 90.5-37.5 37.5-90.5zm1024 0q0-53-37.5-90.5t-90.5-37.5-90.5 37.5-37.5 90.5 37.5 90.5 90.5 37.5 90.5-37.5 37.5-90.5zm-46-396l-72-384q-5-23-22.5-37.5t-40.5-14.5h-918q-23 0-40.5 14.5t-22.5 37.5l-72 384q-5 30 14 53t49 23h1062q30 0 49-23t14-53zm-226-612q0-20-14-34t-34-14h-640q-20 0-34 14t-14 34 14 34 34 14h640q20 0 34-14t14-34zm400 725v603h-128v128q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5v-128h-768v128q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5v-128h-128v-603q0-112 25-223l103-454q9-78 97.5-137t230-89 312.5-30 312.5 30 230 89 97.5 137l105 454q23 102 23 223z"/></svg>
+<svg id="svg-content-calendar"   viewBox="0 0 2048 2048" class="icon"><path d="M320 1792h1408v-1024h-1408v1024zm384-1216v-288q0-14-9-23t-23-9h-64q-14 0-23 9t-9 23v288q0 14 9 23t23 9h64q14 0 23-9t9-23zm768 0v-288q0-14-9-23t-23-9h-64q-14 0-23 9t-9 23v288q0 14 9 23t23 9h64q14 0 23-9t9-23zm384-64v1280q0 52-38 90t-90 38h-1408q-52 0-90-38t-38-90v-1280q0-52 38-90t90-38h128v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h384v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h128q52 0 90 38t38 90z"/></svg>
+<svg id="svg-theme-cross"        viewBox="0 0 2048 2048" class="icon"><path d="M1618 1450q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z"/></svg>
+<svg id="svg-theme-search"       viewBox="0 0 2048 2048" class="icon"><path d="M1344 960q0-185-131.5-316.5t-316.5-131.5-316.5 131.5-131.5 316.5 131.5 316.5 316.5 131.5 316.5-131.5 131.5-316.5zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225-55.5-273.5 55.5-273.5 150-225 225-150 273.5-55.5 273.5 55.5 225 150 150 225 55.5 273.5q0 220-124 399l343 343q37 37 37 90z"/></svg>
+<svg id="svg-theme-comment"      viewBox="0 0 2048 2048" class="icon"><path d="M1920 1024q0 174-120 321.5t-326 233-450 85.5q-70 0-145-8-198 175-460 242-49 14-114 22-17 2-30.5-9t-17.5-29v-1q-3-4-.5-12t2-10 4.5-9.5l6-9 7-8.5 8-9q7-8 31-34.5t34.5-38 31-39.5 32.5-51 27-59 26-76q-157-89-247.5-220t-90.5-281q0-130 71-248.5t191-204.5 286-136.5 348-50.5q244 0 450 85.5t326 233 120 321.5z"/></svg>
+<svg id="svg-theme-top"          viewBox="0 0 2048 2048" class="icon"><path d="M1421 1267l102-102q19-19 19-45t-19-45l-454-454q-19-19-45-19t-45 19l-454 454q-19 19-19 45t19 45l102 102q19 19 45 19t45-19l307-307 307 307q19 19 45 19t45-19zm371-243q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"/></svg>
+<svg id="svg-theme-burger"       viewBox="0 0 2048 2048" class="icon"><path d="M1792 1472v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45z"/></svg>
+<svg id="svg-theme-right"        viewBox="0 0 2048 2048" class="icon"><path d="M1299 1088q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"/></svg>
+<svg id="svg-theme-doubleright"  viewBox="0 0 2048 2048" class="icon"><path d="M1107 1088q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z"/></svg>
+<svg id="svg-theme-left"         viewBox="0 0 2048 2048" class="icon"><path d="M1331 672q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z"/></svg>
+<svg id="svg-theme-doubleleft"   viewBox="0 0 2048 2048" class="icon"><path d="M1139 1504q0 13-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23t-10 23l-393 393 393 393q10 10 10 23zm384 0q0 13-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23t-10 23l-393 393 393 393q10 10 10 23z"/></svg>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;svg id&#x3D;&quot;svg-social-email&quot;       viewBox&#x3D;&quot;0 0 2048 2048&quot; class&#x3D;&quot;icon&quot;&gt;&lt;path d&#x3D;&quot;M1920 838v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z&quot;/&gt;&lt;/svg&gt;
+&lt;svg id&#x3D;&quot;svg-social-rss&quot;         viewBox&#x3D;&quot;0 0 2048 2048&quot; class&#x3D;&quot;icon&quot;&gt;&lt;path d&#x3D;&quot;M704 1472q0 80-56 136t-136 56-136-56-56-136 56-136 136-56 136 56 56 136zm512 123q2 28-17 48-18 21-47 21h-135q-25 0-43-16.5t-20-41.5q-22-229-184.5-391.5t-391.5-184.5q-25-2-41.5-20t-16.5-43v-135q0-29 21-47 17-17 43-17h5q160 13 306 80.5t259 181.5q114 113 181.5 259t80.5 306zm512 2q2 27-18 47-18 20-46 20h-143q-26 0-44.5-17.5t-19.5-42.5q-12-215-101-408.5t-231.5-336-336-231.5-408.5-102q-25-1-42.5-19.5t-17.5-43.5v-143q0-28 20-46 18-18 44-18h3q262 13 501.5 120t425.5 294q187 186 294 425.5t120 501.5z&quot;/&gt;&lt;/svg&gt;
+&lt;svg id&#x3D;&quot;svg-social-facebook&quot;    viewBox&#x3D;&quot;0 0 2048 2048&quot; class&#x3D;&quot;icon&quot;&gt;&lt;path d&#x3D;&quot;M1471 140v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z&quot;/&gt;&lt;/svg&gt;
+&lt;svg id&#x3D;&quot;svg-social-twitter&quot;     viewBox&#x3D;&quot;0 0 2048 2048&quot; class&#x3D;&quot;icon&quot;&gt;&lt;path d&#x3D;&quot;M1812 536q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z&quot;/&gt;&lt;/svg&gt;
+&lt;svg id&#x3D;&quot;svg-social-instragram&quot;  viewBox&#x3D;&quot;0 0 2048 2048&quot; class&#x3D;&quot;icon&quot;&gt;&lt;path d&#x3D;&quot;M1618 1554v-648h-135q20 63 20 131 0 126-64 232.5t-174 168.5-240 62q-197 0-337-135.5t-140-327.5q0-68 20-131h-141v648q0 26 17.5 43.5t43.5 17.5h1069q25 0 43-17.5t18-43.5zm-284-533q0-124-90.5-211.5t-218.5-87.5q-127 0-217.5 87.5t-90.5 211.5 90.5 211.5 217.5 87.5q128 0 218.5-87.5t90.5-211.5zm284-360v-165q0-28-20-48.5t-49-20.5h-174q-29 0-49 20.5t-20 48.5v165q0 29 20 49t49 20h174q29 0 49-20t20-49zm174-208v1142q0 81-58 139t-139 58h-1142q-81 0-139-58t-58-139v-1142q0-81 58-139t139-58h1142q81 0 139 58t58 139z&quot;/&gt;&lt;/svg&gt;
+&lt;svg id&#x3D;&quot;svg-social-linkedin&quot;    viewBox&#x3D;&quot;0 0 2048 2048&quot; class&#x3D;&quot;icon&quot;&gt;&lt;path d&#x3D;&quot;M605 753v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z&quot;/&gt;&lt;/svg&gt;
+&lt;svg id&#x3D;&quot;svg-social-youtube&quot;     viewBox&#x3D;&quot;0 0 2048 2048&quot; class&#x3D;&quot;icon&quot;&gt;&lt;path d&#x3D;&quot;M1408 1024q0-37-30-54l-512-320q-31-20-65-2-33 18-33 56v640q0 38 33 56 16 8 31 8 20 0 34-10l512-320q30-17 30-54zm512 0q0 96-1 150t-8.5 136.5-22.5 147.5q-16 73-69 123t-124 58q-222 25-671 25t-671-25q-71-8-124.5-58t-69.5-123q-14-65-21.5-147.5t-8.5-136.5-1-150 1-150 8.5-136.5 22.5-147.5q16-73 69-123t124-58q222-25 671-25t671 25q71 8 124.5 58t69.5 123q14 65 21.5 147.5t8.5 136.5 1 150z&quot;/&gt;&lt;/svg&gt;
+&lt;svg id&#x3D;&quot;svg-content-book&quot;       viewBox&#x3D;&quot;0 0 2048 2048&quot; class&#x3D;&quot;icon&quot;&gt;&lt;path d&#x3D;&quot;M1831 606q40 57 18 129l-275 906q-19 64-76.5 107.5t-122.5 43.5h-923q-77 0-148.5-53.5t-99.5-131.5q-24-67-2-127 0-4 3-27t4-37q1-8-3-21.5t-3-19.5q2-11 8-21t16.5-23.5 16.5-23.5q23-38 45-91.5t30-91.5q3-10 .5-30t-.5-28q3-11 17-28t17-23q21-36 42-92t25-90q1-9-2.5-32t.5-28q4-13 22-30.5t22-22.5q19-26 42.5-84.5t27.5-96.5q1-8-3-25.5t-2-26.5q2-8 9-18t18-23 17-21q8-12 16.5-30.5t15-35 16-36 19.5-32 26.5-23.5 36-11.5 47.5 5.5l-1 3q38-9 51-9h761q74 0 114 56t18 130l-274 906q-36 119-71.5 153.5t-128.5 34.5h-869q-27 0-38 15-11 16-1 43 24 70 144 70h923q29 0 56-15.5t35-41.5l300-987q7-22 5-57 38 15 59 43zm-1064 2q-4 13 2 22.5t20 9.5h608q13 0 25.5-9.5t16.5-22.5l21-64q4-13-2-22.5t-20-9.5h-608q-13 0-25.5 9.5t-16.5 22.5zm-83 256q-4 13 2 22.5t20 9.5h608q13 0 25.5-9.5t16.5-22.5l21-64q4-13-2-22.5t-20-9.5h-608q-13 0-25.5 9.5t-16.5 22.5z&quot;/&gt;&lt;/svg&gt;
+&lt;svg id&#x3D;&quot;svg-content-bus&quot;        viewBox&#x3D;&quot;0 0 2048 2048&quot; class&#x3D;&quot;icon&quot;&gt;&lt;path d&#x3D;&quot;M640 1344q0-53-37.5-90.5t-90.5-37.5-90.5 37.5-37.5 90.5 37.5 90.5 90.5 37.5 90.5-37.5 37.5-90.5zm1024 0q0-53-37.5-90.5t-90.5-37.5-90.5 37.5-37.5 90.5 37.5 90.5 90.5 37.5 90.5-37.5 37.5-90.5zm-46-396l-72-384q-5-23-22.5-37.5t-40.5-14.5h-918q-23 0-40.5 14.5t-22.5 37.5l-72 384q-5 30 14 53t49 23h1062q30 0 49-23t14-53zm-226-612q0-20-14-34t-34-14h-640q-20 0-34 14t-14 34 14 34 34 14h640q20 0 34-14t14-34zm400 725v603h-128v128q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5v-128h-768v128q0 53-37.5 90.5t-90.5 37.5-90.5-37.5-37.5-90.5v-128h-128v-603q0-112 25-223l103-454q9-78 97.5-137t230-89 312.5-30 312.5 30 230 89 97.5 137l105 454q23 102 23 223z&quot;/&gt;&lt;/svg&gt;
+&lt;svg id&#x3D;&quot;svg-content-calendar&quot;   viewBox&#x3D;&quot;0 0 2048 2048&quot; class&#x3D;&quot;icon&quot;&gt;&lt;path d&#x3D;&quot;M320 1792h1408v-1024h-1408v1024zm384-1216v-288q0-14-9-23t-23-9h-64q-14 0-23 9t-9 23v288q0 14 9 23t23 9h64q14 0 23-9t9-23zm768 0v-288q0-14-9-23t-23-9h-64q-14 0-23 9t-9 23v288q0 14 9 23t23 9h64q14 0 23-9t9-23zm384-64v1280q0 52-38 90t-90 38h-1408q-52 0-90-38t-38-90v-1280q0-52 38-90t90-38h128v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h384v-96q0-66 47-113t113-47h64q66 0 113 47t47 113v96h128q52 0 90 38t38 90z&quot;/&gt;&lt;/svg&gt;
+&lt;svg id&#x3D;&quot;svg-theme-cross&quot;        viewBox&#x3D;&quot;0 0 2048 2048&quot; class&#x3D;&quot;icon&quot;&gt;&lt;path d&#x3D;&quot;M1618 1450q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z&quot;/&gt;&lt;/svg&gt;
+&lt;svg id&#x3D;&quot;svg-theme-search&quot;       viewBox&#x3D;&quot;0 0 2048 2048&quot; class&#x3D;&quot;icon&quot;&gt;&lt;path d&#x3D;&quot;M1344 960q0-185-131.5-316.5t-316.5-131.5-316.5 131.5-131.5 316.5 131.5 316.5 316.5 131.5 316.5-131.5 131.5-316.5zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225-55.5-273.5 55.5-273.5 150-225 225-150 273.5-55.5 273.5 55.5 225 150 150 225 55.5 273.5q0 220-124 399l343 343q37 37 37 90z&quot;/&gt;&lt;/svg&gt;
+&lt;svg id&#x3D;&quot;svg-theme-comment&quot;      viewBox&#x3D;&quot;0 0 2048 2048&quot; class&#x3D;&quot;icon&quot;&gt;&lt;path d&#x3D;&quot;M1920 1024q0 174-120 321.5t-326 233-450 85.5q-70 0-145-8-198 175-460 242-49 14-114 22-17 2-30.5-9t-17.5-29v-1q-3-4-.5-12t2-10 4.5-9.5l6-9 7-8.5 8-9q7-8 31-34.5t34.5-38 31-39.5 32.5-51 27-59 26-76q-157-89-247.5-220t-90.5-281q0-130 71-248.5t191-204.5 286-136.5 348-50.5q244 0 450 85.5t326 233 120 321.5z&quot;/&gt;&lt;/svg&gt;
+&lt;svg id&#x3D;&quot;svg-theme-top&quot;          viewBox&#x3D;&quot;0 0 2048 2048&quot; class&#x3D;&quot;icon&quot;&gt;&lt;path d&#x3D;&quot;M1421 1267l102-102q19-19 19-45t-19-45l-454-454q-19-19-45-19t-45 19l-454 454q-19 19-19 45t19 45l102 102q19 19 45 19t45-19l307-307 307 307q19 19 45 19t45-19zm371-243q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z&quot;/&gt;&lt;/svg&gt;
+&lt;svg id&#x3D;&quot;svg-theme-burger&quot;       viewBox&#x3D;&quot;0 0 2048 2048&quot; class&#x3D;&quot;icon&quot;&gt;&lt;path d&#x3D;&quot;M1792 1472v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45z&quot;/&gt;&lt;/svg&gt;
+&lt;svg id&#x3D;&quot;svg-theme-right&quot;        viewBox&#x3D;&quot;0 0 2048 2048&quot; class&#x3D;&quot;icon&quot;&gt;&lt;path d&#x3D;&quot;M1299 1088q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z&quot;/&gt;&lt;/svg&gt;
+&lt;svg id&#x3D;&quot;svg-theme-doubleright&quot;  viewBox&#x3D;&quot;0 0 2048 2048&quot; class&#x3D;&quot;icon&quot;&gt;&lt;path d&#x3D;&quot;M1107 1088q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23zm384 0q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z&quot;/&gt;&lt;/svg&gt;
+&lt;svg id&#x3D;&quot;svg-theme-left&quot;         viewBox&#x3D;&quot;0 0 2048 2048&quot; class&#x3D;&quot;icon&quot;&gt;&lt;path d&#x3D;&quot;M1331 672q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z&quot;/&gt;&lt;/svg&gt;
+&lt;svg id&#x3D;&quot;svg-theme-doubleleft&quot;   viewBox&#x3D;&quot;0 0 2048 2048&quot; class&#x3D;&quot;icon&quot;&gt;&lt;path d&#x3D;&quot;M1139 1504q0 13-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23t-10 23l-393 393 393 393q10 10 10 23zm384 0q0 13-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23t-10 23l-393 393 393 393q10 10 10 23z&quot;/&gt;&lt;/svg&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/icons/_icons.scss</code>, line 1
+        </div>
+
+    </section>
+    <section id="kssref-base-link" class="kss-section kss-section--depth-2">
+
+      <div class="kss-style">
+        <h2 class="kss-title kss-title--level-2">
+          <a class="kss-title__permalink" href="#kssref-base-link">
+            <span class="kss-title__ref">
+              2.3
+            </span>
+            Links
+          </a>
+        </h2>
+
+          <div class="kss-description">
+            <p>Hyperlinks are used to allow the user to navigate to other resources or to
+download a resource.</p>
+<p>The order of link states are based on Eric Meyer&#39;s article:
+<a href="http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states">http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states</a></p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Examples
+          </div>
+
+            <div class="kss-modifier__default-name kss-style">
+              Default styling
+            </div>
+
+          <div class="kss-modifier__example">
+            This is a <a href="#" class="[modifier class]">link to another web page</a>.
+
+          </div>
+
+            <div class="kss-modifier__name kss-style">
+              :visited
+            </div>
+            <div class="kss-modifier__description kss-style">
+              A link that has already been visited.
+            </div>
+            <div class="kss-modifier__example">
+              This is a <a href="#" class="pseudo-class-visited">link to another web page</a>.
+
+            </div>
+            <div class="kss-modifier__name kss-style">
+              :hover
+            </div>
+            <div class="kss-modifier__description kss-style">
+              A link that is being hovered over.
+            </div>
+            <div class="kss-modifier__example">
+              This is a <a href="#" class="pseudo-class-hover">link to another web page</a>.
+
+            </div>
+            <div class="kss-modifier__name kss-style">
+              :focus
+            </div>
+            <div class="kss-modifier__description kss-style">
+              A link that has been given keyboard focus.
+            </div>
+            <div class="kss-modifier__example">
+              This is a <a href="#" class="pseudo-class-focus">link to another web page</a>.
+
+            </div>
+            <div class="kss-modifier__name kss-style">
+              :active
+            </div>
+            <div class="kss-modifier__description kss-style">
+              A link that is being actively clicked.
+            </div>
+            <div class="kss-modifier__example">
+              This is a <a href="#" class="pseudo-class-active">link to another web page</a>.
+
+            </div>
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">This is a &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;[modifier class]&quot;&gt;link to another web page&lt;/a&gt;.
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/links/links.scss</code>, line 4
+        </div>
+
+    </section>
+    <section id="kssref-base-grouping" class="kss-section kss-section--depth-2">
+
+      <div class="kss-style">
+        <h2 class="kss-title kss-title--level-2">
+          <a class="kss-title__permalink" href="#kssref-base-grouping">
+            <span class="kss-title__ref">
+              2.4
+            </span>
+            Grouping content
+          </a>
+        </h2>
+
+
+      </div>
+
+
+        <div class="kss-source kss-style">
+          Source: <code>base/grouping/grouping.scss</code>, line 4
+        </div>
+
+    </section>
+    <section id="kssref-base-grouping-blockquote" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-grouping-blockquote">
+            <span class="kss-title__ref">
+              2.4.1
+            </span>
+            Blockquotes
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>For quoting blocks of content from another source within your document. Wrap
+<code>&lt;blockquote&gt;</code> around any <abbr
+title="HyperText Markup Language">HTML</abbr> as the quote. For straight
+quotes, we recommend a <code>&lt;p&gt;</code>.</p>
+<p>Optionally, add a <code>&lt;footer&gt;</code> to identify the source of the
+quote. Wrap the name of the source work in <code>&lt;cite&gt;</code>.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <blockquote>
+  <p>Block quote, vehicula a condimentum in, molestie et justo. Nunc lacinia eros sit amet arcu vestibulum pretium sed vel purus. Vivamus tempor mauris nec nulla pellentesque dictum. Morbi fringilla volutpat purus a vulputate. Curabitur metus nunc, mollis a vestibulum ac, mollis a magna. Nunc a mauris gravida, molestie urna non, finibus elit.</p>
+</blockquote>
+
+<blockquote>
+  <p>Block quote, vehicula a condimentum in, molestie et justo. Nunc lacinia eros sit amet arcu vestibulum pretium sed vel purus. Vivamus tempor mauris nec nulla pellentesque dictum. Morbi fringilla volutpat purus a vulputate. Curabitur metus nunc, mollis a vestibulum ac, mollis a magna. Nunc a mauris gravida, molestie urna non, finibus elit.</p>
+  <footer>J. Smith in <cite title="Source Title, 2nd Edition">Source
+  Title</cite></footer>
+</blockquote>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;blockquote&gt;
+  &lt;p&gt;Block quote, vehicula a condimentum in, molestie et justo. Nunc lacinia eros sit amet arcu vestibulum pretium sed vel purus. Vivamus tempor mauris nec nulla pellentesque dictum. Morbi fringilla volutpat purus a vulputate. Curabitur metus nunc, mollis a vestibulum ac, mollis a magna. Nunc a mauris gravida, molestie urna non, finibus elit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Block quote, vehicula a condimentum in, molestie et justo. Nunc lacinia eros sit amet arcu vestibulum pretium sed vel purus. Vivamus tempor mauris nec nulla pellentesque dictum. Morbi fringilla volutpat purus a vulputate. Curabitur metus nunc, mollis a vestibulum ac, mollis a magna. Nunc a mauris gravida, molestie urna non, finibus elit.&lt;/p&gt;
+  &lt;footer&gt;J. Smith in &lt;cite title&#x3D;&quot;Source Title, 2nd Edition&quot;&gt;Source
+  Title&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/grouping/grouping.scss</code>, line 10
+        </div>
+
+    </section>
+    <section id="kssref-base-grouping-code" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-grouping-code">
+            <span class="kss-title__ref">
+              2.4.2
+            </span>
+            Code
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>The <code>code</code> element represents a fragment of computer code. The
+<code>var</code> element represents a variable. The <code>samp</code> element
+represents (sample) output from a program or computing system. The
+<code>kbd</code> element represents user input (typically keyboard input.)</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <p>The <code>code</code> element represents a fragment of computer code.</p>
+
+<p>There are <var>n</var> flavors of ice cream to be available for purchase!</p>
+
+<p>The computer said <samp>Too much cheese in tray two</samp> but I didn't know
+what that meant.</p>
+
+<p>To make George eat an apple, select <kbd>File | Eat Apple…</kbd></p>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;p&gt;The &lt;code&gt;code&lt;/code&gt; element represents a fragment of computer code.&lt;/p&gt;
+
+&lt;p&gt;There are &lt;var&gt;n&lt;/var&gt; flavors of ice cream to be available for purchase!&lt;/p&gt;
+
+&lt;p&gt;The computer said &lt;samp&gt;Too much cheese in tray two&lt;/samp&gt; but I didn&#x27;t know
+what that meant.&lt;/p&gt;
+
+&lt;p&gt;To make George eat an apple, select &lt;kbd&gt;File | Eat Apple…&lt;/kbd&gt;&lt;/p&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/grouping/grouping.scss</code>, line 96
+        </div>
+
+    </section>
+    <section id="kssref-base-grouping-figure" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-grouping-figure">
+            <span class="kss-title__ref">
+              2.4.3
+            </span>
+            Figures
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>The element can thus be used to annotate illustrations, diagrams, photos,
+code listings, etc.</p>
+<p>Optionally, a &lt;figcaption&gt; element inside the &lt;figure&gt; represents
+the caption of the figure.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <figure>
+  An illustration, diagram, photo, code listing, etc.
+</figure>
+
+<figure>
+  An illustration, diagram, photo, code listing, etc.
+  <figcaption>Figure 1</figcaption>
+</figure>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;figure&gt;
+  An illustration, diagram, photo, code listing, etc.
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  An illustration, diagram, photo, code listing, etc.
+  &lt;figcaption&gt;Figure 1&lt;/figcaption&gt;
+&lt;/figure&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/grouping/grouping.scss</code>, line 28
+        </div>
+
+    </section>
+    <section id="kssref-base-grouping-hr" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-grouping-hr">
+            <span class="kss-title__ref">
+              2.4.4
+            </span>
+            Horizontal rule
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>The hr element represents a paragraph-level thematic break, e.g. a scene
+change in a story, or a transition to another topic within a section of a
+reference book.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque
+penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id
+dolor id nibh ultricies vehicula.</p>
+
+<hr>
+
+<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla.</p>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;p&gt;Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque
+penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id
+dolor id nibh ultricies vehicula.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla.&lt;/p&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/grouping/grouping.scss</code>, line 48
+        </div>
+
+    </section>
+    <section id="kssref-base-grouping-lists" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-grouping-lists">
+            <span class="kss-title__ref">
+              2.4.5
+            </span>
+            Lists
+          </a>
+        </h3>
+
+
+      </div>
+
+
+        <div class="kss-source kss-style">
+          Source: <code>base/grouping/grouping.scss</code>, line 114
+        </div>
+
+    </section>
+    <section id="kssref-base-grouping-lists-dl" class="kss-section kss-section--depth-4">
+
+      <div class="kss-style">
+        <h4 class="kss-title kss-title--level-4">
+          <a class="kss-title__permalink" href="#kssref-base-grouping-lists-dl">
+            <span class="kss-title__ref">
+              2.4.5.1
+            </span>
+            Description list
+          </a>
+        </h4>
+
+          <div class="kss-description">
+            <p>A list of terms with their associated descriptions.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <dl>
+  <dt>Description lists</dt>
+  <dd>A description list is perfect for defining terms.</dd>
+  <dt>Euismod</dt>
+  <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+  <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+  <dt>Malesuada porta</dt>
+  <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+</dl>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;dl&gt;
+  &lt;dt&gt;Description lists&lt;/dt&gt;
+  &lt;dd&gt;A description list is perfect for defining terms.&lt;/dd&gt;
+  &lt;dt&gt;Euismod&lt;/dt&gt;
+  &lt;dd&gt;Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.&lt;/dd&gt;
+  &lt;dd&gt;Donec id elit non mi porta gravida at eget metus.&lt;/dd&gt;
+  &lt;dt&gt;Malesuada porta&lt;/dt&gt;
+  &lt;dd&gt;Etiam porta sem malesuada magna mollis euismod.&lt;/dd&gt;
+&lt;/dl&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/grouping/grouping.scss</code>, line 134
+        </div>
+
+    </section>
+    <section id="kssref-base-grouping-lists-ol" class="kss-section kss-section--depth-4">
+
+      <div class="kss-style">
+        <h4 class="kss-title kss-title--level-4">
+          <a class="kss-title__permalink" href="#kssref-base-grouping-lists-ol">
+            <span class="kss-title__ref">
+              2.4.5.2
+            </span>
+            Ordered list
+          </a>
+        </h4>
+
+          <div class="kss-description">
+            <p>A list of items in which the order <em>does</em> explicitly matter.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <ol>
+  <li>Lorem ipsum dolor sit amet</li>
+  <li>Consectetur adipiscing elit</li>
+  <li>Integer molestie lorem at massa</li>
+  <li>Facilisis in pretium nisl aliquet</li>
+  <li>Nulla volutpat aliquam velit
+    <ol>
+      <li>Phasellus iaculis neque</li>
+      <li>Purus sodales ultricies</li>
+      <li>Vestibulum laoreet porttitor sem</li>
+      <li>Ac tristique libero volutpat at</li>
+    </ol>
+  </li>
+  <li>Faucibus porta lacus fringilla vel</li>
+  <li>Aenean sit amet erat nunc</li>
+  <li>Eget porttitor lorem</li>
+</ol>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;ol&gt;
+  &lt;li&gt;Lorem ipsum dolor sit amet&lt;/li&gt;
+  &lt;li&gt;Consectetur adipiscing elit&lt;/li&gt;
+  &lt;li&gt;Integer molestie lorem at massa&lt;/li&gt;
+  &lt;li&gt;Facilisis in pretium nisl aliquet&lt;/li&gt;
+  &lt;li&gt;Nulla volutpat aliquam velit
+    &lt;ol&gt;
+      &lt;li&gt;Phasellus iaculis neque&lt;/li&gt;
+      &lt;li&gt;Purus sodales ultricies&lt;/li&gt;
+      &lt;li&gt;Vestibulum laoreet porttitor sem&lt;/li&gt;
+      &lt;li&gt;Ac tristique libero volutpat at&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Faucibus porta lacus fringilla vel&lt;/li&gt;
+  &lt;li&gt;Aenean sit amet erat nunc&lt;/li&gt;
+  &lt;li&gt;Eget porttitor lorem&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/grouping/grouping.scss</code>, line 126
+        </div>
+
+    </section>
+    <section id="kssref-base-grouping-lists-ul" class="kss-section kss-section--depth-4">
+
+      <div class="kss-style">
+        <h4 class="kss-title kss-title--level-4">
+          <a class="kss-title__permalink" href="#kssref-base-grouping-lists-ul">
+            <span class="kss-title__ref">
+              2.4.5.3
+            </span>
+            Unordered list
+          </a>
+        </h4>
+
+          <div class="kss-description">
+            <p>A list of items in which the order does <em>not</em> explicitly matter.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <ul>
+  <li>Lorem ipsum dolor sit amet</li>
+  <li>Consectetur adipiscing elit</li>
+  <li>Integer molestie lorem at massa</li>
+  <li>Facilisis in pretium nisl aliquet</li>
+  <li>Nulla volutpat aliquam velit
+    <ul>
+      <li>Phasellus iaculis neque</li>
+      <li>Purus sodales ultricies</li>
+      <li>Vestibulum laoreet porttitor sem</li>
+      <li>Ac tristique libero volutpat at</li>
+    </ul>
+  </li>
+  <li>Faucibus porta lacus fringilla vel</li>
+  <li>Aenean sit amet erat nunc</li>
+  <li>Eget porttitor lorem</li>
+</ul>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;ul&gt;
+  &lt;li&gt;Lorem ipsum dolor sit amet&lt;/li&gt;
+  &lt;li&gt;Consectetur adipiscing elit&lt;/li&gt;
+  &lt;li&gt;Integer molestie lorem at massa&lt;/li&gt;
+  &lt;li&gt;Facilisis in pretium nisl aliquet&lt;/li&gt;
+  &lt;li&gt;Nulla volutpat aliquam velit
+    &lt;ul&gt;
+      &lt;li&gt;Phasellus iaculis neque&lt;/li&gt;
+      &lt;li&gt;Purus sodales ultricies&lt;/li&gt;
+      &lt;li&gt;Vestibulum laoreet porttitor sem&lt;/li&gt;
+      &lt;li&gt;Ac tristique libero volutpat at&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Faucibus porta lacus fringilla vel&lt;/li&gt;
+  &lt;li&gt;Aenean sit amet erat nunc&lt;/li&gt;
+  &lt;li&gt;Eget porttitor lorem&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/grouping/grouping.scss</code>, line 118
+        </div>
+
+    </section>
+    <section id="kssref-base-grouping-p" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-grouping-p">
+            <span class="kss-title__ref">
+              2.4.6
+            </span>
+            Body copy
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>The default <code>font-size</code> and <code>line-height</code> are applied to the <code>&lt;body&gt;</code> and all paragraphs. In addition, <code>&lt;p&gt;</code> (paragraphs) receive a top and bottom margin.</p></p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque
+penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id
+dolor id nibh ultricies vehicula.</p>
+
+<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis,
+est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
+elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+
+<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit
+non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi
+erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;p&gt;Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque
+penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id
+dolor id nibh ultricies vehicula.&lt;/p&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis,
+est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
+elit. Donec ullamcorper nulla non metus auctor fringilla.&lt;/p&gt;
+
+&lt;p&gt;Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit
+non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi
+erat porttitor ligula, eget lacinia odio sem nec elit.&lt;/p&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/grouping/grouping.scss</code>, line 62
+        </div>
+
+    </section>
+    <section id="kssref-base-grouping-pre" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-grouping-pre">
+            <span class="kss-title__ref">
+              2.4.7
+            </span>
+            Preformatted text
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>The &lt;pre&gt; tag represents a block of preformatted text, such as
+fragments of computer code, ASCII art, etc.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            The following text is preformatted:
+<pre>
+(ノ゜Д゜)ノ ︵ ┻━┻
+</pre>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">The following text is preformatted:
+&lt;pre&gt;
+(ノ゜Д゜)ノ ︵ ┻━┻
+&lt;/pre&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/grouping/grouping.scss</code>, line 75
+        </div>
+
+    </section>
+    <section id="kssref-base-text" class="kss-section kss-section--depth-2">
+
+      <div class="kss-style">
+        <h2 class="kss-title kss-title--level-2">
+          <a class="kss-title__permalink" href="#kssref-base-text">
+            <span class="kss-title__ref">
+              2.5
+            </span>
+            Text-level semantics
+          </a>
+        </h2>
+
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            An abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.
+And <abbr title="HyperText Markup Language">HTML</abbr> is an acroynm.
+The following snippets of text are <strong>rendered</strong> as <b>bold
+text</b>.
+<del>This line of text is meant to be treated as deleted text.</del>
+<ins>This line of text is meant to be treated as an addition to the
+document.</ins>
+<abbr>M<sup>lle</sup></abbr> Gwendoline wrote the equation <code>f(x, n) = log<sub>4</sub>x<sup>n</sup></code>.
+The following snippets of text are <em>rendered</em> as <i>italic text</i>.
+You can use the mark tag to <mark>highlight</mark> text like this.
+<mark>New!</mark>
+<q cite="http://www.w3.org/TR/html5/text-level-semantics.html#the-q-element">The
+<code>q</code> element represents some phrasing content quoted from another
+source.</q>
+<small>This line of text is meant to be treated as fine print.</small>
+<s>This line of text is meant to be treated as no longer accurate.</s>
+<u>This line of text will render as underlined</u>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">An abbreviation of the word attribute is &lt;abbr title&#x3D;&quot;attribute&quot;&gt;attr&lt;/abbr&gt;.
+And &lt;abbr title&#x3D;&quot;HyperText Markup Language&quot;&gt;HTML&lt;/abbr&gt; is an acroynm.
+The following snippets of text are &lt;strong&gt;rendered&lt;/strong&gt; as &lt;b&gt;bold
+text&lt;/b&gt;.
+&lt;del&gt;This line of text is meant to be treated as deleted text.&lt;/del&gt;
+&lt;ins&gt;This line of text is meant to be treated as an addition to the
+document.&lt;/ins&gt;
+&lt;abbr&gt;M&lt;sup&gt;lle&lt;/sup&gt;&lt;/abbr&gt; Gwendoline wrote the equation &lt;code&gt;f(x, n) &#x3D; log&lt;sub&gt;4&lt;/sub&gt;x&lt;sup&gt;n&lt;/sup&gt;&lt;/code&gt;.
+The following snippets of text are &lt;em&gt;rendered&lt;/em&gt; as &lt;i&gt;italic text&lt;/i&gt;.
+You can use the mark tag to &lt;mark&gt;highlight&lt;/mark&gt; text like this.
+&lt;mark&gt;New!&lt;/mark&gt;
+&lt;q cite&#x3D;&quot;http://www.w3.org/TR/html5/text-level-semantics.html#the-q-element&quot;&gt;The
+&lt;code&gt;q&lt;/code&gt; element represents some phrasing content quoted from another
+source.&lt;/q&gt;
+&lt;small&gt;This line of text is meant to be treated as fine print.&lt;/small&gt;
+&lt;s&gt;This line of text is meant to be treated as no longer accurate.&lt;/s&gt;
+&lt;u&gt;This line of text will render as underlined&lt;/u&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/text/text.scss</code>, line 4
+        </div>
+
+    </section>
+    <section id="kssref-base-text-abbr" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-text-abbr">
+            <span class="kss-title__ref">
+              2.5.1
+            </span>
+            Abbreviation / Acroynym
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>Stylized implementation of HTML&#39;s <code>&lt;abbr&gt;</code> element for
+abbreviations and acronyms to show the expanded version on hover.
+Abbreviations with a <code>title</code> attribute have a light dotted bottom
+border and a help cursor on hover, providing additional context on hover.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            An abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.
+And <abbr title="HyperText Markup Language">HTML</abbr> is an acroynm.
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">An abbreviation of the word attribute is &lt;abbr title&#x3D;&quot;attribute&quot;&gt;attr&lt;/abbr&gt;.
+And &lt;abbr title&#x3D;&quot;HyperText Markup Language&quot;&gt;HTML&lt;/abbr&gt; is an acroynm.
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/text/text.scss</code>, line 16
+        </div>
+
+    </section>
+    <section id="kssref-base-text-b" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-text-b">
+            <span class="kss-title__ref">
+              2.5.2
+            </span>
+            Bold
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>For emphasizing a snippet of text with a heavier font-weight. Either the
+&lt;strong&gt; tag or the &lt;b&gt; tag can be used.</p>
+<p>Feel free to use <code>&lt;b&gt;</code> in HTML5. <code>&lt;b&gt;</code> is
+meant to highlight words or phrases without conveying additional importance.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            The following snippets of text are <strong>rendered</strong> as <b>bold
+text</b>.
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">The following snippets of text are &lt;strong&gt;rendered&lt;/strong&gt; as &lt;b&gt;bold
+text&lt;/b&gt;.
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/text/text.scss</code>, line 39
+        </div>
+
+    </section>
+    <section id="kssref-base-text-cite" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-text-cite">
+            <span class="kss-title__ref">
+              2.5.3
+            </span>
+            Cite
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>The cite element represents a reference to a creative work.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <p>Who is your favorite doctor (in <cite>Doctor Who</cite>)?</p>
+
+<p>Comment by <cite><a href="#">Oli Walberg</a></cite></p>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;p&gt;Who is your favorite doctor (in &lt;cite&gt;Doctor Who&lt;/cite&gt;)?&lt;/p&gt;
+
+&lt;p&gt;Comment by &lt;cite&gt;&lt;a href&#x3D;&quot;#&quot;&gt;Oli Walberg&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/text/text.scss</code>, line 56
+        </div>
+
+    </section>
+    <section id="kssref-base-text-del" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-text-del">
+            <span class="kss-title__ref">
+              2.5.4
+            </span>
+            Deleted text
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>For indicating blocks of text that have been deleted use the
+<code>&lt;del&gt;</code> tag.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <del>This line of text is meant to be treated as deleted text.</del>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;del&gt;This line of text is meant to be treated as deleted text.&lt;/del&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/text/text.scss</code>, line 68
+        </div>
+
+    </section>
+    <section id="kssref-base-text-dfn" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-text-dfn">
+            <span class="kss-title__ref">
+              2.5.5
+            </span>
+            Definition
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>The dfn element represents the defining instance of a term.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <p>The <dfn id="gdo"><abbr title="Garage Door Opener">GDO</abbr></dfn> is a
+device that allows off-world teams to open the iris.</p>
+
+<p>Teal'c activated his <a href="#gdo"><abbr title="Garage Door Opener">GDO</abbr></a>
+and so Hammond ordered the iris to be opened.</p>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;p&gt;The &lt;dfn id&#x3D;&quot;gdo&quot;&gt;&lt;abbr title&#x3D;&quot;Garage Door Opener&quot;&gt;GDO&lt;/abbr&gt;&lt;/dfn&gt; is a
+device that allows off-world teams to open the iris.&lt;/p&gt;
+
+&lt;p&gt;Teal&#x27;c activated his &lt;a href&#x3D;&quot;#gdo&quot;&gt;&lt;abbr title&#x3D;&quot;Garage Door Opener&quot;&gt;GDO&lt;/abbr&gt;&lt;/a&gt;
+and so Hammond ordered the iris to be opened.&lt;/p&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/text/text.scss</code>, line 81
+        </div>
+
+    </section>
+    <section id="kssref-base-text-i" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-text-i">
+            <span class="kss-title__ref">
+              2.5.6
+            </span>
+            Italics
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>For emphasizing a snippet of text with italics. Either the &lt;em&gt; tag or
+the &lt;i&gt; tag can be used.</p>
+<p>Feel free to use <code>&lt;i&gt;</code> in HTML5. <code>&lt;i&gt;</code> is
+meant to convey voice, technical terms, etc.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            The following snippets of text are <em>rendered</em> as <i>italic text</i>.
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">The following snippets of text are &lt;em&gt;rendered&lt;/em&gt; as &lt;i&gt;italic text&lt;/i&gt;.
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/text/text.scss</code>, line 93
+        </div>
+
+    </section>
+    <section id="kssref-base-text-ins" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-text-ins">
+            <span class="kss-title__ref">
+              2.5.7
+            </span>
+            Inserted text
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>For indicating additions to the document use the <code>&lt;ins&gt;</code>
+tag.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <ins>This line of text is meant to be treated as an addition to the
+document.</ins>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;ins&gt;This line of text is meant to be treated as an addition to the
+document.&lt;/ins&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/text/text.scss</code>, line 110
+        </div>
+
+    </section>
+    <section id="kssref-base-text-mark" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-text-mark">
+            <span class="kss-title__ref">
+              2.5.8
+            </span>
+            Marked text
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>For highlighting a run of text due to its relevance in another context, use
+the <code>&lt;mark&gt;</code> tag.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            You can use the mark tag to <mark>highlight</mark> text like this.
+<mark>New!</mark>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">You can use the mark tag to &lt;mark&gt;highlight&lt;/mark&gt; text like this.
+&lt;mark&gt;New!&lt;/mark&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/text/text.scss</code>, line 123
+        </div>
+
+    </section>
+    <section id="kssref-base-text-q" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-text-q">
+            <span class="kss-title__ref">
+              2.5.9
+            </span>
+            Quote
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>The <code>q</code> element represents an inline quote from another source.
+Longer quotes should use the <code>blockquote</code> element.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <q cite="http://www.w3.org/TR/html5/text-level-semantics.html#the-q-element">The
+<code>q</code> element represents some phrasing content quoted from another
+source.</q>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;q cite&#x3D;&quot;http://www.w3.org/TR/html5/text-level-semantics.html#the-q-element&quot;&gt;The
+&lt;code&gt;q&lt;/code&gt; element represents some phrasing content quoted from another
+source.&lt;/q&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/text/text.scss</code>, line 136
+        </div>
+
+    </section>
+    <section id="kssref-base-text-s" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-text-s">
+            <span class="kss-title__ref">
+              2.5.10
+            </span>
+            Strikethrough text
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>For indicating blocks of text that are no longer relevant use the
+<code>&lt;s&gt;</code> tag.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <s>This line of text is meant to be treated as no longer accurate.</s>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;s&gt;This line of text is meant to be treated as no longer accurate.&lt;/s&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/text/text.scss</code>, line 149
+        </div>
+
+    </section>
+    <section id="kssref-base-text-small" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-text-small">
+            <span class="kss-title__ref">
+              2.5.11
+            </span>
+            Small text
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>For de-emphasizing inline or blocks of text, use the
+<code>&lt;small&gt;</code> tag to set text at 80% the size of the parent.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <small>This line of text is meant to be treated as fine print.</small>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;small&gt;This line of text is meant to be treated as fine print.&lt;/small&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/text/text.scss</code>, line 162
+        </div>
+
+    </section>
+    <section id="kssref-base-text-sub" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-text-sub">
+            <span class="kss-title__ref">
+              2.5.12
+            </span>
+            Superscript / Subscript
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>The &lt;sup&gt; tag represents a superscript and the &lt;sub&gt; tag
+represents a subscript.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <abbr>M<sup>lle</sup></abbr> Gwendoline wrote the equation <code>f(x, n) = log<sub>4</sub>x<sup>n</sup></code>.
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;abbr&gt;M&lt;sup&gt;lle&lt;/sup&gt;&lt;/abbr&gt; Gwendoline wrote the equation &lt;code&gt;f(x, n) &#x3D; log&lt;sub&gt;4&lt;/sub&gt;x&lt;sup&gt;n&lt;/sup&gt;&lt;/code&gt;.
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/text/text.scss</code>, line 175
+        </div>
+
+    </section>
+    <section id="kssref-base-text-u" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-text-u">
+            <span class="kss-title__ref">
+              2.5.13
+            </span>
+            Underlined text
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>To underline text use the <code>&lt;u&gt;</code> tag. Not recommended since
+underlines are used by web browsers to style hyperlinks.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <u>This line of text will render as underlined</u>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;u&gt;This line of text will render as underlined&lt;/u&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/text/text.scss</code>, line 197
+        </div>
+
+    </section>
+    <section id="kssref-base-embedded" class="kss-section kss-section--depth-2">
+
+      <div class="kss-style">
+        <h2 class="kss-title kss-title--level-2">
+          <a class="kss-title__permalink" href="#kssref-base-embedded">
+            <span class="kss-title__ref">
+              2.6
+            </span>
+            Embedded content
+          </a>
+        </h2>
+
+
+      </div>
+
+
+        <div class="kss-source kss-style">
+          Source: <code>base/embedded/embedded.scss</code>, line 4
+        </div>
+
+    </section>
+    <section id="kssref-base-embedded-img" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-embedded-img">
+            <span class="kss-title__ref">
+              2.6.1
+            </span>
+            Image
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>An &lt;img&gt; tag represents an image.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <p>An image <img src="public/sample-inline.png"> that is inline with other text.</p>
+
+<figure style="width: 50%; max-width: 300px;">
+  <figcaption>A figure.</figcaption>
+  <img src="public/sample.png">
+</figure>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;p&gt;An image &lt;img src&#x3D;&quot;public/sample-inline.png&quot;&gt; that is inline with other text.&lt;/p&gt;
+
+&lt;figure style&#x3D;&quot;width: 50%; max-width: 300px;&quot;&gt;
+  &lt;figcaption&gt;A figure.&lt;/figcaption&gt;
+  &lt;img src&#x3D;&quot;public/sample.png&quot;&gt;
+&lt;/figure&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/embedded/embedded.scss</code>, line 10
+        </div>
+
+    </section>
+    <section id="kssref-base-embedded-svg" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-embedded-svg">
+            <span class="kss-title__ref">
+              2.6.2
+            </span>
+            Scalable vector
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>A &lt;svg&gt; tag represents an image encoded as a Scalable Vector Graphic.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <p>A svg image <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="10px" height="10px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><polygon fill="#bdad94" stroke="#bdad94" stroke-width="37.6152" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="  259.216,29.942 330.27,173.919 489.16,197.007 374.185,309.08 401.33,467.31 259.216,392.612 117.104,467.31 144.25,309.08   29.274,197.007 188.165,173.919 "/></svg> that is inline with other text.</p>
+
+<figure style="width: 50%; max-width: 300px;">
+  <figcaption>A figure.</figcaption>
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="300px" height="300px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+  <polygon fill="#bdad94" stroke="#bdad94" stroke-width="37.6152" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="  259.216,29.942 330.27,173.919 489.16,197.007 374.185,309.08 401.33,467.31 259.216,392.612 117.104,467.31 144.25,309.08   29.274,197.007 188.165,173.919 "/>
+  </svg>
+</figure>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;p&gt;A svg image &lt;svg xmlns&#x3D;&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink&#x3D;&quot;http://www.w3.org/1999/xlink&quot; version&#x3D;&quot;1.1&quot; id&#x3D;&quot;Layer_1&quot; x&#x3D;&quot;0px&quot; y&#x3D;&quot;0px&quot; width&#x3D;&quot;10px&quot; height&#x3D;&quot;10px&quot; viewBox&#x3D;&quot;0 0 512 512&quot; enable-background&#x3D;&quot;new 0 0 512 512&quot; xml:space&#x3D;&quot;preserve&quot;&gt;&lt;polygon fill&#x3D;&quot;#bdad94&quot; stroke&#x3D;&quot;#bdad94&quot; stroke-width&#x3D;&quot;37.6152&quot; stroke-linecap&#x3D;&quot;round&quot; stroke-linejoin&#x3D;&quot;round&quot; stroke-miterlimit&#x3D;&quot;10&quot; points&#x3D;&quot;  259.216,29.942 330.27,173.919 489.16,197.007 374.185,309.08 401.33,467.31 259.216,392.612 117.104,467.31 144.25,309.08   29.274,197.007 188.165,173.919 &quot;/&gt;&lt;/svg&gt; that is inline with other text.&lt;/p&gt;
+
+&lt;figure style&#x3D;&quot;width: 50%; max-width: 300px;&quot;&gt;
+  &lt;figcaption&gt;A figure.&lt;/figcaption&gt;
+  &lt;svg xmlns&#x3D;&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink&#x3D;&quot;http://www.w3.org/1999/xlink&quot; version&#x3D;&quot;1.1&quot; id&#x3D;&quot;Layer_1&quot; x&#x3D;&quot;0px&quot; y&#x3D;&quot;0px&quot; width&#x3D;&quot;300px&quot; height&#x3D;&quot;300px&quot; viewBox&#x3D;&quot;0 0 512 512&quot; enable-background&#x3D;&quot;new 0 0 512 512&quot; xml:space&#x3D;&quot;preserve&quot;&gt;
+  &lt;polygon fill&#x3D;&quot;#bdad94&quot; stroke&#x3D;&quot;#bdad94&quot; stroke-width&#x3D;&quot;37.6152&quot; stroke-linecap&#x3D;&quot;round&quot; stroke-linejoin&#x3D;&quot;round&quot; stroke-miterlimit&#x3D;&quot;10&quot; points&#x3D;&quot;  259.216,29.942 330.27,173.919 489.16,197.007 374.185,309.08 401.33,467.31 259.216,392.612 117.104,467.31 144.25,309.08   29.274,197.007 188.165,173.919 &quot;/&gt;
+  &lt;/svg&gt;
+&lt;/figure&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/embedded/embedded.scss</code>, line 23
+        </div>
+
+    </section>
+    <section id="kssref-base-forms" class="kss-section kss-section--depth-2">
+
+      <div class="kss-style">
+        <h2 class="kss-title kss-title--level-2">
+          <a class="kss-title__permalink" href="#kssref-base-forms">
+            <span class="kss-title__ref">
+              2.7
+            </span>
+            Forms
+          </a>
+        </h2>
+
+
+      </div>
+
+
+        <div class="kss-source kss-style">
+          Source: <code>base/forms/forms.scss</code>, line 4
+        </div>
+
+    </section>
+    <section id="kssref-base-forms-button" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-forms-button">
+            <span class="kss-title__ref">
+              2.7.1
+            </span>
+            Buttons
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>Buttons built with the <code>&lt;button&gt;</code> element are the most flexible for styling
+purposes. But <code>&lt;input&gt;</code> elements with <code>type</code> set to <code>submit</code>, <code>image</code>,
+<code>reset</code>, or <code>button</code> are also supported.</p>
+<p>Below is the default button styling. To see variations on the button styling
+see the <a href="section-components.html#kssref-components-button">button component</a>.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Examples
+          </div>
+
+            <div class="kss-modifier__default-name kss-style">
+              Default styling
+            </div>
+
+          <div class="kss-modifier__example">
+            <p>
+  <button type="button" class="[modifier class]">A normal button</button>
+  <button type="submit" class="[modifier class]">A submit button</button>
+  <button type="reset" class="[modifier class]">A reset button</button>
+</p>
+<p>
+  <input type="button" class="[modifier class]" value="Input button">
+  <input type="submit" class="[modifier class]" value="Input submit button">
+  <input type="reset" class="[modifier class]" value="Input reset button">
+</p>
+<p>
+  <button type="button" class="[modifier class]" disabled>A disabled button</button>
+  <button type="submit" class="[modifier class]" disabled>A disabled submit button</button>
+  <button type="reset" class="[modifier class]" disabled>A disabled reset button</button>
+</p>
+<p>
+  <input type="button" class="[modifier class]" value="Disabled input button" disabled>
+  <input type="submit" class="[modifier class]" value="Disabled input submit button" disabled>
+  <input type="reset" class="[modifier class]" value="Disabled input reset button" disabled>
+</p>
+
+          </div>
+
+            <div class="kss-modifier__name kss-style">
+              :hover
+            </div>
+            <div class="kss-modifier__description kss-style">
+              Hover styling.
+            </div>
+            <div class="kss-modifier__example">
+              <p>
+  <button type="button" class="pseudo-class-hover">A normal button</button>
+  <button type="submit" class="pseudo-class-hover">A submit button</button>
+  <button type="reset" class="pseudo-class-hover">A reset button</button>
+</p>
+<p>
+  <input type="button" class="pseudo-class-hover" value="Input button">
+  <input type="submit" class="pseudo-class-hover" value="Input submit button">
+  <input type="reset" class="pseudo-class-hover" value="Input reset button">
+</p>
+<p>
+  <button type="button" class="pseudo-class-hover" disabled>A disabled button</button>
+  <button type="submit" class="pseudo-class-hover" disabled>A disabled submit button</button>
+  <button type="reset" class="pseudo-class-hover" disabled>A disabled reset button</button>
+</p>
+<p>
+  <input type="button" class="pseudo-class-hover" value="Disabled input button" disabled>
+  <input type="submit" class="pseudo-class-hover" value="Disabled input submit button" disabled>
+  <input type="reset" class="pseudo-class-hover" value="Disabled input reset button" disabled>
+</p>
+
+            </div>
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;p&gt;
+  &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;[modifier class]&quot;&gt;A normal button&lt;/button&gt;
+  &lt;button type&#x3D;&quot;submit&quot; class&#x3D;&quot;[modifier class]&quot;&gt;A submit button&lt;/button&gt;
+  &lt;button type&#x3D;&quot;reset&quot; class&#x3D;&quot;[modifier class]&quot;&gt;A reset button&lt;/button&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;input type&#x3D;&quot;button&quot; class&#x3D;&quot;[modifier class]&quot; value&#x3D;&quot;Input button&quot;&gt;
+  &lt;input type&#x3D;&quot;submit&quot; class&#x3D;&quot;[modifier class]&quot; value&#x3D;&quot;Input submit button&quot;&gt;
+  &lt;input type&#x3D;&quot;reset&quot; class&#x3D;&quot;[modifier class]&quot; value&#x3D;&quot;Input reset button&quot;&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;[modifier class]&quot; disabled&gt;A disabled button&lt;/button&gt;
+  &lt;button type&#x3D;&quot;submit&quot; class&#x3D;&quot;[modifier class]&quot; disabled&gt;A disabled submit button&lt;/button&gt;
+  &lt;button type&#x3D;&quot;reset&quot; class&#x3D;&quot;[modifier class]&quot; disabled&gt;A disabled reset button&lt;/button&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;input type&#x3D;&quot;button&quot; class&#x3D;&quot;[modifier class]&quot; value&#x3D;&quot;Disabled input button&quot; disabled&gt;
+  &lt;input type&#x3D;&quot;submit&quot; class&#x3D;&quot;[modifier class]&quot; value&#x3D;&quot;Disabled input submit button&quot; disabled&gt;
+  &lt;input type&#x3D;&quot;reset&quot; class&#x3D;&quot;[modifier class]&quot; value&#x3D;&quot;Disabled input reset button&quot; disabled&gt;
+&lt;/p&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/forms/forms.scss</code>, line 14
+        </div>
+
+    </section>
+    <section id="kssref-base-forms-fieldset" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-forms-fieldset">
+            <span class="kss-title__ref">
+              2.7.2
+            </span>
+            Fieldsets
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>The <code>&lt;fieldset&gt;</code> element groups a set of form fields, optionally under a
+common name given by the <code>&lt;legend&gt;</code> element.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <fieldset class="">
+  <legend>A fieldset</legend>
+  <label for="fieldsetText">Text input</label>
+  <input type="text" id="fieldsetText" placeholder="Text input">
+</fieldset>
+
+<fieldset class="" disabled>
+  <legend>A disabled fieldset</legend>
+  <div>
+    <label for="fieldsetText2">Disabled text input</label>
+    <input type="text" id="fieldsetText2" placeholder="Disabled input">
+  </div>
+  <div>
+    <label for="fieldsetSelect">Disabled select menu</label>
+    <select id="fieldsetSelect">
+      <option>Disabled select</option>
+    </select>
+  </div>
+  <div>
+    <label><input type="checkbox"> Can't check this</label>
+  </div>
+</fieldset>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;fieldset class&#x3D;&quot;&quot;&gt;
+  &lt;legend&gt;A fieldset&lt;/legend&gt;
+  &lt;label for&#x3D;&quot;fieldsetText&quot;&gt;Text input&lt;/label&gt;
+  &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;fieldsetText&quot; placeholder&#x3D;&quot;Text input&quot;&gt;
+&lt;/fieldset&gt;
+
+&lt;fieldset class&#x3D;&quot;&quot; disabled&gt;
+  &lt;legend&gt;A disabled fieldset&lt;/legend&gt;
+  &lt;div&gt;
+    &lt;label for&#x3D;&quot;fieldsetText2&quot;&gt;Disabled text input&lt;/label&gt;
+    &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;fieldsetText2&quot; placeholder&#x3D;&quot;Disabled input&quot;&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;label for&#x3D;&quot;fieldsetSelect&quot;&gt;Disabled select menu&lt;/label&gt;
+    &lt;select id&#x3D;&quot;fieldsetSelect&quot;&gt;
+      &lt;option&gt;Disabled select&lt;/option&gt;
+    &lt;/select&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;label&gt;&lt;input type&#x3D;&quot;checkbox&quot;&gt; Can&#x27;t check this&lt;/label&gt;
+  &lt;/div&gt;
+&lt;/fieldset&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/forms/forms.scss</code>, line 121
+        </div>
+
+    </section>
+    <section id="kssref-base-forms-input" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-forms-input">
+            <span class="kss-title__ref">
+              2.7.3
+            </span>
+            Inputs
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>The <code>&lt;input&gt;</code> element is mostly used for text-based inputs that include the
+HTML5 types: <code>text</code>, <code>search</code>, <code>tel</code>, <code>url</code>, <code>email</code>, <code>password</code>, <code>date</code>,
+<code>time</code>, <code>number</code>, <code>range</code>, <code>color</code>, and <code>file</code>.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Examples
+          </div>
+
+            <div class="kss-modifier__default-name kss-style">
+              Default styling
+            </div>
+
+          <div class="kss-modifier__example">
+            <div>
+  <label for="inputText">Text</label>
+  <input type="text" class="[modifier class]" id="inputText" placeholder="Enter some text">
+</div>
+<div>
+  <label for="inputSearch">Search</label>
+  <input type="search" class="[modifier class]" id="inputSearch" placeholder="Search">
+</div>
+<div>
+  <label for="inputTel">Telephone</label>
+  <input type="text" class="[modifier class]" id="inputTel" placeholder="Enter some text">
+</div>
+<div>
+  <label for="inputURL">URL</label>
+  <input type="url" class="[modifier class]" id="inputURL" placeholder="Enter a URL">
+</div>
+<div>
+  <label for="inputEmail">Email address</label>
+  <input type="email" class="[modifier class]" id="inputEmail" placeholder="Enter email">
+</div>
+<div>
+  <label for="inputPassword">Password</label>
+  <input type="password" class="[modifier class]" id="inputPassword" placeholder="Password">
+</div>
+<div>
+  <label for="inputDate">Date</label>
+  <input type="date" class="[modifier class]" id="inputDate" placeholder="Enter a date">
+</div>
+<div>
+  <label for="inputTime">Time</label>
+  <input type="time" class="[modifier class]" id="inputTime" placeholder="Enter a time">
+</div>
+<div>
+  <label for="inputNumber">Number</label>
+  <input type="number" class="[modifier class]" id="inputNumber" placeholder="Enter a number">
+</div>
+<div>
+  <label for="inputRange">Range</label>
+  <input type="range" class="[modifier class]" id="inputRange" placeholder="Enter a range">
+</div>
+<div>
+  <label for="inputColor">Color</label>
+  <input type="color" class="[modifier class]" id="inputColor" placeholder="Enter a color">
+</div>
+<div>
+  <label for="inputFile">File input</label>
+  <input type="file" class="[modifier class]" id="inputFile">
+</div>
+
+<div>
+  <label for="inputText">Disabled text</label>
+  <input type="text" class="[modifier class]" disabled id="inputText" placeholder="Disabled text">
+</div>
+<div>
+  <label for="inputSearch">Disabled search</label>
+  <input type="search" class="[modifier class]" disabled id="inputSearch" placeholder="Disabled search">
+</div>
+<div>
+  <label for="inputTel">Disabled telephone</label>
+  <input type="text" class="[modifier class]" disabled id="inputTel" placeholder="Disabled telephone">
+</div>
+<div>
+  <label for="inputURL">Disabled URL</label>
+  <input type="url" class="[modifier class]" disabled id="inputURL" placeholder="Disabled URL">
+</div>
+<div>
+  <label for="inputEmail">Disabled email address</label>
+  <input type="email" class="[modifier class]" disabled id="inputEmail" placeholder="Disabled email">
+</div>
+<div>
+  <label for="inputPassword">Disabled password</label>
+  <input type="password" class="[modifier class]" disabled id="inputPassword" placeholder="Disabled password">
+</div>
+<div>
+  <label for="inputDate">Disabled date</label>
+  <input type="date" class="[modifier class]" disabled id="inputDate" placeholder="Disabled date">
+</div>
+<div>
+  <label for="inputTime">Disabled time</label>
+  <input type="time" class="[modifier class]" disabled id="inputTime" placeholder="Disabled time">
+</div>
+<div>
+  <label for="inputNumber">Disabled number</label>
+  <input type="number" class="[modifier class]" disabled id="inputNumber" placeholder="Disabled number">
+</div>
+<div>
+  <label for="inputRange">Disabled range</label>
+  <input type="range" class="[modifier class]" disabled id="inputRange" placeholder="Disabled range">
+</div>
+<div>
+  <label for="inputColor">Disabled color</label>
+  <input type="color" class="[modifier class]" disabled id="inputColor" placeholder="Disabled color">
+</div>
+<div>
+  <label for="inputFile">Disabled file input</label>
+  <input type="file" class="[modifier class]" disabled id="inputFile">
+</div>
+
+          </div>
+
+            <div class="kss-modifier__name kss-style">
+              :hover
+            </div>
+            <div class="kss-modifier__description kss-style">
+              Hover styling.
+            </div>
+            <div class="kss-modifier__example">
+              <div>
+  <label for="inputText">Text</label>
+  <input type="text" class="pseudo-class-hover" id="inputText" placeholder="Enter some text">
+</div>
+<div>
+  <label for="inputSearch">Search</label>
+  <input type="search" class="pseudo-class-hover" id="inputSearch" placeholder="Search">
+</div>
+<div>
+  <label for="inputTel">Telephone</label>
+  <input type="text" class="pseudo-class-hover" id="inputTel" placeholder="Enter some text">
+</div>
+<div>
+  <label for="inputURL">URL</label>
+  <input type="url" class="pseudo-class-hover" id="inputURL" placeholder="Enter a URL">
+</div>
+<div>
+  <label for="inputEmail">Email address</label>
+  <input type="email" class="pseudo-class-hover" id="inputEmail" placeholder="Enter email">
+</div>
+<div>
+  <label for="inputPassword">Password</label>
+  <input type="password" class="pseudo-class-hover" id="inputPassword" placeholder="Password">
+</div>
+<div>
+  <label for="inputDate">Date</label>
+  <input type="date" class="pseudo-class-hover" id="inputDate" placeholder="Enter a date">
+</div>
+<div>
+  <label for="inputTime">Time</label>
+  <input type="time" class="pseudo-class-hover" id="inputTime" placeholder="Enter a time">
+</div>
+<div>
+  <label for="inputNumber">Number</label>
+  <input type="number" class="pseudo-class-hover" id="inputNumber" placeholder="Enter a number">
+</div>
+<div>
+  <label for="inputRange">Range</label>
+  <input type="range" class="pseudo-class-hover" id="inputRange" placeholder="Enter a range">
+</div>
+<div>
+  <label for="inputColor">Color</label>
+  <input type="color" class="pseudo-class-hover" id="inputColor" placeholder="Enter a color">
+</div>
+<div>
+  <label for="inputFile">File input</label>
+  <input type="file" class="pseudo-class-hover" id="inputFile">
+</div>
+
+<div>
+  <label for="inputText">Disabled text</label>
+  <input type="text" class="pseudo-class-hover" disabled id="inputText" placeholder="Disabled text">
+</div>
+<div>
+  <label for="inputSearch">Disabled search</label>
+  <input type="search" class="pseudo-class-hover" disabled id="inputSearch" placeholder="Disabled search">
+</div>
+<div>
+  <label for="inputTel">Disabled telephone</label>
+  <input type="text" class="pseudo-class-hover" disabled id="inputTel" placeholder="Disabled telephone">
+</div>
+<div>
+  <label for="inputURL">Disabled URL</label>
+  <input type="url" class="pseudo-class-hover" disabled id="inputURL" placeholder="Disabled URL">
+</div>
+<div>
+  <label for="inputEmail">Disabled email address</label>
+  <input type="email" class="pseudo-class-hover" disabled id="inputEmail" placeholder="Disabled email">
+</div>
+<div>
+  <label for="inputPassword">Disabled password</label>
+  <input type="password" class="pseudo-class-hover" disabled id="inputPassword" placeholder="Disabled password">
+</div>
+<div>
+  <label for="inputDate">Disabled date</label>
+  <input type="date" class="pseudo-class-hover" disabled id="inputDate" placeholder="Disabled date">
+</div>
+<div>
+  <label for="inputTime">Disabled time</label>
+  <input type="time" class="pseudo-class-hover" disabled id="inputTime" placeholder="Disabled time">
+</div>
+<div>
+  <label for="inputNumber">Disabled number</label>
+  <input type="number" class="pseudo-class-hover" disabled id="inputNumber" placeholder="Disabled number">
+</div>
+<div>
+  <label for="inputRange">Disabled range</label>
+  <input type="range" class="pseudo-class-hover" disabled id="inputRange" placeholder="Disabled range">
+</div>
+<div>
+  <label for="inputColor">Disabled color</label>
+  <input type="color" class="pseudo-class-hover" disabled id="inputColor" placeholder="Disabled color">
+</div>
+<div>
+  <label for="inputFile">Disabled file input</label>
+  <input type="file" class="pseudo-class-hover" disabled id="inputFile">
+</div>
+
+            </div>
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputText&quot;&gt;Text&lt;/label&gt;
+  &lt;input type&#x3D;&quot;text&quot; class&#x3D;&quot;[modifier class]&quot; id&#x3D;&quot;inputText&quot; placeholder&#x3D;&quot;Enter some text&quot;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputSearch&quot;&gt;Search&lt;/label&gt;
+  &lt;input type&#x3D;&quot;search&quot; class&#x3D;&quot;[modifier class]&quot; id&#x3D;&quot;inputSearch&quot; placeholder&#x3D;&quot;Search&quot;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputTel&quot;&gt;Telephone&lt;/label&gt;
+  &lt;input type&#x3D;&quot;text&quot; class&#x3D;&quot;[modifier class]&quot; id&#x3D;&quot;inputTel&quot; placeholder&#x3D;&quot;Enter some text&quot;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputURL&quot;&gt;URL&lt;/label&gt;
+  &lt;input type&#x3D;&quot;url&quot; class&#x3D;&quot;[modifier class]&quot; id&#x3D;&quot;inputURL&quot; placeholder&#x3D;&quot;Enter a URL&quot;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputEmail&quot;&gt;Email address&lt;/label&gt;
+  &lt;input type&#x3D;&quot;email&quot; class&#x3D;&quot;[modifier class]&quot; id&#x3D;&quot;inputEmail&quot; placeholder&#x3D;&quot;Enter email&quot;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputPassword&quot;&gt;Password&lt;/label&gt;
+  &lt;input type&#x3D;&quot;password&quot; class&#x3D;&quot;[modifier class]&quot; id&#x3D;&quot;inputPassword&quot; placeholder&#x3D;&quot;Password&quot;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputDate&quot;&gt;Date&lt;/label&gt;
+  &lt;input type&#x3D;&quot;date&quot; class&#x3D;&quot;[modifier class]&quot; id&#x3D;&quot;inputDate&quot; placeholder&#x3D;&quot;Enter a date&quot;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputTime&quot;&gt;Time&lt;/label&gt;
+  &lt;input type&#x3D;&quot;time&quot; class&#x3D;&quot;[modifier class]&quot; id&#x3D;&quot;inputTime&quot; placeholder&#x3D;&quot;Enter a time&quot;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputNumber&quot;&gt;Number&lt;/label&gt;
+  &lt;input type&#x3D;&quot;number&quot; class&#x3D;&quot;[modifier class]&quot; id&#x3D;&quot;inputNumber&quot; placeholder&#x3D;&quot;Enter a number&quot;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputRange&quot;&gt;Range&lt;/label&gt;
+  &lt;input type&#x3D;&quot;range&quot; class&#x3D;&quot;[modifier class]&quot; id&#x3D;&quot;inputRange&quot; placeholder&#x3D;&quot;Enter a range&quot;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputColor&quot;&gt;Color&lt;/label&gt;
+  &lt;input type&#x3D;&quot;color&quot; class&#x3D;&quot;[modifier class]&quot; id&#x3D;&quot;inputColor&quot; placeholder&#x3D;&quot;Enter a color&quot;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputFile&quot;&gt;File input&lt;/label&gt;
+  &lt;input type&#x3D;&quot;file&quot; class&#x3D;&quot;[modifier class]&quot; id&#x3D;&quot;inputFile&quot;&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputText&quot;&gt;Disabled text&lt;/label&gt;
+  &lt;input type&#x3D;&quot;text&quot; class&#x3D;&quot;[modifier class]&quot; disabled id&#x3D;&quot;inputText&quot; placeholder&#x3D;&quot;Disabled text&quot;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputSearch&quot;&gt;Disabled search&lt;/label&gt;
+  &lt;input type&#x3D;&quot;search&quot; class&#x3D;&quot;[modifier class]&quot; disabled id&#x3D;&quot;inputSearch&quot; placeholder&#x3D;&quot;Disabled search&quot;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputTel&quot;&gt;Disabled telephone&lt;/label&gt;
+  &lt;input type&#x3D;&quot;text&quot; class&#x3D;&quot;[modifier class]&quot; disabled id&#x3D;&quot;inputTel&quot; placeholder&#x3D;&quot;Disabled telephone&quot;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputURL&quot;&gt;Disabled URL&lt;/label&gt;
+  &lt;input type&#x3D;&quot;url&quot; class&#x3D;&quot;[modifier class]&quot; disabled id&#x3D;&quot;inputURL&quot; placeholder&#x3D;&quot;Disabled URL&quot;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputEmail&quot;&gt;Disabled email address&lt;/label&gt;
+  &lt;input type&#x3D;&quot;email&quot; class&#x3D;&quot;[modifier class]&quot; disabled id&#x3D;&quot;inputEmail&quot; placeholder&#x3D;&quot;Disabled email&quot;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputPassword&quot;&gt;Disabled password&lt;/label&gt;
+  &lt;input type&#x3D;&quot;password&quot; class&#x3D;&quot;[modifier class]&quot; disabled id&#x3D;&quot;inputPassword&quot; placeholder&#x3D;&quot;Disabled password&quot;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputDate&quot;&gt;Disabled date&lt;/label&gt;
+  &lt;input type&#x3D;&quot;date&quot; class&#x3D;&quot;[modifier class]&quot; disabled id&#x3D;&quot;inputDate&quot; placeholder&#x3D;&quot;Disabled date&quot;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputTime&quot;&gt;Disabled time&lt;/label&gt;
+  &lt;input type&#x3D;&quot;time&quot; class&#x3D;&quot;[modifier class]&quot; disabled id&#x3D;&quot;inputTime&quot; placeholder&#x3D;&quot;Disabled time&quot;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputNumber&quot;&gt;Disabled number&lt;/label&gt;
+  &lt;input type&#x3D;&quot;number&quot; class&#x3D;&quot;[modifier class]&quot; disabled id&#x3D;&quot;inputNumber&quot; placeholder&#x3D;&quot;Disabled number&quot;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputRange&quot;&gt;Disabled range&lt;/label&gt;
+  &lt;input type&#x3D;&quot;range&quot; class&#x3D;&quot;[modifier class]&quot; disabled id&#x3D;&quot;inputRange&quot; placeholder&#x3D;&quot;Disabled range&quot;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputColor&quot;&gt;Disabled color&lt;/label&gt;
+  &lt;input type&#x3D;&quot;color&quot; class&#x3D;&quot;[modifier class]&quot; disabled id&#x3D;&quot;inputColor&quot; placeholder&#x3D;&quot;Disabled color&quot;&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;inputFile&quot;&gt;Disabled file input&lt;/label&gt;
+  &lt;input type&#x3D;&quot;file&quot; class&#x3D;&quot;[modifier class]&quot; disabled id&#x3D;&quot;inputFile&quot;&gt;
+&lt;/div&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/forms/forms.scss</code>, line 51
+        </div>
+
+    </section>
+    <section id="kssref-base-forms-input-checkbox" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-forms-input-checkbox">
+            <span class="kss-title__ref">
+              2.7.4
+            </span>
+            Checkboxes
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>If an <code>&lt;input&gt;</code> element has the <code>type=&quot;checkbox&quot;</code> attribute set, the form
+field is displayed as a checkbox.</p>
+<p>It&#39;s recommended that you don&#39;t attempt to style these elements. Firefox&#39;s
+implementation doesn&#39;t respect <code>box-sizing</code>, <code>padding</code>, or <code>width</code>.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <div>
+  <label><input type="checkbox" class=""> Check me out</label>
+</div>
+
+<div>
+  <label><input type="checkbox" class="" value="" disabled> Option two is disabled</label>
+</div>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;div&gt;
+  &lt;label&gt;&lt;input type&#x3D;&quot;checkbox&quot; class&#x3D;&quot;&quot;&gt; Check me out&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;label&gt;&lt;input type&#x3D;&quot;checkbox&quot; class&#x3D;&quot;&quot; value&#x3D;&quot;&quot; disabled&gt; Option two is disabled&lt;/label&gt;
+&lt;/div&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/forms/forms.scss</code>, line 92
+        </div>
+
+    </section>
+    <section id="kssref-base-forms-input-radio" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-forms-input-radio">
+            <span class="kss-title__ref">
+              2.7.5
+            </span>
+            Radio buttons
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>If an <code>&lt;input&gt;</code> element has the <code>type=&quot;radio&quot;</code> attribute set, the form field
+is displayed as a radio button.</p>
+<p>It&#39;s recommended that you don&#39;t attempt to style these elements. Firefox&#39;s
+implementation doesn&#39;t respect <code>box-sizing</code>, <code>padding</code>, or <code>width</code>.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <div>
+  <label><input type="radio" class="" value="option1" name="example-radio" checked> Option one</label>
+</div>
+
+<div>
+  <label><input type="radio" class="" value="option2" name="example-radio"> Option two</label>
+</div>
+
+<div>
+  <label><input type="radio" class="" value="option3" name="example-radio" disabled> Option three is disabled</label>
+</div>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;div&gt;
+  &lt;label&gt;&lt;input type&#x3D;&quot;radio&quot; class&#x3D;&quot;&quot; value&#x3D;&quot;option1&quot; name&#x3D;&quot;example-radio&quot; checked&gt; Option one&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;label&gt;&lt;input type&#x3D;&quot;radio&quot; class&#x3D;&quot;&quot; value&#x3D;&quot;option2&quot; name&#x3D;&quot;example-radio&quot;&gt; Option two&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;label&gt;&lt;input type&#x3D;&quot;radio&quot; class&#x3D;&quot;&quot; value&#x3D;&quot;option3&quot; name&#x3D;&quot;example-radio&quot; disabled&gt; Option three is disabled&lt;/label&gt;
+&lt;/div&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/forms/forms.scss</code>, line 104
+        </div>
+
+    </section>
+    <section id="kssref-base-forms-label" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-forms-label">
+            <span class="kss-title__ref">
+              2.7.6
+            </span>
+            Labels
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>The <code>&lt;label&gt;</code> element represents a caption of a form field. The label can be
+associated with a specific form control by using the <code>for</code> attribute or by
+putting the form control inside the label element itself.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <div>
+  <label class="" for="lableInputText">A label for a text input</label>
+  <input type="text" id="lableInputText" placeholder="Enter some text">
+</div>
+
+<div>
+  <label class=""><input type="checkbox"> A label wrapped around a checkbox</label>
+</div>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;div&gt;
+  &lt;label class&#x3D;&quot;&quot; for&#x3D;&quot;lableInputText&quot;&gt;A label for a text input&lt;/label&gt;
+  &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;lableInputText&quot; placeholder&#x3D;&quot;Enter some text&quot;&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;label class&#x3D;&quot;&quot;&gt;&lt;input type&#x3D;&quot;checkbox&quot;&gt; A label wrapped around a checkbox&lt;/label&gt;
+&lt;/div&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/forms/forms.scss</code>, line 138
+        </div>
+
+    </section>
+    <section id="kssref-base-forms-select" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-forms-select">
+            <span class="kss-title__ref">
+              2.7.7
+            </span>
+            Select list
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>The <code>&lt;select&gt;</code> element represents a form field for selecting amongst a set of
+options.</p>
+<p>Known limitation: by default, Chrome and Safari on OS X allow very limited
+styling of <code>&lt;select&gt;</code>, unless a <code>border</code> property is set.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <div>
+  <label for="selectDropdown">A standard drop-down</label>
+  <select class="" id="selectDropdown">
+    <option>Option 1</option>
+    <option>Option 2</option>
+    <option>Option 3</option>
+    <optgroup label="More options">
+      <option>Option 4</option>
+      <option>Option 5</option>
+    </optgroup>
+  </select>
+</div>
+
+<div>
+  <label for="selectMultiItem">A multi-item select field</label>
+  <select class="" id="selectMultiItem" multiple>
+    <option>Option 1</option>
+    <option>Option 2</option>
+    <option>Option 3</option>
+    <optgroup label="More options">
+      <option>Option 4</option>
+      <option>Option 5</option>
+    </optgroup>
+  </select>
+</div>
+
+<div>
+  <label for="selectDisabled">A disabled drop-down</label>
+  <select class="" id="selectDisabled" disabled>
+    <option>Option 1</option>
+    <option>Option 2</option>
+    <option>Option 3</option>
+    <optgroup label="More options">
+      <option>Option 4</option>
+      <option>Option 5</option>
+    </optgroup>
+  </select>
+</div>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;div&gt;
+  &lt;label for&#x3D;&quot;selectDropdown&quot;&gt;A standard drop-down&lt;/label&gt;
+  &lt;select class&#x3D;&quot;&quot; id&#x3D;&quot;selectDropdown&quot;&gt;
+    &lt;option&gt;Option 1&lt;/option&gt;
+    &lt;option&gt;Option 2&lt;/option&gt;
+    &lt;option&gt;Option 3&lt;/option&gt;
+    &lt;optgroup label&#x3D;&quot;More options&quot;&gt;
+      &lt;option&gt;Option 4&lt;/option&gt;
+      &lt;option&gt;Option 5&lt;/option&gt;
+    &lt;/optgroup&gt;
+  &lt;/select&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;selectMultiItem&quot;&gt;A multi-item select field&lt;/label&gt;
+  &lt;select class&#x3D;&quot;&quot; id&#x3D;&quot;selectMultiItem&quot; multiple&gt;
+    &lt;option&gt;Option 1&lt;/option&gt;
+    &lt;option&gt;Option 2&lt;/option&gt;
+    &lt;option&gt;Option 3&lt;/option&gt;
+    &lt;optgroup label&#x3D;&quot;More options&quot;&gt;
+      &lt;option&gt;Option 4&lt;/option&gt;
+      &lt;option&gt;Option 5&lt;/option&gt;
+    &lt;/optgroup&gt;
+  &lt;/select&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;selectDisabled&quot;&gt;A disabled drop-down&lt;/label&gt;
+  &lt;select class&#x3D;&quot;&quot; id&#x3D;&quot;selectDisabled&quot; disabled&gt;
+    &lt;option&gt;Option 1&lt;/option&gt;
+    &lt;option&gt;Option 2&lt;/option&gt;
+    &lt;option&gt;Option 3&lt;/option&gt;
+    &lt;optgroup label&#x3D;&quot;More options&quot;&gt;
+      &lt;option&gt;Option 4&lt;/option&gt;
+      &lt;option&gt;Option 5&lt;/option&gt;
+    &lt;/optgroup&gt;
+  &lt;/select&gt;
+&lt;/div&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/forms/forms.scss</code>, line 152
+        </div>
+
+    </section>
+    <section id="kssref-base-forms-textarea" class="kss-section kss-section--depth-3">
+
+      <div class="kss-style">
+        <h3 class="kss-title kss-title--level-3">
+          <a class="kss-title__permalink" href="#kssref-base-forms-textarea">
+            <span class="kss-title__ref">
+              2.7.8
+            </span>
+            Text areas
+          </a>
+        </h3>
+
+          <div class="kss-description">
+            <p>The <code>&lt;textarea&gt;</code> element represents a multi-line plain text form field.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Examples
+          </div>
+
+            <div class="kss-modifier__default-name kss-style">
+              Default styling
+            </div>
+
+          <div class="kss-modifier__example">
+            <div>
+  <label for="exampleTextarea">Text area</label>
+  <textarea class="[modifier class]" rows="3" id="exampleTextarea"></textarea>
+</div>
+<div>
+  <label for="exampleTextarea">Disabled text area</label>
+  <textarea class="[modifier class]" rows="3" id="exampleTextarea" disabled></textarea>
+</div>
+
+          </div>
+
+            <div class="kss-modifier__name kss-style">
+              :hover
+            </div>
+            <div class="kss-modifier__description kss-style">
+              Hover styling.
+            </div>
+            <div class="kss-modifier__example">
+              <div>
+  <label for="exampleTextarea">Text area</label>
+  <textarea class="pseudo-class-hover" rows="3" id="exampleTextarea"></textarea>
+</div>
+<div>
+  <label for="exampleTextarea">Disabled text area</label>
+  <textarea class="pseudo-class-hover" rows="3" id="exampleTextarea" disabled></textarea>
+</div>
+
+            </div>
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;div&gt;
+  &lt;label for&#x3D;&quot;exampleTextarea&quot;&gt;Text area&lt;/label&gt;
+  &lt;textarea class&#x3D;&quot;[modifier class]&quot; rows&#x3D;&quot;3&quot; id&#x3D;&quot;exampleTextarea&quot;&gt;&lt;/textarea&gt;
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;label for&#x3D;&quot;exampleTextarea&quot;&gt;Disabled text area&lt;/label&gt;
+  &lt;textarea class&#x3D;&quot;[modifier class]&quot; rows&#x3D;&quot;3&quot; id&#x3D;&quot;exampleTextarea&quot; disabled&gt;&lt;/textarea&gt;
+&lt;/div&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/forms/forms.scss</code>, line 168
+        </div>
+
+    </section>
+    <section id="kssref-base-table" class="kss-section kss-section--depth-2">
+
+      <div class="kss-style">
+        <h2 class="kss-title kss-title--level-2">
+          <a class="kss-title__permalink" href="#kssref-base-table">
+            <span class="kss-title__ref">
+              2.8
+            </span>
+            Tables
+          </a>
+        </h2>
+
+          <div class="kss-description">
+            <p>The table element displays tabular data in rows, columns, and cells.</p>
+
+          </div>
+
+      </div>
+
+        <div class="kss-modifier__wrapper">
+          <div class="kss-modifier__heading kss-style">
+            Example
+          </div>
+
+
+          <div class="kss-modifier__example">
+            <table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Jane</td>
+      <td>Doe</td>
+      <td>jdoe</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Jamie</td>
+      <td>Morgan</td>
+      <td>jmorgan</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Jacob</td>
+      <td>Smith</td>
+      <td>jsmith</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Username</th>
+    </tr>
+  </tfoot>
+</table>
+
+          </div>
+
+        </div>
+          <div class="kss-markup kss-style">
+            <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;#&lt;/th&gt;
+      &lt;th&gt;First Name&lt;/th&gt;
+      &lt;th&gt;Last Name&lt;/th&gt;
+      &lt;th&gt;Username&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;Jane&lt;/td&gt;
+      &lt;td&gt;Doe&lt;/td&gt;
+      &lt;td&gt;jdoe&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;Jamie&lt;/td&gt;
+      &lt;td&gt;Morgan&lt;/td&gt;
+      &lt;td&gt;jmorgan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;Jacob&lt;/td&gt;
+      &lt;td&gt;Smith&lt;/td&gt;
+      &lt;td&gt;jsmith&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;th&gt;#&lt;/th&gt;
+      &lt;th&gt;First Name&lt;/th&gt;
+      &lt;th&gt;Last Name&lt;/th&gt;
+      &lt;th&gt;Username&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;
+</code></pre>
+          </div>
+
+        <div class="kss-source kss-style">
+          Source: <code>base/tables/tables.scss</code>, line 4
+        </div>
+
+    </section>
+</article>
+
+
+<ul id="kss-toc" style="display: none;">
+    <li data-url="./section-sass.html#kssref-sass" data-name="Colors and Sass"></li>
+      <li data-url="./section-sass.html#kssref-sass-assets" data-name="Assets"></li>
+      <li data-url="./section-sass.html#kssref-sass-colors" data-name="Colors"></li>
+      <li data-url="./section-sass.html#kssref-sass-mixins" data-name="sass.mixins"></li>
+      <li data-url="./section-sass.html#kssref-sass-mixins-clearfix" data-name="clearfix()"></li>
+      <li data-url="./section-sass.html#kssref-sass-mixins-lists" data-name="Lists"></li>
+      <li data-url="./section-sass.html#kssref-sass-mixins-print-none" data-name="Do not print"></li>
+      <li data-url="./section-sass.html#kssref-sass-mixins-rtl" data-name="rtl()"></li>
+      <li data-url="./section-sass.html#kssref-sass-mixins-visually-hidden" data-name="visually-hidden()"></li>
+      <li data-url="./section-sass.html#kssref-sass-mixins-visually-hidden--focusable" data-name="visually-hidden--focusable()"></li>
+      <li data-url="./section-sass.html#kssref-sass-mixins-visually-hidden--off" data-name="visually-hidden--off()"></li>
+      <li data-url="./section-sass.html#kssref-sass-modules" data-name="3rd party libraries"></li>
+      <li data-url="./section-sass.html#kssref-sass-variables" data-name="sass.variables"></li>
+      <li data-url="./section-sass.html#kssref-sass-variables-breakpoints" data-name="Breakpoints"></li>
+    <li data-url="./section-base.html#kssref-base" data-name="Base"></li>
+      <li data-url="./section-base.html#kssref-base-headings" data-name="Headings"></li>
+      <li data-url="./section-base.html#kssref-base-icons" data-name="Global icons"></li>
+      <li data-url="./section-base.html#kssref-base-link" data-name="Links"></li>
+      <li data-url="./section-base.html#kssref-base-grouping" data-name="Grouping content"></li>
+      <li data-url="./section-base.html#kssref-base-grouping-blockquote" data-name="Blockquotes"></li>
+      <li data-url="./section-base.html#kssref-base-grouping-code" data-name="Code"></li>
+      <li data-url="./section-base.html#kssref-base-grouping-figure" data-name="Figures"></li>
+      <li data-url="./section-base.html#kssref-base-grouping-hr" data-name="Horizontal rule"></li>
+      <li data-url="./section-base.html#kssref-base-grouping-lists" data-name="Lists"></li>
+      <li data-url="./section-base.html#kssref-base-grouping-p" data-name="Body copy"></li>
+      <li data-url="./section-base.html#kssref-base-grouping-pre" data-name="Preformatted text"></li>
+      <li data-url="./section-base.html#kssref-base-text" data-name="Text-level semantics"></li>
+      <li data-url="./section-base.html#kssref-base-text-abbr" data-name="Abbreviation / Acroynym"></li>
+      <li data-url="./section-base.html#kssref-base-text-b" data-name="Bold"></li>
+      <li data-url="./section-base.html#kssref-base-text-cite" data-name="Cite"></li>
+      <li data-url="./section-base.html#kssref-base-text-del" data-name="Deleted text"></li>
+      <li data-url="./section-base.html#kssref-base-text-dfn" data-name="Definition"></li>
+      <li data-url="./section-base.html#kssref-base-text-i" data-name="Italics"></li>
+      <li data-url="./section-base.html#kssref-base-text-ins" data-name="Inserted text"></li>
+      <li data-url="./section-base.html#kssref-base-text-mark" data-name="Marked text"></li>
+      <li data-url="./section-base.html#kssref-base-text-q" data-name="Quote"></li>
+      <li data-url="./section-base.html#kssref-base-text-s" data-name="Strikethrough text"></li>
+      <li data-url="./section-base.html#kssref-base-text-small" data-name="Small text"></li>
+      <li data-url="./section-base.html#kssref-base-text-sub" data-name="Superscript / Subscript"></li>
+      <li data-url="./section-base.html#kssref-base-text-u" data-name="Underlined text"></li>
+      <li data-url="./section-base.html#kssref-base-embedded" data-name="Embedded content"></li>
+      <li data-url="./section-base.html#kssref-base-embedded-img" data-name="Image"></li>
+      <li data-url="./section-base.html#kssref-base-embedded-svg" data-name="Scalable vector"></li>
+      <li data-url="./section-base.html#kssref-base-forms" data-name="Forms"></li>
+      <li data-url="./section-base.html#kssref-base-forms-button" data-name="Buttons"></li>
+      <li data-url="./section-base.html#kssref-base-forms-fieldset" data-name="Fieldsets"></li>
+      <li data-url="./section-base.html#kssref-base-forms-input" data-name="Inputs"></li>
+      <li data-url="./section-base.html#kssref-base-forms-input-checkbox" data-name="Checkboxes"></li>
+      <li data-url="./section-base.html#kssref-base-forms-input-radio" data-name="Radio buttons"></li>
+      <li data-url="./section-base.html#kssref-base-forms-label" data-name="Labels"></li>
+      <li data-url="./section-base.html#kssref-base-forms-select" data-name="Select list"></li>
+      <li data-url="./section-base.html#kssref-base-forms-textarea" data-name="Text areas"></li>
+      <li data-url="./section-base.html#kssref-base-table" data-name="Tables"></li>
+    <li data-url="./section-layouts.html#kssref-layouts" data-name="Layouts"></li>
+      <li data-url="./section-layouts.html#kssref-layouts-landing-page" data-name="Responsive 3-column grid"></li>
+    <li data-url="./section-utils.html#kssref-utils" data-name="utils"></li>
+      <li data-url="./section-utils.html#kssref-utils-image-replace" data-name="Image replace"></li>
+    <li data-url="./section-components.html#kssref-components" data-name="Components"></li>
+      <li data-url="./section-components.html#kssref-components-box" data-name="Box"></li>
+      <li data-url="./section-components.html#kssref-components-box-box--icon" data-name="Icon box"></li>
+      <li data-url="./section-components.html#kssref-components-box-box--icon-with-border" data-name="components.box.box--icon-with-border"></li>
+      <li data-url="./section-components.html#kssref-components-button" data-name="Button"></li>
+      <li data-url="./section-components.html#kssref-components-clearfix" data-name="Clearfix"></li>
+      <li data-url="./section-components.html#kssref-components-comment" data-name="Comments"></li>
+      <li data-url="./section-components.html#kssref-components-date" data-name="Date"></li>
+      <li data-url="./section-components.html#kssref-components-divider" data-name="Divider"></li>
+      <li data-url="./section-components.html#kssref-components-footer-bottom" data-name="Footer Bottom"></li>
+      <li data-url="./section-components.html#kssref-components-footer-top" data-name="Footer Top"></li>
+      <li data-url="./section-components.html#kssref-components-forms" data-name="Forms"></li>
+      <li data-url="./section-components.html#kssref-components-forms-autocomplete" data-name="Autocomplete field"></li>
+      <li data-url="./section-components.html#kssref-components-forms-form-item" data-name="Form item"></li>
+      <li data-url="./section-components.html#kssref-components-forms-form-item--radio" data-name="Form item (radio)"></li>
+      <li data-url="./section-components.html#kssref-components-forms-resizable-textarea" data-name="Resizable textarea"></li>
+      <li data-url="./section-components.html#kssref-components-header" data-name="Header"></li>
+      <li data-url="./section-components.html#kssref-components-highlight-mark" data-name="Highlight mark"></li>
+      <li data-url="./section-components.html#kssref-components-inline-links" data-name="Inline links"></li>
+      <li data-url="./section-components.html#kssref-components-messages" data-name="Messages"></li>
+      <li data-url="./section-components.html#kssref-components-messages-single" data-name="Single Message"></li>
+      <li data-url="./section-components.html#kssref-components-messages-multiple" data-name="Multiple Messages"></li>
+      <li data-url="./section-components.html#kssref-components-messages-status" data-name="Message colors"></li>
+      <li data-url="./section-components.html#kssref-components-nav-toggle" data-name="Toggle nav"></li>
+      <li data-url="./section-components.html#kssref-components-navigation" data-name="Navigation"></li>
+      <li data-url="./section-components.html#kssref-components-navigation-breadcrumb" data-name="Breadcrumb navigation"></li>
+      <li data-url="./section-components.html#kssref-components-navigation-more-link" data-name="More link"></li>
+      <li data-url="./section-components.html#kssref-components-navigation-pager" data-name="Pager"></li>
+      <li data-url="./section-components.html#kssref-components-navigation-site-nav" data-name="Site navigation"></li>
+      <li data-url="./section-components.html#kssref-components-navigation-skip-link" data-name="Skip link"></li>
+      <li data-url="./section-components.html#kssref-components-navigation-tabs" data-name="Tabs"></li>
+      <li data-url="./section-components.html#kssref-components-print-none" data-name="Do not print"></li>
+      <li data-url="./section-components.html#kssref-components-progress-bar" data-name="Progress bar"></li>
+      <li data-url="./section-components.html#kssref-components-responsive-video" data-name="Responsive video"></li>
+      <li data-url="./section-components.html#kssref-components-search" data-name="Search"></li>
+      <li data-url="./section-components.html#kssref-components-social" data-name="Social"></li>
+      <li data-url="./section-components.html#kssref-components-tags" data-name="Tags"></li>
+      <li data-url="./section-components.html#kssref-components-teaser" data-name="Teaser"></li>
+      <li data-url="./section-components.html#kssref-components-teaser-teaser-image" data-name="Teaser has image"></li>
+      <li data-url="./section-components.html#kssref-components-unstyled-list" data-name="Unstyled list"></li>
+      <li data-url="./section-components.html#kssref-components-visually-hidden" data-name="Visually hidden"></li>
+      <li data-url="./section-components.html#kssref-components-watermark" data-name="Watermark"></li>
+</ul>
+
+</div>
+
+<!-- SCRIPTS -->
+<script src="kss-assets/kss.js"></script>
+<script src="kss-assets/scrollspy.js"></script>
+<script src="kss-assets/prettify.js"></script>
+<script src="kss-assets/jquery.min.js"></script>
+<script src="kss-assets/jquery.easy-autocomplete.min.js"></script>
+<script src="kss-assets/offscreen.js"></script>
+<script src="kss-assets/search.js"></script>
+<script>
+  prettyPrint();
+  var spy = new ScrollSpy('#kss-node', {
+    nav: '.kss-nav__menu-child > li > a',
+    className: 'is-in-viewport'
+  });
+</script>
+
+
+
+</body>
+</html>

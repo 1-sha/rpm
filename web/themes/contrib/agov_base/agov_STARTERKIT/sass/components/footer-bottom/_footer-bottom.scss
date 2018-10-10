@@ -1,0 +1,22 @@
+// Footer Bottom
+//
+// The footer bottom region of page
+
+.footer-bottom,
+%footer-bottom {
+  // Inherit from agov_base.
+
+  &__left {
+    // Inherit from agov_base.
+  }
+
+  &__right {
+    // Inherit from agov_base.
+  }
+
+  :link,
+  :visited,
+  &__link {
+    // Inherit from agov_base.
+  }
+}

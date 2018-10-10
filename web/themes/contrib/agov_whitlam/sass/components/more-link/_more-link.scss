@@ -1,0 +1,23 @@
+// More link
+//
+// To make the link completely hidden until a user tabs to the link, combine it
+// with the `visually-hidden` component.
+
+.more-link,
+%more-link {
+  // Inherit from agov_base.
+
+  a {
+    color: $link-colour;
+    border-bottom: solid 1px $link-colour--hover;
+
+    &:hover,
+    &:focus {
+      // Inherit from agov_base.
+    }
+
+    &::after {
+      // Inherit from agov_base.
+    }
+  }
+}

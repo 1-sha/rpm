@@ -1,0 +1,24 @@
+// Comments
+//
+// The comments of page.
+
+.comment,
+%comment {
+  &__outer-wrapper-title {
+    // Inherit from agov_base.
+  }
+
+  &__inner-wrapper {
+    // Inherit from agov_base.
+  }
+
+  &__meta {
+    // Inherit from agov_base.
+  }
+
+  ul.links {
+    a {
+      // Inherit from agov_base.
+    }
+  }
+}

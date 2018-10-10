@@ -1,0 +1,182 @@
+// Dependencies.
+@import 'init';
+
+// Grouping content
+//
+// Weight: 1
+//
+// Style guide: base.grouping
+
+// Blockquotes
+//
+// For quoting blocks of content from another source within your document. Wrap
+// <code>&lt;blockquote&gt;</code> around any <abbr
+// title="HyperText Markup Language">HTML</abbr> as the quote. For straight
+// quotes, we recommend a <code>&lt;p&gt;</code>.
+//
+// Optionally, add a <code>&lt;footer&gt;</code> to identify the source of the
+// quote. Wrap the name of the source work in <code>&lt;cite&gt;</code>.
+//
+// Markup: grouping-blockquote.hbs
+//
+// Style guide: base.grouping.blockquote
+
+blockquote {
+  // Add your styles.
+}
+
+// Figures
+//
+// The element can thus be used to annotate illustrations, diagrams, photos,
+// code listings, etc.
+//
+// Optionally, a &lt;figcaption&gt; element inside the &lt;figure&gt; represents
+// the caption of the figure.
+//
+// Markup: grouping-figure.hbs
+//
+// Style guide: base.grouping.figure
+
+figure {
+  // Add your styles.
+}
+
+figcaption {
+  // Add your styles.
+}
+
+// Horizontal rule
+//
+// The hr element represents a paragraph-level thematic break, e.g. a scene
+// change in a story, or a transition to another topic within a section of a
+// reference book.
+//
+// Markup: grouping-hr.hbs
+//
+// Style guide: base.grouping.hr
+
+hr {
+  // Add your styles.
+}
+
+// Body copy
+//
+// The default <code>font-size</code> and <code>line-height</code> are applied to the <code>&lt;body&gt;</code> and all paragraphs. In addition, <code>&lt;p&gt;</code> (paragraphs) receive a top and bottom margin.</p>
+//
+// Markup: grouping-p.hbs
+//
+// Style guide: base.grouping.p
+
+p,
+pre {
+  // Add your styles.
+}
+
+// Preformatted text
+//
+// The &lt;pre&gt; tag represents a block of preformatted text, such as
+// fragments of computer code, ASCII art, etc.
+//
+// Markup: grouping-pre.hbs
+//
+// Style guide: base.grouping.pre
+
+@mixin monospace {
+  // Address odd `em`-unit font size rendering in all browsers.
+  // The value of $font-monospace ends with ", serif".
+  font-family: $base-monospace;
+}
+
+pre {
+  @include monospace;
+  // Contain overflow in all browsers.
+  overflow: auto;
+}
+
+// Code
+//
+// The <code>code</code> element represents a fragment of computer code. The
+// <code>var</code> element represents a variable. The <code>samp</code> element
+// represents (sample) output from a program or computing system. The
+// <code>kbd</code> element represents user input (typically keyboard input.)
+//
+// Markup: text-code.hbs
+//
+// Style guide: base.grouping.code
+
+code,
+kbd,
+samp,
+var {
+  @include monospace;
+}
+
+// Lists
+//
+// Style guide: base.grouping.lists
+
+// Unordered list
+//
+// A list of items in which the order does <em>not</em> explicitly matter.
+//
+// Markup: grouping-lists-ul.hbs
+//
+// Style guide: base.grouping.lists.ul
+
+// Ordered list
+//
+// A list of items in which the order <em>does</em> explicitly matter.
+//
+// Markup: grouping-lists-ol.hbs
+//
+// Style guide: base.grouping.lists.ol
+
+// Description list
+//
+// A list of terms with their associated descriptions.
+//
+// Markup: grouping-lists-dl.hbs
+//
+// Style guide: base.grouping.lists.dl
+ul {
+  // Add your styles.
+}
+
+ol {
+  // Add your styles.
+
+  ol {
+    // Add your styles.
+  }
+}
+
+dl,
+menu,
+ol,
+ul {
+  // Add your styles.
+}
+
+// Turn off margins on nested lists.
+ol,
+ul {
+  ol,
+  ul {
+    // Add your styles.
+  }
+}
+
+dt {
+  // Add your styles.
+}
+
+dd {
+  // Add your styles.
+}
+
+// Address paddings set differently in IE 6/7.
+menu,
+ol,
+ul {
+  // Add your styles.
+}

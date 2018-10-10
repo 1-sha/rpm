@@ -1,0 +1,61 @@
+// Dependencies.
+@import 'init';
+
+// Button
+//
+// In addition to the default styling of `<button>` and
+// `<input type="submit|image|reset|button">` elements, the `.button` class and
+// its variants can apply buttons styles to various elements (like an `<a>`
+// link).
+//
+// Markup: button.hbs
+//
+// :hover - Hover styling.
+//
+// Style guide: components.button
+
+.button,
+%button {
+  text-align: center;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    // Add your styles.
+  }
+
+  // Re-set default cursor for disabled elements.
+  &[disabled] {
+    opacity: .25;
+
+    &:hover,
+    &:focus {
+      // Add your styles.
+    }
+  }
+
+  &--large {
+    @include font-size(26px);
+    @include padding(26px);
+    height: auto;
+  }
+
+  &--wide {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+
+  // Fix alignment for homepage button.
+  .landing-page__right-sidebar & {
+    margin-bottom: 0;
+    margin-top: 1.2em;
+  }
+}
+
+// Fix for contextual links inheriting UI Kit button styles.
+.contextual .trigger:focus,
+.contextual .trigger:hover {
+  background-color: $white !important;
+}

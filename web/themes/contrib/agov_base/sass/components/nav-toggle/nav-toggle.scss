@@ -1,0 +1,19 @@
+// Toggle nav
+//
+// Toggle for the site-nav when the screen is too narrow to display it's horizontally.
+//
+// .active - The active state of the nav toggle
+//
+// Markup: nav-toggle.hbs
+//
+// Styleguide: components.nav-toggle
+
+.nav-toggle,
+%nav-toggle {
+  // Compensate for no wrapper.
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 2em;
+  float: right;
+  font-weight: weight(bold);
+}

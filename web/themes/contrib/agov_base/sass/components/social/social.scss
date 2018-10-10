@@ -1,0 +1,69 @@
+// Dependencies.
+@import 'init';
+
+// Social
+//
+// The social of page
+//
+// Markup: social.hbs
+//
+// Style guide: components.social
+
+.social,
+%social {
+
+  &__item {
+    @include margin(0 .75 .25 0);
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+
+    a {
+      @include image-replace;
+      background-color: $non-white;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: 30px 30px;
+      border-radius: 100%;
+      border: 0;
+      width: 48px;
+      height: 48px;
+      text-align: center;
+      display: block;
+
+      &:hover,
+      &:focus {
+        // Add your styles.
+      }
+    }
+  }
+
+  // Map our icons to classes for now.
+  &--facebook {
+    background-image: icon-url('facebook.svg');
+  }
+
+  &--twitter {
+    background-image: icon-url('twitter.svg');
+  }
+
+  &--youtube {
+    background-image: icon-url('youtube.svg');
+  }
+
+  &--linkedin {
+    background-image: icon-url('linkedin.svg');
+  }
+
+  &--instagram {
+    background-image: icon-url('instagram.svg');
+  }
+
+  &--rss {
+    background-image: icon-url('rss.svg');
+  }
+
+  &--contact {
+    background-image: icon-url('email.svg');
+  }
+}

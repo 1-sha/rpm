@@ -1,0 +1,132 @@
+// Grouping content
+@import "components/divider/divider";
+
+// Blockquotes
+//
+// For quoting blocks of content from another source within your document. Wrap
+// <code>&lt;blockquote&gt;</code> around any <abbr
+// title="HyperText Markup Language">HTML</abbr> as the quote. For straight
+// quotes, we recommend a <code>&lt;p&gt;</code>.
+//
+// Optionally, add a <code>&lt;footer&gt;</code> to identify the source of the
+// quote. Wrap the name of the source work in <code>&lt;cite&gt;</code>.
+
+blockquote {
+  // Inherit from agov_base.
+}
+
+// Figures
+//
+// The element can thus be used to annotate illustrations, diagrams, photos,
+// code listings, etc.
+//
+// Optionally, a &lt;figcaption&gt; element inside the &lt;figure&gt; represents
+// the caption of the figure.
+
+figure {
+  // Inherit from agov_base.
+}
+
+figcaption {
+  // Inherit from agov_base.
+}
+
+// Horizontal rule
+//
+// The hr element represents a paragraph-level thematic break, e.g. a scene
+// change in a story, or a transition to another topic within a section of a
+// reference book.
+
+hr {
+  @extend %divider;
+}
+
+// Body copy
+//
+// The default <code>font-size</code> and <code>line-height</code> are applied to the <code>&lt;body&gt;</code> and all paragraphs. In addition, <code>&lt;p&gt;</code> (paragraphs) receive a top and bottom margin.</p>
+
+p,
+pre {
+  // Inherit from agov_base.
+}
+
+// Preformatted text
+//
+// The &lt;pre&gt; tag represents a block of preformatted text, such as
+// fragments of computer code, ASCII art, etc.
+
+pre {
+  // Inherit from agov_base
+}
+
+// Code
+//
+// The <code>code</code> element represents a fragment of computer code. The
+// <code>var</code> element represents a variable. The <code>samp</code> element
+// represents (sample) output from a program or computing system. The
+// <code>kbd</code> element represents user input (typically keyboard input.)
+
+code,
+kbd,
+samp,
+var {
+  // Inherit from agov_base
+}
+
+// Lists
+//
+
+// Unordered list
+//
+// A list of items in which the order does <em>not</em> explicitly matter.
+
+// Ordered list
+//
+// A list of items in which the order <em>does</em> explicitly matter.
+
+ul {
+  // Inherit from agov_base.
+}
+
+ol {
+  // Inherit from agov_base.
+
+  ol {
+    // Inherit from agov_base.
+  }
+}
+
+// Description list
+//
+// A list of terms with their associated descriptions.
+
+dl,
+menu,
+ol,
+ul {
+  // Inherit from agov_base.
+}
+
+// Turn off margins on nested lists.
+ol,
+ul {
+  ol,
+  ul {
+    // Inherit from agov_base.
+  }
+}
+
+dt {
+  // Inherit from agov_base.
+}
+
+dd {
+  // Inherit from agov_base.
+}
+
+// Address paddings set differently in IE 6/7.
+menu,
+ol,
+ul {
+  // Inherit from agov_base.
+}

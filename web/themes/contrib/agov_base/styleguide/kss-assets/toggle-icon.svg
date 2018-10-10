@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" viewBox="0 0 50 20">
+  <title>Show/Hide Menu</title>
+  <path fill="#fff" fill-rule="evenodd" d="M0 0h24v4H0V0zm0 8h24v4H0V8zm0 8h24v4H0v-4zm39.9-8.93L32.827 0 30 2.828l7.07 7.07L30 16.972l2.828 2.83 7.07-7.072 7.073 7.07 2.83-2.827-7.07-7.07L49.8 2.83 46.97 0 39.9 7.07z"/>
+</svg>

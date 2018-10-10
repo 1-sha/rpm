@@ -1,0 +1,99 @@
+// scss-lint:disable DeclarationOrder
+// Dependencies.
+@import 'init';
+
+// Responsive 3-column grid
+//
+// The `.landing-page` layout is a responsive grid layout that is:
+// - 1 column at mobile sizes
+// - 2 columns at tablet sizes
+// - 3 columns at desktop sizes
+//
+// The `.landing-page` class is used on the container div for the layout. A *grid
+// item* in the container can be created using one of the following classes:
+//
+// - `.landing-page__full` : 3-column wide grid item; starts a new row
+// - `.landing-page__left-content` : 2-column wide grid item, spanning columns 1
+//   and 2; starts a new row
+// - `.landing-page__right-content` : 2-column wide grid item, spanning columns 2
+//   and 3; starts a new row
+// - `.landing-page__left-sidebar` : 1-column wide grid item spanning column 1;
+//   starts a new row on tablet screens
+// - `.landing-page__right-sidebar` : 1-column wide grid item spanning column 3;
+//   starts a new row on tablet screens
+// - `.landing-page__col-1` : 1-column wide grid item spanning column 1; starts a
+//   new row
+// - `.landing-page__col-2` : 1-column wide grid item spanning column 2
+// - `.landing-page__col-3` : 1-column wide grid item spanning column 3; starts a
+//   new row on tablet screens
+// - `.landing-page__col-4` : At tablet sizes, the `__col-x` grid items will form
+//   an irregular layout of 2 items in the first row and 1 item in the second
+//   row. The `__col-4` is a "hidden" item that does not appear on the
+//   large-screen 3-column grid, but is a 1-column wide grid item spanning
+//   column 2 on tablet screens.
+// - `.landing-page__col-x` : 1-column wide grid item spanning column 1; when
+//   several of these are used inside a `.landing-page__grid-item-container` or
+//   `.landing-page`, the first one is positioned like `__col-1`, the
+//   second like `__col-2`, etc.
+//
+// There are 2 ways to do a nested grid:
+// 1. Place a grid container div inside a grid item. Just apply the normal
+//    classes to the nested grid container and its grid items.
+// 2. The grid item's div is also the grid container for the nested grid. In
+//    this case, the `.layout3-col__grid-item-container` class should be added
+//    to the div to ensure its nested grid items align with the parent grid.
+//
+// Markup: landing-page.hbs
+//
+// Style guide: layouts.landing-page
+
+
+.landing-page,
+%landing-page {
+  @include respond-to(medium) {
+    &__full {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-right: -$large-spacing;
+    }
+
+    &__center {
+      align-items: center;
+    }
+
+    &__left-content,
+    &__right-content {
+      padding-right: $large-spacing;
+      flex: 0 0 66.66%;
+      width: 66.66%;
+    }
+
+    &__left-sidebar,
+    &__right-sidebar {
+      padding-right: $large-spacing;
+      flex: 0 0 33.33%;
+      width: 33.33%;
+    }
+
+    &__col-2 {
+      padding-right: $large-spacing;
+      flex: 0 0 50%;
+      width: 50%;
+    }
+
+    &__col-3,
+    &__col-x:nth-child(2n + 1) {
+      padding-right: $large-spacing;
+      flex: 0 0 33.333%;
+      width: 33.33%;
+    }
+
+    &__col-4,
+    &__col-x:nth-child(2n) {
+      padding-right: $large-spacing;
+      flex: 0 0 25%;
+      width: 25%;
+    }
+  }
+}

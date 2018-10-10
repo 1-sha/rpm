@@ -1,0 +1,27 @@
+machine:
+  timezone:
+    Australia/Sydney
+  node:
+    version: 6.1.0
+
+dependencies:
+  cache_directories:
+    - node_modules
+
+  post:
+    - make init
+
+test:
+  override:
+    - make ci-lint
+
+deployment:
+  prod:
+    branch: 8.x-1.x
+    commands:
+      # Push to drupal.org
+      - git config --global user.email "admin@previousnext.com.au"
+      - git config --global user.name "PreviousNext"
+      - git remote add dorg pnx-bot@git.drupal.org:project/agov_whitlam.git
+      - git fetch dorg
+      - git push dorg 8.x-1.x

@@ -1,0 +1,23 @@
+// Embedded content
+
+// Image
+//
+// An &lt;img&gt; tag represents an image.
+
+img,
+svg {
+  // Inherit from agov_base.
+}
+
+// Scalable vector
+//
+// A &lt;svg&gt; tag represents an image encoded as a Scalable Vector Graphic.
+
+svg:not(:root) {
+  // Inherit from agov_base.
+}
+
+// Media
+.media {
+  // Inherit from agov_base.
+}

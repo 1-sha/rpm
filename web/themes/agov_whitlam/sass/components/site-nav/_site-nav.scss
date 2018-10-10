@@ -1,0 +1,53 @@
+// Site Navigation
+
+// scss-lint:disable DeclarationOrder
+
+.site-nav,
+%site-nav {
+  background-color: $non-white;
+
+  &__anchor-active {
+    border-color: $button-bg-colour--active;
+  }
+
+  // Extra class to override UI Kit.
+  &__wrapper {
+    .site-nav__list-item {
+      > a {
+        color: $non-black;
+
+        &:hover,
+        &:focus,
+        &.is-active {
+          @extend %site-nav__anchor-active;
+        }
+      }
+    }
+
+    // Level 2 list, list item and anchor.
+    .site-nav__list-level-2 {
+      background-color: $link-colour--hover;
+    }
+
+    .site-nav__list-item-level-2 {
+      > a {
+        color: $non-black;
+
+        &:hover,
+        &:focus {
+          background-color: $button-bg-colour;
+          color: $button-text-colour;
+        }
+      }
+    }
+
+    // Visually indicate a top level item when hovering.
+    .site-nav__list-item:hover > a,
+      // Visually indicate sub items are focused.
+    .site-nav__list-item > a:focus,
+      // Keep visual indicate when tabbing through children.
+    .site-nav__list-item.opened > a {
+      @extend %site-nav__anchor-active;
+    }
+  }
+}

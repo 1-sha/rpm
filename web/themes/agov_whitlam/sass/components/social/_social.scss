@@ -1,0 +1,52 @@
+// Social
+//
+// The social of page
+
+.social,
+%social {
+
+  &__item {
+    // Inherit from agov_base.
+
+    a {
+      // Inherit from agov_base.
+
+      &:hover,
+      &:focus {
+        // Inherit from agov_base.
+      }
+    }
+  }
+
+
+  // Map our icons to classes for now.
+  &--facebook {
+    // Inherit from agov_base.
+  }
+
+  &--twitter {
+    // Inherit from agov_base.
+  }
+
+  &--youtube {
+    // Inherit from agov_base.
+  }
+
+  &--linkedin {
+    // Inherit from agov_base.
+  }
+
+  &--instagram {
+    // Inherit from agov_base.
+  }
+
+  &--rss {
+    // Inherit from agov_base.
+  }
+
+  &--contact {
+    // Inherit from agov_base.
+  }
+}
+
+

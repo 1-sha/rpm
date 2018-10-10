@@ -1,0 +1,36 @@
+// Headings
+//
+// All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code>,
+// are available. <code>%h1</code> through <code>%h6</code> classes are also
+// available, for when you want to match the font styling of a heading but still
+// want your text to be displayed inline.
+
+h1,
+%h1 {
+  // Inherit from agov_base.
+}
+
+h2,
+%h2 {
+  // Inherit from agov_base.
+}
+
+h3,
+%h3 {
+  // Inherit from agov_base.
+}
+
+h4,
+%h4 {
+  // Inherit from agov_base.
+}
+
+h5,
+%h5 {
+  // Inherit from agov_base.
+}
+
+h6,
+%h6 {
+  // Inherit from agov_base.
+}

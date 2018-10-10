@@ -1,0 +1,18 @@
+{#
+/**
+ * @file
+ * Theme override to display primary and secondary local tasks.
+ */
+#}
+{% if primary %}
+<nav class="inline-tab-nav">
+  <h2 class="visually-hidden">{{ 'Primary tabs'|t }}</h2>
+  <ul>{{ primary }}</ul>
+</nav>
+{% endif %}
+{% if secondary %}
+<nav class="inline-tab-nav inline-tab-nav--secondary">
+  <h2 class="visually-hidden">{{ 'Secondary tabs'|t }}</h2>
+  <ul>{{ secondary }}</ul>
+</nav>
+{% endif %}

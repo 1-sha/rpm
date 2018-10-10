@@ -1,0 +1,87 @@
+name: agov_STARTERKIT
+description: 'A sub-theme of the agov_base theme.'
+
+type: theme
+package: aGov
+core: 8.x
+
+base theme: agov_base
+
+libraries:
+  - agov_STARTERKIT/base
+
+regions:
+  secondary_menu: 'Secondary menu'
+  header: Header
+  primary_menu: 'Primary menu'
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  help: Help
+  content: Content
+  sidebar_second: 'Right sidebar (or additional left sidebar)'
+  footer_top: 'Footer top'
+  footer: Footer
+  bottom: 'Un-styled page bottom (site builder utility area)'
+  # These next two regions are REQUIRED. They are special regions used in the
+  # html.html.twig template instead of the page.html.twig template. And they are
+  # hidden from the "block layout" admin page.
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+# Remove individual stylesheets from the base theme;
+# Un-comment each CSS file as required to exclude it from being loaded.
+
+stylesheets-remove:
+# - '@agov_base/css/base/text/text.css'
+# - '@agov_base/css/base/grouping/grouping.css'
+# - '@agov_base/css/base/embedded/embedded.css'
+# - '@agov_base/css/base/headings/headings.css'
+# - '@agov_base/css/base/links/links.css'
+# - '@agov_base/css/base/tables/tables.css'
+# - '@agov_base/css/base/forms/forms.css'
+# - '@agov_base/css/components/autocomplete/autocomplete.css'
+# - '@agov_base/css/components/breadcrumb/breadcrumb.css'
+# - '@agov_base/css/components/clearfix/clearfix.css'
+# - '@agov_base/css/components/highlight-mark/highlight-mark.css'
+# - '@agov_base/css/components/inline-links/inline-links.css'
+# - '@agov_base/css/components/messages/messages.css'
+# - '@agov_base/css/components/pager/pager.css'
+# - '@agov_base/css/components/print-none/print-none.css'
+# - '@agov_base/css/components/progress-bar/progress-bar.css'
+# - '@agov_base/css/components/resizable-textarea/resizable-textarea.css'
+# - '@agov_base/css/components/reponsive-video/reponsive-video.css'
+# - '@agov_base/css/components/skip-link/skip-link.css'
+# - '@agov_base/css/components/tabs/tabs.css'
+# - '@agov_base/css/components/unstyled-list/unstyled-list.css'
+# - '@agov_base/css/components/visually-hidden/visually-hidden.css'
+# - '@agov_base/css/components/watermark/watermark.css'
+# - '@agov_base/css/components/accordion/accordion.css'
+# - '@agov_base/css/components/box/box.css'
+# - '@agov_base/css/components/button/button.css'
+# - '@agov_base/css/components/comment/comment.css'
+# - '@agov_base/css/components/date/date.css'
+# - '@agov_base/css/components/divider/divider.css'
+# - '@agov_base/css/components/footer-bottom/footer-bottom.css'
+# - '@agov_base/css/components/footer-top/footer-top.css'
+# - '@agov_base/css/components/form-item/form-item.css'
+# - '@agov_base/css/components/header/header.css'
+# - '@agov_base/css/components/site-nav/site-nav.css'
+# - '@agov_base/css/components/nav-toggle/nav-toggle.css'
+# - '@agov_base/css/components/rhythm/rhythm.css'
+# - '@agov_base/css/components/search/search.css'
+# - '@agov_base/css/components/social/social.css'
+# - '@agov_base/css/components/tags/tags.css'
+# - '@agov_base/css/components/teaser/teaser.css'
+# - '@agov_base/css/components/three-column-menu/three-column-menu.css'
+# - '@agov_base/css/layouts/landing-page/landing-page.css'
+
+# Alternatively, remove entire agov_base libraries.
+# Un-comment each library to exclude it's CSS, JS and Dependencies from being loaded.
+
+libraries-override:
+#  agov_base/google_open_sans: false
+#  agov_base/gov_au_ui_kit: false
+#  agov_base/base: false
+#  agov_base/base_components: false
+#  agov_base/agov_components: false
+#  agov_base/layouts: false

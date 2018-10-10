@@ -1,0 +1,19 @@
+// scss-lint:disable SelectorDepth
+
+// Footer Top
+//
+// The footer top region of page
+
+footer[role='contentinfo'] {
+  border-color: $border-contrast-colour;
+
+  .footer-top,
+  %footer-top {
+    border-color: $border-soft-colour;
+    border-width: 0 0 3px;
+
+    &__menu {
+      // Inherit from agov_base.
+    }
+  }
+}

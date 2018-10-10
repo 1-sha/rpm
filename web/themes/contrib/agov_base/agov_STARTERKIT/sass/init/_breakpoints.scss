@@ -1,0 +1,29 @@
+// scss-lint:disable SpaceAfterComma
+@import 'init';
+
+// Import UI-Kit variables so we can use and override them.
+// @see https://github.com/AusDTO/gov-au-ui-kit/blob/develop/assets/sass/utils/_grid-settings.scss
+@import 'gov-au-ui-kit/assets/sass/utils/grid-settings';
+
+// Breakpoints
+//
+// Use the `respond-to()` mixin to use named breakpoints. Documentation is
+// available in the [Breakpoint wiki
+// pages](https://github.com/at-import/breakpoint/wiki/Respond-To).
+//
+// Style guide: sass.variables.breakpoints
+
+$small:  $mobile-minwidth;
+$medium: $tablet-minwidth;
+$large:  $desktop-minwidth;
+
+@include add-breakpoint('small', ($small, 'no-query' true));
+@include add-breakpoint('medium', ($medium, 'no-query' true));
+@include add-breakpoint('medium-only', ($medium ($large - 1), 'no-query' true));
+@include add-breakpoint('large', ($large, 'no-query' true));
+
+@include add-breakpoint('header-mobile', (0 970px, 'no-query' true));
+@include add-breakpoint('header-desktop', (971px, 'no-query' true));
+@include add-breakpoint('three-column-menu-two-column', (550px 960px, 'no-query' true));
+@include add-breakpoint('three-column-menu-three-column', (961px, 'no-query' true));
+@include add-breakpoint('two-column', (850px, 'no-query' true));

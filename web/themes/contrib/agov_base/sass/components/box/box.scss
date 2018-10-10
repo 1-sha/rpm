@@ -1,0 +1,79 @@
+// Dependencies.
+@import 'init';
+
+// Box
+//
+// A simple box styling.
+//
+// Markup: box.hbs
+//
+// :hover  - Hover styling.
+//
+// Style guide: components.box
+
+.box,
+%box {
+  @include padding(10px 0);
+  margin-top: $large-spacing;
+
+  @include respond-to('small') {
+    @include padding(20px 0);
+  }
+
+  &__title {
+    @include margin(0 0 4px);
+  }
+
+// Icon box (with border)
+//
+// Markup: box--icon-with-border.hbs
+//
+// Style guide: components.box.box--icon-with-border.hbs
+
+  &--with-border {
+    border-top: 1px solid $border-highlight-colour;
+  }
+
+// Icon box
+//
+// Markup: box--icon.hbs
+//
+// Style guide: components.box.box--icon
+
+  &--icon {
+    @extend %box;
+
+    &__left {
+      @include padding(2px 0);
+      float: left;
+      width: 85px;
+      height: 85px;
+
+      @include respond-to('medium') {
+        float: none;
+      }
+
+      @include respond-to('large') {
+        float: left;
+      }
+    }
+
+    &__right {
+      @include padding-left(85px);
+
+      @include respond-to('medium') {
+        padding-left: 0;
+      }
+
+      @include respond-to('large') {
+        @include padding-left(85px);
+      }
+    }
+
+    svg {
+      fill: currentColor;
+      width: 60px;
+      height: 60px;
+    }
+  }
+}

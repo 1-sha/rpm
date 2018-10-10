@@ -1,0 +1,40 @@
+// Dependencies.
+@import 'init';
+
+// Tags
+//
+// Emulates tags from the UI-Kit.
+//
+// Markup: tags.hbs
+//
+// Style guide: components.tags
+
+.tags,
+%tags {
+
+  &__items {
+    @include unstyled-list;
+    display: inline;
+  }
+
+  &__item {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    color: $grey;
+    line-height: $base-heading-leading * 1.5;
+    margin-right: $tiny-spacing;
+    font-size: $small-font-size;
+
+    a {
+      padding: 2px $tiny-spacing;
+      border: 1px solid $button-bg-colour;
+      border-radius: 2px;
+
+      &:hover,
+      &:focus {
+        border-color: $link-colour--hover;
+      }
+    }
+  }
+}

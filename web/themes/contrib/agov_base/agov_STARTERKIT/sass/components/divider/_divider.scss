@@ -1,0 +1,9 @@
+// Divider
+//
+// Can be used as an `<hr>`, an empty `<div>` or as a container.
+
+.divider,
+%divider {
+  border-top-width: 6px;
+  border-color: $non-white;
+}

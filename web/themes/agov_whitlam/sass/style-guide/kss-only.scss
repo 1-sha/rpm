@@ -1,0 +1,43 @@
+@import 'init';
+@import 'gov-au-ui-kit/assets/sass/vendor';
+@import 'gov-au-ui-kit/assets/sass/utils';
+@import 'gov-au-ui-kit/assets/sass/components/buttons';
+@import 'gov-au-ui-kit/assets/sass/components/links';
+
+// This file is used to add styles to the style guide and is not included in
+// the Drupal site. It gets included by the style guide by adding it to the
+// options.styleGuide.css object in gulpfile.js.
+
+// Add an outline to every grid item in the style guide.
+[id^="kssref-layouts-"] [class^="layout-"][class*="__"] {
+  outline: 1px dotted $border-colour;
+}
+
+#kss-node .kss-section.kss-overview {
+  padding-top: 68px;
+}
+
+#kss-node.kss-offscreen .kss-offscreen__toggle {
+  border: 0 !important;
+  padding: 0 !important;
+}
+
+.wrap-demo {
+  display: block;
+}
+
+.demo-bg {
+  @include padding-top(4);
+  background: $non-black;
+  position: relative;
+
+  @include respond-to('medium') {
+    background: none;
+    padding: 0;
+  }
+}
+
+.kss-modifier__example {
+  @include link-colours($non-black, $light-aqua, $non-black);
+  @include button-colours($button-bg-colour, $button-bg-colour--hover, $button-bg-colour--active, $button-text-colour);
+}

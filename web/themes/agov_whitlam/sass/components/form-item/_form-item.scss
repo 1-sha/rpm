@@ -1,0 +1,54 @@
+// Form item
+//
+// Wrapper for a form element (or group of form elements) and its label.
+
+.form-item,
+%form-item {
+
+  // The part of the label that indicates a required field.
+  &__required {
+    // Inherit from agov_base.
+  }
+
+  // The descriptive help text (separate from the label).
+  &__description {
+    // Inherit from agov_base.
+  }
+
+  &--inline {
+    // Inherit from agov_base.
+  }
+
+  &--tight {
+    // Inherit from agov_base.
+  }
+
+// Form item (radio)
+//
+// Checkboxes and radios require slightly different markup; their label is after
+// their widget instead of before. Uses the `.form-item--radio` class variant of
+// the normal form item and is placed on each of the nested form items.
+
+  &--radio {
+    // Inherit from agov_base.
+  }
+
+  &--radio__label,
+  &--radio &__label {
+    // Inherit from agov_base.
+  }
+
+  &--radio__description,
+  &--radio &__description {
+    // Inherit from agov_base.
+  }
+
+  &.is-error,
+  &-is-error {
+    input,
+    textarea,
+    select {
+      // Inherit from agov_base.
+    }
+  }
+}

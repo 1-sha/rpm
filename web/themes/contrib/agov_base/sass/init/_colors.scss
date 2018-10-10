@@ -1,0 +1,17 @@
+// scss-lint:disable ColorKeyword; ColorVariable
+
+// Colors
+//
+// Colour variables for use to skin the site.
+//
+// Weight: -1
+//
+// Style guide: sass.colors
+
+// Import UI-Kit colours so we can use and override them.
+// @see https://github.com/AusDTO/gov-au-ui-kit/blob/develop/assets/sass/utils/_colours.scss
+@import 'gov-au-ui-kit/assets/sass/utils/colours';
+
+
+$header-bg-colour:              #fff;
+$header-colour:                 $non-black;
