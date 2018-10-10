@@ -1,0 +1,20 @@
+uuid: 46c3d037-9838-481d-9a67-4f5355282337
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_organisation_society
+  module:
+    - user
+id: user.user.field_organisation_society
+field_name: field_organisation_society
+entity_type: user
+bundle: user
+label: 'Organisation / society'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

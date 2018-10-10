@@ -12,8 +12,8 @@ _core:
   default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
 id: agov_whitlam_footer
 theme: agov_whitlam
-region: secondary_menu
-weight: 0
+region: footer_top
+weight: -6
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

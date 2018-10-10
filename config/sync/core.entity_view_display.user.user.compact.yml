@@ -26,4 +26,11 @@ content:
     third_party_settings: {  }
     label: hidden
 hidden:
+  field_city: true
+  field_country: true
+  field_first_name: true
+  field_name: true
+  field_organisation_society: true
+  field_particular_indications: true
+  field_personnal_website: true
   member_for: true
