@@ -3,8 +3,9 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
-    ],
-    "content-hash": "0a0f8e883b332c5dc930605659815441",
+],
+
+    "content-hash": "da58f1d47c6c31126fb9a41abe887bd6",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1774,6 +1775,65 @@
             "homepage": "https://www.drupal.org/project/agov_base",
             "support": {
                 "source": "http://cgit.drupalcode.org/agov_base"
+            }
+        },
+        {
+            "name": "drupal/agov_whitlam",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/agov_whitlam",
+                "reference": "8.x-1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/agov_whitlam-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "e7fce3af5b00695bd4b85f2f45c33cde86e69c2f"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.3",
+                    "datestamp": "1490142183",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "benjy",
+                    "homepage": "https://www.drupal.org/user/1852732"
+                },
+                {
+                    "name": "kim.pepper",
+                    "homepage": "https://www.drupal.org/user/370574"
+                },
+                {
+                    "name": "pnx-bot",
+                    "homepage": "https://www.drupal.org/user/3106013"
+                },
+                {
+                    "name": "rikki_iki",
+                    "homepage": "https://www.drupal.org/user/1068918"
+                }
+            ],
+            "description": "A sub-theme of the agov_base theme.",
+            "homepage": "https://www.drupal.org/project/agov_whitlam",
+            "support": {
+                "source": "http://cgit.drupalcode.org/agov_whitlam"
             }
         },
         {

@@ -1,0 +1,23 @@
+uuid: 24b20023-5e23-4a5f-bdc2-07d95e149713
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_daily_cost
+    - node.type.hotel
+id: node.hotel.field_daily_cost
+field_name: field_daily_cost
+entity_type: node
+bundle: hotel
+label: 'Daily Cost'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: '€ '
+  suffix: ''
+field_type: decimal
