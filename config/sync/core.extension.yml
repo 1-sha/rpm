@@ -13,17 +13,26 @@ module:
   config: 0
   contact: 0
   contextual: 0
+  date_range_formatter: 0
   datetime: 0
+  datetime_range: 0
   dblog: 0
+  default_content: 0
+  default_content_deploy: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
   field_ui: 0
   file: 0
+  file_mdm: 0
+  file_mdm_exif: 0
+  file_mdm_font: 0
   filter: 0
+  hal: 0
   help: 0
   history: 0
   image: 0
+  layout_discovery: 0
   link: 0
   menu_ui: 0
   node: 0
@@ -35,6 +44,7 @@ module:
   rdf: 0
   registration_role: 0
   search: 0
+  serialization: 0
   shortcut: 0
   system: 0
   taxonomy: 0
@@ -43,6 +53,7 @@ module:
   tour: 0
   user: 0
   views_ui: 0
+  ds: 1
   menu_link_content: 1
   views: 10
   standard: 1000
