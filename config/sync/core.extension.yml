@@ -12,6 +12,8 @@ module:
   comment: 0
   config: 0
   contact: 0
+  content_moderation: 0
+  content_moderation_reviewer: 0
   contextual: 0
   date_range_formatter: 0
   datetime: 0
@@ -34,6 +36,7 @@ module:
   image: 0
   layout_discovery: 0
   link: 0
+  masquerade: 0
   menu_ui: 0
   node: 0
   options: 0
@@ -52,7 +55,9 @@ module:
   toolbar: 0
   tour: 0
   user: 0
+  userprotect: 0
   views_ui: 0
+  workflows: 0
   ds: 1
   menu_link_content: 1
   views: 10
