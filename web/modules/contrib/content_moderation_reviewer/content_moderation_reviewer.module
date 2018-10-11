@@ -1,0 +1,88 @@
+<?php
+
+use Drupal\Core\Entity\EntityTypeInterface;
+use Drupal\Core\Field\BaseFieldDefinition;
+
+/**
+ * Implements hook_entity_bundle_field_info().
+ */
+function content_moderation_reviewer_entity_bundle_field_info(\Drupal\Core\Entity\EntityTypeInterface $entity_type, $bundle, array $base_field_definitions) {
+  // Only add the reviewer field for bundles that are under moderation.
+  if (array_key_exists('moderation_state', $base_field_definitions)) {
+    $definitions['content_moderation_reviewer'] = BaseFieldDefinition::create('entity_reference')
+      // @todo Figure out whether we should allow multiple reviewers ...
+      // @todo Figure out whether this field should be required.
+      ->setLabel('Moderation reviewer')
+      ->setDescription('The reviewer for a piece of content')
+      ->setRevisionable(TRUE)
+      ->setDisplayConfigurable('view', TRUE)
+      ->setDisplayOptions('view', array(
+        'label' => 'hidden',
+        'type' => 'hidden',
+      ))
+      ->setDisplayConfigurable('form', FALSE)
+      ->setDisplayOptions('form', array(
+        'type' => 'content_moderation_reviewer_autocomplete',
+        'weight' => 120,
+        'settings' => array(
+          'size' => 60,
+          'match_operator' => 'CONTAINS',
+          'placeholder' => ''
+        ),
+      ))
+      ->addConstraint('ModerationStateReviewer', [])
+      ->setSetting('target_type', 'user');
+    return $definitions;
+  }
+}
+
+/**
+ * Implements hook_entity_base_field_info().
+ */
+function content_moderation_reviewer_entity_base_field_info(EntityTypeInterface $entity_type) {
+  $definitions['content_moderation_reviewer'] = BaseFieldDefinition::create('entity_reference')
+    ->setSetting('target_type', 'user')
+    ->setRevisionable(TRUE)
+    ->setName('content_moderation_reviewer')
+    ->setLabel(t('Moderation reviewer'))
+    ->setTargetEntityTypeId($entity_type->id());
+  return $definitions;
+}
+
+/**
+ * Implements hook_views_data().
+ *
+ * Enhance the labels in views.
+ */
+function content_moderation_reviewer_views_data_alter(array &$views_data) {
+  if (!empty($views_data['node_field_data']['content_moderation_reviewer'])) {
+    $views_data['node_field_data']['content_moderation_reviewer']['relationship']['title'] = t('Moderation reviewer');
+    $views_data['node_field_data']['content_moderation_reviewer']['relationship']['label'] = t('Moderation reviewer');
+  }
+  if (!empty($views_data['node_field_revision']['content_moderation_reviewer'])) {
+    $views_data['node_field_revision']['content_moderation_reviewer']['relationship']['title'] = t('Moderation reviewer');
+    $views_data['node_field_revision']['content_moderation_reviewer']['relationship']['label'] = t('Moderation reviewer');
+  }
+
+  $content_moderation_state_entity_type = \Drupal::entityTypeManager()->getDefinition('content_moderation_state');
+  $content_moderation_state_entity_base_table = $content_moderation_state_entity_type->getDataTable() ?: $content_moderation_state_entity_type->getBaseTable();
+  $content_moderation_state_entity_revision_base_table = $content_moderation_state_entity_type->getRevisionDataTable() ?: $content_moderation_state_entity_type->getRevisionTable();
+
+  $views_data[$content_moderation_state_entity_base_table]['content_moderation_reviewer__reviewable'] = [
+    'title' => t('My reviewable content'),
+    'help' => t('Filters content by content which is reviewable by myself'),
+    'filter' => [
+      'field' => 'moderation_state',
+      'id' => 'content_moderation_reviewer__reviewable',
+    ],
+  ];
+  $views_data[$content_moderation_state_entity_revision_base_table]['content_moderation_reviewer__reviewable'] = [
+    'title' => t('My reviewable content'),
+    'help' => t('Filters content by content which is reviewable by myself'),
+    'filter' => [
+      'field' => 'moderation_state',
+      'id' => 'content_moderation_reviewer__reviewable',
+    ],
+  ];
+}
+

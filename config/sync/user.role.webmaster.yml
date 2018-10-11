@@ -4,6 +4,28 @@ status: true
 dependencies: {  }
 id: webmaster
 label: Webmaster
-weight: -5
+weight: -8
 is_admin: null
-permissions: {  }
+permissions:
+  - 'access contextual links'
+  - 'access toolbar'
+  - 'access user contact forms'
+  - 'administer filters'
+  - 'administer node display'
+  - 'administer node fields'
+  - 'create hotel content'
+  - 'delete any hotel content'
+  - 'edit any programmes_de_recherche content'
+  - 'edit own hotel content'
+  - 'use editorial transition a_valider'
+  - 'use editorial transition archive'
+  - 'use editorial transition archived_draft'
+  - 'use editorial transition archived_published'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition en_attente_de_validation'
+  - 'use editorial transition publier'
+  - 'use editorial transition rejet_de_validation'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
+  - 'view any unpublished content'
+  - 'view latest version'

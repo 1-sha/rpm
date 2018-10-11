@@ -1,0 +1,4 @@
+services:
+  content_moderation_reviewer.access_checker:
+    class: \Drupal\content_moderation_reviewer\AccessChecker
+    arguments: ['@entity_type.manager']

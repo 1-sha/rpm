@@ -1,0 +1,7 @@
+content_moderation_reviewer.autocomplete:
+  path: '/content_moderation_reviewer/{workflow_id}/{from_state}/{to_state}'
+  defaults:
+    _controller: \Drupal\content_moderation_reviewer\Controller::reviewerAutocomplete
+  requirements:
+    # @todo add a proper permission
+    _permission: 'access content'

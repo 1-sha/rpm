@@ -6,7 +6,7 @@ _core:
   default_config_hash: Om6FEO7vZZMkPIbVvfxtdkWerQ2PvQM4sWUd6Q3ZnfI
 id: administrator
 label: Administrator
-weight: -6
+weight: -5
 is_admin: false
 permissions:
   - 'access comments'
@@ -32,9 +32,11 @@ permissions:
   - 'bypass node access'
   - 'cancel account'
   - 'change own username'
+  - 'create hotel content'
   - 'create terms in tags'
   - 'delete all revisions'
   - 'delete any article content'
+  - 'delete any hotel content'
   - 'delete any page content'
   - 'delete any programmes_de_recherche content'
   - 'delete any test content'
@@ -57,6 +59,13 @@ permissions:
   - 'edit own programmes_de_recherche content'
   - 'edit own test content'
   - 'edit terms in tags'
+  - 'masquerade as administrator'
+  - 'masquerade as any user'
+  - 'masquerade as authenticated'
+  - 'masquerade as gestionnaire_de_programme'
+  - 'masquerade as participant'
+  - 'masquerade as super user'
+  - 'masquerade as webmaster'
   - 'revert all revisions'
   - 'revert article revisions'
   - 'revert page revisions'
