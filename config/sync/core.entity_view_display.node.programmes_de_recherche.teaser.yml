@@ -1,0 +1,30 @@
+uuid: 7ed78cfc-f070-403e-b103-5b5ad4b2c475
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.programmes_de_recherche.body
+    - node.type.programmes_de_recherche
+  module:
+    - text
+    - user
+id: node.programmes_de_recherche.teaser
+targetEntityType: node
+bundle: programmes_de_recherche
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

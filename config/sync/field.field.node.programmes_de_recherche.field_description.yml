@@ -1,0 +1,21 @@
+uuid: 58326434-0901-4ac5-9798-aba6d95c5379
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.programmes_de_recherche
+  module:
+    - text
+id: node.programmes_de_recherche.field_description
+field_name: field_description
+entity_type: node
+bundle: programmes_de_recherche
+label: description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
