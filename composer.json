@@ -30,6 +30,7 @@
         "drupal/pbf": "^1.2",
         "drupal/registration_role": "^1.0@beta",
         "drupal/webform": "^5.0@RC",
+        "drupal/webprofiler": "^2.0@RC",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",

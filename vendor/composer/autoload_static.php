@@ -578,6 +578,10 @@ class ComposerStaticInit2bcd2172f71ac7f5a5f631c1a19878df
         ),
         'S' => 
         array (
+            'Symfony\\Component\\Stopwatch\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/symfony/stopwatch',
+            ),
             'Stack' => 
             array (
                 0 => __DIR__ . '/..' . '/stack/builder/src',

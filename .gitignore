@@ -37,4 +37,4 @@ xmlrpc.php
 /profiles
 /scripts
 /themes
-/vendor
+/vendor/*
