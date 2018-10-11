@@ -1,6 +1,6 @@
 role_to_select:
-  participant: participant
-  gestionnaire_de_programme: 0
+  gestionnaire_de_programme: gestionnaire_de_programme
+  participant: 0
   administrator: 0
 _core:
   default_config_hash: t_8BAE6FT4QWQHV7U-LybyU4R_CpoYF8JQ_QsNPfUnA
