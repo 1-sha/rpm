@@ -1,0 +1,22 @@
+uuid: 3a28b48d-8fa1-4ba4-85d1-16ba9aca790c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.programmes_de_recherche
+  module:
+    - text
+id: node.programmes_de_recherche.body
+field_name: body
+entity_type: node
+bundle: programmes_de_recherche
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

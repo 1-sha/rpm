@@ -1,0 +1,22 @@
+uuid: c13851bc-cdc7-4548-a737-031bd456e7f1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - agov_base
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: agov_base_powered
+theme: agov_base
+region: secondary_menu
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

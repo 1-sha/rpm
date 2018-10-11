@@ -1,0 +1,22 @@
+uuid: 513d4d1f-0a72-437f-978c-ecb4329bf536
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - agov_whitlam
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: agov_whitlam_search
+theme: agov_whitlam
+region: secondary_menu
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

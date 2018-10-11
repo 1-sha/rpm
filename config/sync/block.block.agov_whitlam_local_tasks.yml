@@ -1,0 +1,22 @@
+uuid: 5c1615e9-65fc-41c8-ab7d-4eac53f18b6d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - agov_whitlam
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: agov_whitlam_local_tasks
+theme: agov_whitlam
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

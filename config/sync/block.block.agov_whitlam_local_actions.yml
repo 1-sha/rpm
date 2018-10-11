@@ -1,0 +1,20 @@
+uuid: 04e99d04-9885-4012-941d-1b98f3cdaa3c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - agov_whitlam
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: agov_whitlam_local_actions
+theme: agov_whitlam
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

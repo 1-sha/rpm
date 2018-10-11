@@ -1,0 +1,22 @@
+uuid: d0648903-04be-4256-81b6-f4195b674f21
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - agov_whitlam
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: agov_whitlam_content
+theme: agov_whitlam
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
