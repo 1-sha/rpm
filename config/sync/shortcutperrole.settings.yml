@@ -1,0 +1,7 @@
+role:
+  anonymous: default
+  authenticated: default
+  participant: default
+  gestionnaire_de_programme: ges
+  webmaster: default
+  administrator: default

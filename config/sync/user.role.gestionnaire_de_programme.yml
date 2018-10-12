@@ -4,7 +4,7 @@ status: true
 dependencies: {  }
 id: gestionnaire_de_programme
 label: 'Gestionnaire de programme'
-weight: -9
+weight: -7
 is_admin: null
 permissions:
   - 'access administration pages'
@@ -14,9 +14,13 @@ permissions:
   - 'access contextual links'
   - 'access files overview'
   - 'access in-place editing'
+  - 'access own webform configuration'
+  - 'access shortcuts'
   - 'access taxonomy overview'
   - 'access toolbar'
   - 'access user contact forms'
+  - 'access webform submission log'
+  - 'access webform submission user'
   - 'administer content types'
   - 'administer filters'
   - 'administer image styles'
@@ -29,6 +33,7 @@ permissions:
   - 'create programmes_de_recherche content'
   - 'create terms in tags'
   - 'create test content'
+  - 'create webform'
   - 'delete all revisions'
   - 'delete any article content'
   - 'delete any page content'
@@ -51,6 +56,7 @@ permissions:
   - 'edit own page content'
   - 'edit own programmes_de_recherche content'
   - 'edit own test content'
+  - 'edit own webform'
   - 'edit terms in tags'
   - 'revert all revisions'
   - 'revert article revisions'
@@ -69,6 +75,7 @@ permissions:
   - 'use text format restricted_html'
   - 'view all revisions'
   - 'view any unpublished content'
+  - 'view any webform submission'
   - 'view article revisions'
   - 'view latest version'
   - 'view own unpublished content'

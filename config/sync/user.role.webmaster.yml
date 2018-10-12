@@ -4,6 +4,7 @@ status: true
 dependencies: {  }
 id: webmaster
 label: Webmaster
-weight: -5
+weight: -6
 is_admin: null
-permissions: {  }
+permissions:
+  - 'access administration pages'

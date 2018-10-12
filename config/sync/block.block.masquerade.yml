@@ -1,0 +1,20 @@
+uuid: d39b6c06-c38d-4806-b9f6-990931722c67
+langcode: en
+status: true
+dependencies:
+  module:
+    - masquerade
+  theme:
+    - agov_whitlam
+id: masquerade
+theme: agov_whitlam
+region: sidebar_second
+weight: 0
+provider: null
+plugin: masquerade
+settings:
+  id: masquerade
+  label: Masquerade
+  provider: masquerade
+  label_display: visible
+visibility: {  }
