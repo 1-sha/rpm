@@ -1,8 +1,0 @@
-name: 'Programme de Recherche'
-core: 8.x
-version: 8.x-1.0
-type: module
-package: Evenement
-description: module Programme de recherche pour Drupal 8.
-dependencies:
-   - view:views

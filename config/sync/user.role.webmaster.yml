@@ -4,6 +4,7 @@ status: true
 dependencies: {  }
 id: webmaster
 label: Webmaster
+
 weight: -8
 is_admin: null
 permissions:
@@ -29,3 +30,4 @@ permissions:
   - 'use text format restricted_html'
   - 'view any unpublished content'
   - 'view latest version'
+  - 'access administration pages'

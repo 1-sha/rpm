@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.programmes_de_recherche.field_budget
     - field.field.node.programmes_de_recherche.field_date_de_fin
     - field.field.node.programmes_de_recherche.field_description
+    - field.field.node.programmes_de_recherche.field_join_form
     - field.field.node.programmes_de_recherche.field_organisateurs
     - field.field.node.programmes_de_recherche.field_participants
     - field.field.node.programmes_de_recherche.field_unedate
@@ -14,10 +15,26 @@ dependencies:
     - image.style.thumbnail
     - node.type.programmes_de_recherche
   module:
+    - content_moderation
     - datetime
+    - flexiform
     - image
     - path
     - text
+    - webform
+third_party_settings:
+  flexiform:
+    enhancer:
+      multiple_entities:
+        id: multiple_entities
+      page_exposure:
+        id: page_exposure
+      submit_button_ajax:
+        id: submit_button_ajax
+      submit_button_label:
+        id: submit_button_label
+      submit_button_redirect:
+        id: submit_button_redirect
 id: node.programmes_de_recherche.default
 targetEntityType: node
 bundle: programmes_de_recherche
@@ -59,6 +76,13 @@ content:
     third_party_settings: {  }
     type: text_textarea
     region: content
+  field_join_form:
+    weight: 129
+    settings:
+      default_data: true
+    third_party_settings: {  }
+    type: webform_entity_reference_select
+    region: content
   field_organisateurs:
     weight: 126
     settings:
@@ -89,6 +113,12 @@ content:
     third_party_settings: {  }
     type: image_image
     region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
   path:
     type: path
     weight: 30

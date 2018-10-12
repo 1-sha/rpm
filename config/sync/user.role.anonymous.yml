@@ -6,7 +6,8 @@ _core:
   default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
 id: anonymous
 label: 'Anonymous user'
-weight: -7
+weight: -10
+
 is_admin: false
 permissions:
   - 'access comments'

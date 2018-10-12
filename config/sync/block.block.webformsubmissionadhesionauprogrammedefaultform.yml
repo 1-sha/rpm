@@ -1,0 +1,54 @@
+uuid: fd316489-2110-4fae-b053-51829cb98fe3
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - flexiform
+    - node
+    - user
+  theme:
+    - agov_whitlam
+id: webformsubmissionadhesionauprogrammedefaultform
+theme: agov_whitlam
+region: content
+weight: 0
+provider: null
+plugin: 'entity_form:webform_submission.adhesion_au_programme.default'
+settings:
+  id: 'entity_form:webform_submission.adhesion_au_programme.default'
+  label: 'Webform submission (Adhésion au programme) Default form'
+  provider: flexiform
+  label_display: visible
+  context_mapping:
+    entity: '@webform.webform_submission_route_context:webform_submission'
+    '': '@webform.webform_submission_route_context:webform_submission'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      programmes_de_recherche: programmes_de_recherche
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  user_role:
+    id: user_role
+    roles:
+      participant: participant
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+  node_type:
+    id: node_type
+    bundles:
+      programmes_de_recherche: programmes_de_recherche
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  'entity_bundle:webform_submission':
+    id: 'entity_bundle:webform_submission'
+    bundles:
+      adhesion_au_programme: adhesion_au_programme
+    negate: false
+    context_mapping:
+      webform_submission: '@webform.webform_submission_route_context:webform_submission'
