@@ -1,0 +1,15 @@
+type: module
+# core: 8.x
+name: Flexible Form Wizards
+description: 'Build wizards based on multiple entities and component plugins.'
+package: Forms
+
+dependencies:
+- flexiform
+
+
+# Information added by Drupal.org packaging script on 2018-02-20
+version: '8.x-1.0-alpha4'
+core: '8.x'
+project: 'flexiform'
+datestamp: 1519121589

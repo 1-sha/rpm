@@ -69,6 +69,7 @@ return array(
     'FontLib\\' => array($vendorDir . '/phenx/php-font-lib/src/FontLib'),
     'Drush\\Internal\\' => array($vendorDir . '/drush/drush/internal-copy'),
     'Drush\\' => array($vendorDir . '/drush/drush/src'),
+    'Drupal\\flexiform\\' => array($baseDir . '/web/modules/contrib/flexiform/src'),
     'Drupal\\Driver\\' => array($baseDir . '/web/drivers/lib/Drupal/Driver'),
     'Drupal\\Core\\' => array($baseDir . '/web/core/lib/Drupal/Core'),
     'Drupal\\Console\\Core\\' => array($vendorDir . '/drupal/console-core/src'),

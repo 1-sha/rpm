@@ -2927,6 +2927,101 @@
         "description": "Drupal is an open source content management platform powering millions of websites and applications."
     },
     {
+        "name": "drupal/ctools",
+        "version": "3.0.0",
+        "version_normalized": "3.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/ctools",
+            "reference": "8.x-3.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/ctools-8.x-3.0.zip",
+            "reference": "8.x-3.0",
+            "shasum": "302e869ecd1e59fe55663673999fee2ccac5daa8"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-3.x": "3.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-3.0",
+                "datestamp": "1493401742",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Kris Vanderwater (EclipseGc)",
+                "homepage": "https://www.drupal.org/u/eclipsegc",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Jakob Perry (japerry)",
+                "homepage": "https://www.drupal.org/u/japerry",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Tim Plunkett (tim.plunkett)",
+                "homepage": "https://www.drupal.org/u/timplunkett",
+                "role": "Maintainer"
+            },
+            {
+                "name": "James Gilliland (neclimdul)",
+                "homepage": "https://www.drupal.org/u/neclimdul",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Daniel Wehner (dawehner)",
+                "homepage": "https://www.drupal.org/u/dawehner",
+                "role": "Maintainer"
+            },
+            {
+                "name": "joelpittet",
+                "homepage": "https://www.drupal.org/user/160302"
+            },
+            {
+                "name": "merlinofchaos",
+                "homepage": "https://www.drupal.org/user/26979"
+            },
+            {
+                "name": "neclimdul",
+                "homepage": "https://www.drupal.org/user/48673"
+            },
+            {
+                "name": "sdboyer",
+                "homepage": "https://www.drupal.org/user/146719"
+            },
+            {
+                "name": "sun",
+                "homepage": "https://www.drupal.org/user/54136"
+            },
+            {
+                "name": "tim.plunkett",
+                "homepage": "https://www.drupal.org/user/241634"
+            }
+        ],
+        "description": "Provides a number of utility and helper APIs for Drupal developers and site builders.",
+        "homepage": "https://www.drupal.org/project/ctools",
+        "support": {
+            "source": "http://cgit.drupalcode.org/ctools",
+            "issues": "https://www.drupal.org/project/issues/ctools"
+        }
+    },
+    {
         "name": "drupal/date_range_formatter",
         "version": "3.1.0",
         "version_normalized": "3.1.0.0",
@@ -3329,6 +3424,78 @@
         }
     },
     {
+        "name": "drupal/flexiform",
+        "version": "1.0.0-alpha4",
+        "version_normalized": "1.0.0.0-alpha4",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/flexiform",
+            "reference": "8.x-1.0-alpha4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/flexiform-8.x-1.0-alpha4.zip",
+            "reference": "8.x-1.0-alpha4",
+            "shasum": "680ad9ad74cbdadcdd8938704eab7341790f06f6"
+        },
+        "require": {
+            "drupal/core": "^8.5",
+            "drupal/ctools": "~3.0-beta1",
+            "php": "^7.0"
+        },
+        "require-dev": {
+            "drupal/rules": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-alpha4",
+                "datestamp": "1519121584",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Project has not opted into security advisory coverage!"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Drupal\\flexiform\\": "src"
+            }
+        },
+        "autoload-dev": {
+            "psr-4": {
+                "Drupal\\Tests\\flexiform\\": "tests/src"
+            }
+        },
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "andrewbelcher",
+                "homepage": "https://www.drupal.org/user/655282"
+            },
+            {
+                "name": "rlmumford",
+                "homepage": "https://www.drupal.org/user/794682"
+            },
+            {
+                "name": "yanniboi",
+                "homepage": "https://www.drupal.org/user/1837556"
+            }
+        ],
+        "description": "Build forms based on multiple entities and component plugins.",
+        "homepage": "https://www.drupal.org/project/flexiform",
+        "support": {
+            "source": "http://cgit.drupalcode.org/flexiform"
+        }
+    },
+    {
         "name": "drupal/image_effects",
         "version": "2.1.0",
         "version_normalized": "2.1.0.0",
@@ -3586,6 +3753,59 @@
         "homepage": "https://www.drupal.org/project/registration_role",
         "support": {
             "source": "http://cgit.drupalcode.org/registration_role"
+        }
+    },
+    {
+        "name": "drupal/shortcutperrole",
+        "version": "1.0.0-rc1",
+        "version_normalized": "1.0.0.0-RC1",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/shortcutperrole",
+            "reference": "8.x-1.0-rc1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/shortcutperrole-8.x-1.0-rc1.zip",
+            "reference": "8.x-1.0-rc1",
+            "shasum": "44fedbf5861d1039facbc7f032f851d2f3b69976"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-rc1",
+                "datestamp": "1472566139",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "RC releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "mkdok",
+                "homepage": "https://www.drupal.org/user/3308753"
+            },
+            {
+                "name": "webankit",
+                "homepage": "https://www.drupal.org/user/533078"
+            }
+        ],
+        "description": "Allows creating default shortcut per role",
+        "homepage": "https://www.drupal.org/project/shortcutperrole",
+        "support": {
+            "source": "http://cgit.drupalcode.org/shortcutperrole"
         }
     },
     {

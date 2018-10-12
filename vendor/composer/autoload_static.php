@@ -150,6 +150,7 @@ class ComposerStaticInit2bcd2172f71ac7f5a5f631c1a19878df
         array (
             'Drush\\Internal\\' => 15,
             'Drush\\' => 6,
+            'Drupal\\flexiform\\' => 17,
             'Drupal\\Driver\\' => 14,
             'Drupal\\Core\\' => 12,
             'Drupal\\Console\\Core\\' => 20,
@@ -442,6 +443,10 @@ class ComposerStaticInit2bcd2172f71ac7f5a5f631c1a19878df
         'Drush\\' => 
         array (
             0 => __DIR__ . '/..' . '/drush/drush/src',
+        ),
+        'Drupal\\flexiform\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/web/modules/contrib/flexiform/src',
         ),
         'Drupal\\Driver\\' => 
         array (

@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-
-    "content-hash": "5d79cfb0b501d6aae7b0b29256f207a4",
+    "content-hash": "bc1228d99fd7cd34d0a5c83827a4880b",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2240,6 +2239,53 @@
             "time": "2017-07-28T17:11:54+00:00"
         },
         {
+            "name": "drupal/content_moderation_reviewer",
+            "version": "1.0.0-alpha2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/content_moderation_reviewer",
+                "reference": "8.x-1.0-alpha2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/content_moderation_reviewer-8.x-1.0-alpha2.zip",
+                "reference": "8.x-1.0-alpha2",
+                "shasum": "6b3dcc22d6e19dded5a5ebce0666f5b38ba84ecf"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha2",
+                    "datestamp": "1539126780",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "dawehner",
+                    "homepage": "https://www.drupal.org/user/99340"
+                }
+            ],
+            "description": "Allows to define who should review a piece of content",
+            "homepage": "https://www.drupal.org/project/content_moderation_reviewer",
+            "support": {
+                "source": "http://cgit.drupalcode.org/content_moderation_reviewer"
+            }
+        },
+        {
             "name": "drupal/core",
             "version": "8.6.1",
             "source": {
@@ -2958,6 +3004,76 @@
             "homepage": "https://www.drupal.org/project/file_mdm",
             "support": {
                 "source": "http://cgit.drupalcode.org/file_mdm"
+            }
+        },
+        {
+            "name": "drupal/flexiform",
+            "version": "1.0.0-alpha4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/flexiform",
+                "reference": "8.x-1.0-alpha4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/flexiform-8.x-1.0-alpha4.zip",
+                "reference": "8.x-1.0-alpha4",
+                "shasum": "680ad9ad74cbdadcdd8938704eab7341790f06f6"
+            },
+            "require": {
+                "drupal/core": "^8.5",
+                "drupal/ctools": "~3.0-beta1",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "drupal/rules": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha4",
+                    "datestamp": "1519121584",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Drupal\\flexiform\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Drupal\\Tests\\flexiform\\": "tests/src"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "andrewbelcher",
+                    "homepage": "https://www.drupal.org/user/655282"
+                },
+                {
+                    "name": "rlmumford",
+                    "homepage": "https://www.drupal.org/user/794682"
+                },
+                {
+                    "name": "yanniboi",
+                    "homepage": "https://www.drupal.org/user/1837556"
+                }
+            ],
+            "description": "Build forms based on multiple entities and component plugins.",
+            "homepage": "https://www.drupal.org/project/flexiform",
+            "support": {
+                "source": "http://cgit.drupalcode.org/flexiform"
             }
         },
         {
@@ -9028,6 +9144,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/content_moderation_reviewer": 15,
         "drupal/default_content_deploy": 15,
         "drupal/flexiform": 15,
         "drupal/registration_role": 10,

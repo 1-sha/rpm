@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/system\/files\/webform\/adhesion_au_programme\/1\/cv-vivien-marnier.pdf"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 3
+        }
+    ],
+    "uuid": [
+        {
+            "value": "322e9e32-7e96-4ca5-8bd1-6d95c67ad688"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c43b7546-45a9-4afd-a307-fe0620fd91d7"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "cv-vivien-marnier.pdf"
+        }
+    ],
+    "uri": [
+        {
+            "value": "private:\/\/webform\/adhesion_au_programme\/1\/cv-vivien-marnier.pdf",
+            "url": "\/system\/files\/webform\/adhesion_au_programme\/1\/cv-vivien-marnier.pdf"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "application\/pdf"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 150975
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-12T08:42:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-12T08:42:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
