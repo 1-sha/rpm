@@ -10,11 +10,13 @@ dependencies:
     - field.field.node.programmes_de_recherche.field_join_form
     - field.field.node.programmes_de_recherche.field_organisateurs
     - field.field.node.programmes_de_recherche.field_participants
+    - field.field.node.programmes_de_recherche.field_range_joining
     - field.field.node.programmes_de_recherche.field_unedate
     - field.field.node.programmes_de_recherche.field_visuel
     - node.type.programmes_de_recherche
   module:
     - datetime
+    - datetime_range
     - image
     - text
     - user
@@ -82,6 +84,16 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: text_default
+    region: content
+  field_range_joining:
+    weight: 10
+    label: above
+    settings:
+      separator: '-'
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: daterange_default
     region: content
   field_unedate:
     weight: 3

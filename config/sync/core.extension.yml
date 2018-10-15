@@ -21,6 +21,7 @@ module:
   dblog: 0
   default_content: 0
   default_content_deploy: 0
+  devel: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
@@ -30,11 +31,11 @@ module:
   file_mdm_exif: 0
   file_mdm_font: 0
   filter: 0
-  flexiform: 0
   hal: 0
   help: 0
   history: 0
   image: 0
+  kint: 0
   layout_discovery: 0
   link: 0
   masquerade: 0
@@ -44,6 +45,7 @@ module:
   page_cache: 0
   path: 0
   pbf: 0
+  program_manager: 0
   quickedit: 0
   rdf: 0
   registration_role: 0
