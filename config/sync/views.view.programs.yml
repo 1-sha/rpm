@@ -173,8 +173,13 @@ display:
       path: programs
       menu:
         type: normal
-        title: programs
+        title: Programs
         menu_name: main
+        description: ''
+        parent: ''
+        weight: -49
+        expanded: true
+        enabled: true
     cache_metadata:
       max-age: -1
       contexts:
