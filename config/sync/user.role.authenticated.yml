@@ -7,7 +7,6 @@ _core:
 id: authenticated
 label: 'Authenticated user'
 weight: -9
-
 is_admin: false
 permissions:
   - 'access comments'

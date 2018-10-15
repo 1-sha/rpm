@@ -30,7 +30,6 @@ module:
   file_mdm_exif: 0
   file_mdm_font: 0
   filter: 0
-  flexiform: 0
   hal: 0
   help: 0
   history: 0
@@ -75,6 +74,7 @@ theme:
   seven: 0
   agov_base: 0
   agov_whitlam: 0
+  conference_lite: 0
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
