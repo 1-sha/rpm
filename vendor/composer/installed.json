@@ -3557,6 +3557,64 @@
         }
     },
     {
+        "name": "drupal/geolocation",
+        "version": "dev-2.x",
+        "version_normalized": "dev-2.x",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/geolocation",
+            "reference": "c10d174a40a5565e6037b18d9cb17e2325cb41b5"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "require-dev": {
+            "drupal/address": "*",
+            "drupal/geofield": "*",
+            "drupal/geolocation_demo": "*",
+            "drupal/geolocation_google_maps": "*",
+            "drupal/geolocation_google_maps_demo": "*",
+            "drupal/geolocation_google_static_maps": "*",
+            "drupal/geolocation_leaflet": "*",
+            "drupal/search_api": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-2.x": "2.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-2.0-beta1+129-dev",
+                "datestamp": "1536739381",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Dev releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "derjochenmeyer",
+                "homepage": "https://www.drupal.org/u/derjochenmeyer"
+            },
+            {
+                "name": "cadamski",
+                "homepage": "https://www.drupal.org/u/cadamski"
+            }
+        ],
+        "description": "Provides a simple geolocation Drupal field type to store and display location data (lat, lng).",
+        "homepage": "https://www.drupal.org/project/geolocation",
+        "support": {
+            "source": "http://git.drupal.org/project/geolocation.git",
+            "issues": "https://www.drupal.org/project/issues/geolocation"
+        }
+    },
+    {
         "name": "drupal/image_effects",
         "version": "2.1.0",
         "version_normalized": "2.1.0.0",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c02f6aed88944294ea996aa3ab50e299",
+    "content-hash": "119fcab7d2fe880234ddff72fe060b94",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3134,6 +3134,63 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/flexiform"
             }
+        },
+        {
+            "name": "drupal/geolocation",
+            "version": "dev-2.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/geolocation",
+                "reference": "c10d174a40a5565e6037b18d9cb17e2325cb41b5"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "require-dev": {
+                "drupal/address": "*",
+                "drupal/geofield": "*",
+                "drupal/geolocation_demo": "*",
+                "drupal/geolocation_google_maps": "*",
+                "drupal/geolocation_google_maps_demo": "*",
+                "drupal/geolocation_google_static_maps": "*",
+                "drupal/geolocation_leaflet": "*",
+                "drupal/search_api": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.0-beta1+129-dev",
+                    "datestamp": "1536739381",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "derjochenmeyer",
+                    "homepage": "https://www.drupal.org/u/derjochenmeyer"
+                },
+                {
+                    "name": "cadamski",
+                    "homepage": "https://www.drupal.org/u/cadamski"
+                }
+            ],
+            "description": "Provides a simple geolocation Drupal field type to store and display location data (lat, lng).",
+            "homepage": "https://www.drupal.org/project/geolocation",
+            "support": {
+                "source": "http://git.drupal.org/project/geolocation.git",
+                "issues": "https://www.drupal.org/project/issues/geolocation"
+            },
+            "time": "2018-09-19T08:04:44+00:00"
         },
         {
             "name": "drupal/image_effects",
@@ -9206,6 +9263,7 @@
         "drupal/content_moderation_reviewer": 15,
         "drupal/default_content_deploy": 15,
         "drupal/flexiform": 15,
+        "drupal/geolocation": 20,
         "drupal/registration_role": 10,
         "drupal/shortcutperrole": 5,
         "drupal/webform": 5,
