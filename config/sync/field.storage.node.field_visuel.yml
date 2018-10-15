@@ -13,7 +13,7 @@ type: image
 settings:
   uri_scheme: public
   default_image:
-    uuid: b068346b-f628-46eb-837d-f1031f989290
+    uuid: ''
     alt: ''
     title: ''
     width: 280

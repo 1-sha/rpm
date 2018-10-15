@@ -59,4 +59,5 @@ content:
     type: string
     region: content
 hidden:
+  content_moderation_reviewer: true
   links: true

@@ -1,14 +1,14 @@
-uuid: ef1390c7-dbe6-450d-b9da-51ba1db3ca2a
+uuid: 85c3254a-adb3-4593-9465-6ae0ac22e136
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_date_de_fin
+    - field.storage.node.field_date
     - node.type.programmes_de_recherche
   module:
     - datetime
-id: node.programmes_de_recherche.field_date_de_fin
-field_name: field_date_de_fin
+id: node.programmes_de_recherche.field_date
+field_name: field_date
 entity_type: node
 bundle: programmes_de_recherche
 label: 'Date de fin'

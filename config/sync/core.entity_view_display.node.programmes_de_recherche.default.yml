@@ -5,11 +5,11 @@ dependencies:
   config:
     - field.field.node.programmes_de_recherche.body
     - field.field.node.programmes_de_recherche.field_budget
-    - field.field.node.programmes_de_recherche.field_date_de_fin
+    - field.field.node.programmes_de_recherche.field_date
+    - field.field.node.programmes_de_recherche.field_date_de_debut
     - field.field.node.programmes_de_recherche.field_description
     - field.field.node.programmes_de_recherche.field_organisateurs
     - field.field.node.programmes_de_recherche.field_participants
-    - field.field.node.programmes_de_recherche.field_unedate
     - field.field.node.programmes_de_recherche.field_visuel
     - node.type.programmes_de_recherche
   module:
@@ -25,12 +25,17 @@ content:
   body:
     label: visually_hidden
     type: text_default
-    weight: 1
+    weight: 2
     settings: {  }
     third_party_settings: {  }
     region: content
+  content_moderation_control:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_budget:
-    weight: 6
+    weight: 7
     label: above
     settings:
       thousand_separator: ''
@@ -38,47 +43,47 @@ content:
     third_party_settings: {  }
     type: number_integer
     region: content
-  field_date_de_fin:
+  field_date:
+    weight: 5
+    label: above
+    settings:
+      timezone_override: Europe/Paris
+      format_type: short
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_date_de_debut:
     weight: 4
     label: above
     settings:
-      format_type: medium
-      timezone_override: ''
+      timezone_override: Europe/Paris
+      format_type: short
     third_party_settings: {  }
     type: datetime_default
     region: content
   field_description:
-    weight: 5
+    weight: 6
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_organisateurs:
-    weight: 7
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_participants:
     weight: 8
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
-  field_unedate:
-    weight: 3
+  field_participants:
+    weight: 9
     label: above
-    settings:
-      format_type: medium
-      timezone_override: ''
+    settings: {  }
     third_party_settings: {  }
-    type: datetime_default
+    type: text_default
     region: content
   field_visuel:
-    weight: 2
+    weight: 3
     label: hidden
     settings:
       image_style: ''
@@ -87,8 +92,9 @@ content:
     type: image
     region: content
   links:
-    weight: 0
+    weight: 1
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  content_moderation_reviewer: true

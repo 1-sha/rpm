@@ -1,4 +1,4 @@
-uuid: 29b1ba10-af42-455a-9c4e-775aec55c89c
+uuid: d2f0dbd9-7f2f-4979-8b56-46396f1249e8
 langcode: en
 status: true
 dependencies:
@@ -8,9 +8,8 @@ dependencies:
 id: node.field_organisateurs
 field_name: field_organisateurs
 entity_type: node
-type: text
-settings:
-  max_length: 255
+type: text_long
+settings: {  }
 module: text
 locked: false
 cardinality: -1
