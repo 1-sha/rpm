@@ -13,7 +13,7 @@ _core:
 id: conference_lite_account_menu
 theme: conference_lite
 region: sidebar_second
-weight: -6
+weight: -5
 provider: null
 plugin: 'system_menu_block:account'
 settings:

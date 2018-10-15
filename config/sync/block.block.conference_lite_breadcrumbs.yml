@@ -11,7 +11,7 @@ _core:
 id: conference_lite_breadcrumbs
 theme: conference_lite
 region: system_messages
-weight: -6
+weight: -9
 provider: null
 plugin: system_breadcrumb_block
 settings:
