@@ -1,0 +1,156 @@
+uuid: b172be2d-5def-422f-904d-639710c18d51
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - geolocation
+    - node
+  theme:
+    - conference_lite
+id: geolocationmap
+theme: conference_lite
+region: sidebar_second
+weight: -4
+provider: null
+plugin: geolocation_block
+settings:
+  id: geolocation_block
+  label: 'Geolocation Map'
+  provider: geolocation
+  label_display: visible
+  map_provider_id: leaflet
+  map_provider_settings:
+    map_features:
+      leaflet_control_locate:
+        enabled: true
+        weight: 0
+        settings:
+          position: topright
+      leaflet_custom_tile_layer:
+        weight: 0
+        settings:
+          tile_layer_url: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png'
+          tile_layer_attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
+          tile_layer_subdomains: abc
+        enabled: false
+      leaflet_marker_popup:
+        enabled: true
+        weight: 0
+        settings:
+          info_auto_display: false
+      leaflet_marker_icon:
+        weight: 0
+        settings:
+          marker_icon_path: ''
+          icon_size:
+            width: ''
+            height: ''
+          icon_anchor:
+            x: ''
+            'y': ''
+          popup_anchor:
+            x: '0'
+            'y': '0'
+          marker_shadow_path: ''
+          shadow_size:
+            width: ''
+            height: ''
+          shadow_anchor:
+            x: ''
+            'y': ''
+        enabled: false
+      leaflet_marker_clusterer:
+        weight: 0
+        enabled: false
+        settings:
+          cluster_settings:
+            show_coverage_on_hover: 0
+            zoom_to_bounds_on_click: 0
+      leaflet_control_zoom:
+        enabled: true
+        weight: 0
+        settings:
+          position: topright
+      leaflet_control_scale:
+        enabled: true
+        weight: 0
+        settings:
+          position: topright
+          metric: '1'
+          imperial: '1'
+      leaflet_control_recenter:
+        enabled: true
+        weight: 0
+        settings:
+          position: topright
+      leaflet_control_geocoder:
+        weight: 0
+        settings:
+          position: topright
+          geocoder: photon
+          settings:
+            label: Address
+            description: 'Enter an address to be localized.'
+            location_priority:
+              lat: ''
+              lng: ''
+        enabled: false
+      leaflet_control_fullscreen:
+        weight: 0
+        settings:
+          position: topright
+        enabled: false
+      leaflet_gesture_handling:
+        weight: 0
+        enabled: false
+      leaflet_client_location_indicator:
+        enabled: true
+        weight: 0
+      leaflet_tile_layer:
+        weight: 0
+        settings:
+          tile_layer_provider: OpenStreetMap.Mapnik
+        enabled: false
+    height: 400px
+    width: 100%
+    zoom: '11'
+  centre:
+    client_location:
+      enable: true
+      weight: 0
+      map_center_id: client_location
+    fit_bounds:
+      weight: 0
+      enable: false
+      map_center_id: fit_bounds
+      settings:
+        reset_zoom: false
+    fixed_value:
+      enable: true
+      settings:
+        latitude: !!float 9
+        longitude: !!float 118
+      weight: 0
+      map_center_id: location_plugins
+    freeogeoip:
+      weight: 0
+      enable: false
+      map_center_id: location_plugins
+  locations: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      hotel: hotel
+      programmes_de_recherche: programmes_de_recherche
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      hotel: hotel
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

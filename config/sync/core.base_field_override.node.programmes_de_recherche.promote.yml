@@ -1,0 +1,22 @@
+uuid: 1678586e-07fa-4187-ac38-01502761db8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.programmes_de_recherche
+id: node.programmes_de_recherche.promote
+field_name: promote
+entity_type: node
+bundle: programmes_de_recherche
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

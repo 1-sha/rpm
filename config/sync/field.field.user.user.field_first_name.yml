@@ -1,0 +1,22 @@
+uuid: b0c274f2-576c-4d6b-ae23-629205565d2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_first_name
+  module:
+    - user
+id: user.user.field_first_name
+field_name: field_first_name
+entity_type: user
+bundle: user
+label: 'First name'
+description: 'As write on your ID card'
+required: true
+translatable: false
+default_value:
+  -
+    value: John
+default_value_callback: ''
+settings: {  }
+field_type: string

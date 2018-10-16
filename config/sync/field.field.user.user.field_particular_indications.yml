@@ -1,0 +1,22 @@
+uuid: 45471164-3fcc-425d-ad76-cfc44092162a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_particular_indications
+  module:
+    - user
+id: user.user.field_particular_indications
+field_name: field_particular_indications
+entity_type: user
+bundle: user
+label: 'Particular Indications'
+description: 'Diet food, handicap'
+required: true
+translatable: false
+default_value:
+  -
+    value: none
+default_value_callback: ''
+settings: {  }
+field_type: string

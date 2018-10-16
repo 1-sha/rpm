@@ -1,0 +1,22 @@
+uuid: 335dd73d-d402-4221-ab9a-e2417b4942fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_name
+  module:
+    - user
+id: user.user.field_name
+field_name: field_name
+entity_type: user
+bundle: user
+label: Name
+description: 'As your ID card'
+required: true
+translatable: false
+default_value:
+  -
+    value: Doe
+default_value_callback: ''
+settings: {  }
+field_type: string
