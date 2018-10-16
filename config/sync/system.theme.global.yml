@@ -9,7 +9,7 @@ features:
   favicon: true
   node_user_picture: true
 logo:
-  path: 'public://logo1_1.png'
+  path: 'public://brainstorm_0.png'
   url: ''
   use_default: false
 _core:

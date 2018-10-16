@@ -212,7 +212,7 @@ features:
   favicon: 1
 logo:
   use_default: 0
-  path: ''
+  path: 'public://notes.png'
 favicon:
   use_default: 0
   path: 'public://logo1.png'
