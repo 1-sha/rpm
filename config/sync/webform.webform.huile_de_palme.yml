@@ -50,8 +50,19 @@ settings:
   form_file_limit: ''
   submission_label: ''
   submission_log: false
-  submission_views: {  }
-  submission_views_replace: {  }
+  submission_views:
+    program_submission:
+      view: 'webform_submissions:embed_administer'
+      title: program_submission
+      webform_routes:
+        - entity.webform.results_submissions
+        - entity.webform.user.submissions
+      node_routes:
+        - entity.node.webform.results_submissions
+        - entity.node.webform.user.submissions
+  submission_views_replace:
+    webform_routes: {  }
+    node_routes: {  }
   submission_user_columns: {  }
   submission_user_duplicate: false
   submission_access_denied: default
