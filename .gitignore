@@ -12,3 +12,4 @@ web/modules/*
 !config
 config/*
 !config/sync/
+!web/sites/default/files
