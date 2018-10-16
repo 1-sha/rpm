@@ -9344,11 +9344,8 @@
     "stability-flags": {
         "drupal/content_moderation_reviewer": 15,
         "drupal/default_content_deploy": 15,
-<<<<<<< HEAD
-=======
         "drupal/flexiform": 15,
         "drupal/geolocation": 20,
->>>>>>> useraccounts
         "drupal/registration_role": 10,
         "drupal/shortcutperrole": 5,
         "drupal/webform": 5,
