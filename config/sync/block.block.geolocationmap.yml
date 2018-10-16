@@ -5,6 +5,7 @@ dependencies:
   module:
     - ctools
     - geolocation
+    - node
   theme:
     - conference_lite
 id: geolocationmap
@@ -143,6 +144,13 @@ visibility:
     bundles:
       hotel: hotel
       programmes_de_recherche: programmes_de_recherche
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      hotel: hotel
     negate: false
     context_mapping:
       node: '@node.node_route_context:node'

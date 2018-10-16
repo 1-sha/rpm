@@ -52,6 +52,7 @@ permissions:
   - 'edit any page content'
   - 'edit any programmes_de_recherche content'
   - 'edit any test content'
+  - 'edit any webform submission'
   - 'edit own article content'
   - 'edit own page content'
   - 'edit own programmes_de_recherche content'
