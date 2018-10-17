@@ -92,8 +92,8 @@ display:
               map_center_id: location_plugins
               weight: 0
               settings:
-                latitude: 0
-                longitude: 0
+                latitude: !!float 0
+                longitude: !!float 0
               enable: false
             client_location:
               map_center_id: client_location
