@@ -4,9 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-
     "content-hash": "ccb8c3f90f4a9ac952b4d6e159f1320e",
-
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -9450,6 +9448,7 @@
         "drupal/default_content_deploy": 15,
         "drupal/geolocation": 20,
         "drupal/leaflet_more_maps": 15,
+        "drupal/geolocation": 20,
         "drupal/registration_role": 10,
         "drupal/shortcutperrole": 5,
         "drupal/webform": 5,

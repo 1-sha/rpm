@@ -8,7 +8,6 @@ dependencies:
     - node.type.webform
   module:
     - content_moderation
-    - flexiform
     - path
     - text
     - webform
