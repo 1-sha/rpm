@@ -32,9 +32,7 @@ module:
   file_mdm_font: 0
   filter: 0
   geolocation: 0
-  geolocation_demo: 0
   geolocation_leaflet: 0
-  geolocation_leaflet_demo: 0
   hal: 0
   help: 0
   history: 0
