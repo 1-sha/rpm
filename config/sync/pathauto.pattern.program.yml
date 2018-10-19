@@ -1,0 +1,22 @@
+uuid: 75320820-01ff-4c46-9b58-68314f629773
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: program
+label: Program
+type: 'canonical_entities:node'
+pattern: 'program/[node:title]'
+selection_criteria:
+  2005f378-8e30-436f-845e-5d539e0bd23a:
+    id: node_type
+    bundles:
+      programmes_de_recherche: programmes_de_recherche
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 2005f378-8e30-436f-845e-5d539e0bd23a
+selection_logic: and
+weight: -5
+relationships: {  }
