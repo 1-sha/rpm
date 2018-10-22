@@ -16,5 +16,9 @@ function program_manager_node_view(&$build, EntityInterface $entity,EntityViewDi
         if ($now < $beginJoin || $endJoin < $now){ //if we're not in the joining period
             unset($build['field_join_form']);
         }
+        $user = \Drupal::currentUser();
+        if($user->hasPermission('administer webform submission')){
+            //TODO : display button at the bottom of the node
+        }
     }
 }

@@ -3,3 +3,5 @@ description: Module manager the opening and closing of joining forms.
 package : rpm
 type: module
 core: '8.x'
+dependencies: 
+  - webform:webform

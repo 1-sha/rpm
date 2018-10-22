@@ -1,0 +1,5 @@
+pm.export:
+  title: 'Export adhesions'
+  route_name: pm.export
+  base_route: entity.node.canonical
+  weight: 0
