@@ -15,11 +15,9 @@ dependencies:
     - node.type.programmes_de_recherche
   module:
     - datetime
-    - datetime_range
     - image
     - text
     - user
-    - webform
 id: node.programmes_de_recherche.default
 targetEntityType: node
 bundle: programmes_de_recherche
@@ -47,20 +45,20 @@ content:
     type: number_integer
     region: content
   field_date:
-    weight: 4
-    label: above
-    settings:
-      format_type: medium
-      timezone_override: ''
-    third_party_settings: {  }
-    type: datetime_default
-    region: content
-  field_date_de_fin:
     weight: 5
     label: above
     settings:
-      format_type: medium
-      timezone_override: ''
+      timezone_override: Europe/Paris
+      format_type: short
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_date_de_debut:
+    weight: 4
+    label: above
+    settings:
+      timezone_override: Europe/Paris
+      format_type: short
     third_party_settings: {  }
     type: datetime_default
     region: content

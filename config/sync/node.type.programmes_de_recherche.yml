@@ -8,7 +8,7 @@ third_party_settings:
   menu_ui:
     available_menus:
       - main
-    parent: 'main:standard.front_page'
+    parent: 'main:'
 name: 'Programmes de recherche'
 type: programmes_de_recherche
 description: 'Liste de tous les programmes de recherche à venir.'

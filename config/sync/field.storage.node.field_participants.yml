@@ -1,12 +1,12 @@
-uuid: d2f0dbd9-7f2f-4979-8b56-46396f1249e8
+uuid: aa4329d4-09d8-443c-8f2e-ce164a648cf1
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - text
-id: node.field_organisateurs
-field_name: field_organisateurs
+id: node.field_participants
+field_name: field_participants
 entity_type: node
 type: text_long
 settings: {  }
