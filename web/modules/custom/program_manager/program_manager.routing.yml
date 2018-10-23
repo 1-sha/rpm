@@ -10,3 +10,11 @@ pm.export:
   requirements:
     # _access: 'TRUE'
     _custom_access: Drupal\program_manager\Controller\ExportController::getAccess
+
+pm.export.global:
+  path: '/export.zip'
+  defaults:
+    _title: 'Export of every program adhesion submission'
+    _controller: Drupal\program_manager\Controller\ExportController::createExportZip
+  requirements:
+    _access: 'TRUE'
