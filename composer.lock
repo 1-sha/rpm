@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccb8c3f90f4a9ac952b4d6e159f1320e",
+    "content-hash": "c7011cb7b46ad301121769a946325bf7",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3460,6 +3460,62 @@
                 "issues": "https://www.drupal.org/project/issues/webform?version=8.x",
                 "docs": "https://www.drupal.org/docs/8/modules/webform",
                 "forum": "https://drupal.stackexchange.com/questions/tagged/webform"
+            }
+        },
+        {
+            "name": "drupal/webform_views",
+            "version": "5.0.0-alpha5",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/webform_views",
+                "reference": "8.x-5.0-alpha5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/webform_views-8.x-5.0-alpha5.zip",
+                "reference": "8.x-5.0-alpha5",
+                "shasum": "0ff531e528878722caa1b2e98856d3b77690e698"
+            },
+            "require": {
+                "drupal/core": "*",
+                "drupal/webform": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-5.x": "5.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-5.0-alpha5",
+                    "datestamp": "1527431884",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "bucefal91",
+                    "homepage": "https://www.drupal.org/user/504128"
+                },
+                {
+                    "name": "jrockowitz",
+                    "homepage": "https://www.drupal.org/user/371407"
+                },
+                {
+                    "name": "ws.agency",
+                    "homepage": "https://www.drupal.org/user/2851415"
+                }
+            ],
+            "description": "Webform integration with views.",
+            "homepage": "https://www.drupal.org/project/webform_views",
+            "support": {
+                "source": "http://cgit.drupalcode.org/webform_views"
             }
         },
         {
@@ -9448,10 +9504,10 @@
         "drupal/default_content_deploy": 15,
         "drupal/geolocation": 20,
         "drupal/leaflet_more_maps": 15,
-        "drupal/geolocation": 20,
         "drupal/registration_role": 10,
         "drupal/shortcutperrole": 5,
         "drupal/webform": 5,
+        "drupal/webform_views": 15,
         "drupal/webprofiler": 5,
         "drupal/masquerade": 10
     },
