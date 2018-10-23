@@ -4,6 +4,6 @@ status: true
 dependencies: {  }
 id: participant
 label: Participant
-weight: -10
+weight: -8
 is_admin: false
 permissions: {  }

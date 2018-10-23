@@ -3,10 +3,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.user.user.user_picture
-    - image.style.thumbnail
+    - field.field.user.user.field_city
+    - field.field.user.user.field_country
+    - field.field.user.user.field_first_name
+    - field.field.user.user.field_name
+    - field.field.user.user.field_organisation_society
+    - field.field.user.user.field_particular_indications
+    - field.field.user.user.field_personnal_website
   module:
-    - image
+    - link
     - user
 _core:
   default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
@@ -15,16 +20,74 @@ targetEntityType: user
 bundle: user
 mode: default
 content:
-  member_for:
+  field_city:
+    type: string
+    weight: 8
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_country:
+    type: string
+    weight: 4
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_first_name:
+    type: string
+    weight: 1
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_name:
+    type: string
+    weight: 2
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_organisation_society:
+    type: string
+    weight: 3
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_particular_indications:
+    type: string
+    weight: 6
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_personnal_website:
+    type: link
     weight: 5
     region: content
-  user_picture:
-    type: image
+    label: inline
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+  masquerade:
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  member_for:
     weight: 0
     region: content
-    settings:
-      image_style: thumbnail
-      image_link: content
+    settings: {  }
     third_party_settings: {  }
-    label: hidden
 hidden: {  }
