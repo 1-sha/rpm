@@ -1,0 +1,117 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/admin\/structure\/webform\/manage\/adhesion_a_la_biologie\/submission\/10?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/webform_submission\/adhesion_a_la_biologie"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/webform_submission\/adhesion_a_la_biologie\/uid": [
+            {
+                "href": "http:\/\/default\/user\/24?_format=hal_json"
+            }
+        ]
+    },
+    "serial": [
+        {
+            "value": 9
+        }
+    ],
+    "sid": [
+        {
+            "value": 10
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6c1a4f44-fe5d-4356-93dc-4de9c14380a9"
+        }
+    ],
+    "token": [
+        {
+            "value": "jliJKm1MLT4hMUeMvjiNPEc09897tGLI3oc94QMVfd0"
+        }
+    ],
+    "uri": [
+        {
+            "value": "\/node\/4"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-22T14:10:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "completed": [
+        {
+            "value": "2018-10-22T14:10:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-22T14:10:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "in_draft": [
+        {
+            "value": false
+        }
+    ],
+    "remote_addr": [
+        {
+            "value": "::1"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/webform_submission\/adhesion_a_la_biologie\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/24?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0c1283bd-30b0-4888-928c-3468c4dc4780"
+                    }
+                ]
+            }
+        ]
+    },
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "webform_id": [
+        {
+            "target_id": "adhesion_a_la_biologie"
+        }
+    ],
+    "entity_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "entity_id": [
+        {
+            "value": "4"
+        }
+    ],
+    "locked": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ]
+}

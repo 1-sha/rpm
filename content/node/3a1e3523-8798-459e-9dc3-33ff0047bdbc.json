@@ -1,0 +1,213 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/4?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/programmes_de_recherche"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/field_visuel": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2018-10\/IPC_FONDATION%2520EDF_1_0.jpg"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 4
+        }
+    ],
+    "uuid": [
+        {
+            "value": "3a1e3523-8798-459e-9dc3-33ff0047bdbc"
+        }
+    ],
+    "vid": [
+        {
+            "value": 48
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "programmes_de_recherche"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-10-18T13:12:40+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c43b7546-45a9-4afd-a307-fe0620fd91d7"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c43b7546-45a9-4afd-a307-fe0620fd91d7"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/field_visuel": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2018-10\/IPC_FONDATION%2520EDF_1_0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9def79ca-f923-449d-a824-4b42552874a6"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Programme de recherche contre les cancers du sein m\u00e9tastatiques gr\u00e2ce aux nano-th\u00e9rapies",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-10T10:13:32+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-18T13:12:40+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "moderation_state": [
+        {
+            "value": "published",
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_budget": [
+        {
+            "value": 300000
+        }
+    ],
+    "field_date": [
+        {
+            "value": "2018-01-03"
+        }
+    ],
+    "field_date_de_fin": [
+        {
+            "value": "2022-12-31"
+        }
+    ],
+    "field_description": [
+        {
+            "value": "<p>Lanc\u00e9 \u00e0 l\u2019Institut Paoli-Calmettes, le projet NANO-S a pour objectif de lutter contre les cancers du sein m\u00e9tastatiques en d\u00e9veloppant des mod\u00e8les et des traitements de nouvelle g\u00e9n\u00e9ration bas\u00e9s sur les nanotechnologies, d\u2019o\u00f9 le nom de \u00ab NANO-S \u00bb. Ce projet cherchera \u00e0 identifier de nouveaux marqueurs diagnostiques ainsi que de nouvelles cibles th\u00e9rapeutiques. Des essais cliniques pourront ainsi \u00eatre mis en place afin de proposer des solutions \u00e0 des patientes pour lesquelles les traitements standard ne sont pas ou plus efficaces.<\/p>\r\n\r\n<p><a href=\"http:\/\/www.institutpaolicalmettes.fr\/linstitut\/actualites\/actualite\/article\/la-fondation-groupe-edf-soutient-le-nano-s\/\">Source: Institut Paoli-Calmettes<\/a><\/p>\r\n\r\n<h3>Une approche diff\u00e9rente selon l\u2019agressivit\u00e9 des tumeurs<\/h3>\r\n\r\n<p>L\u2019\u00e9quipe de chercheurs de Daniel Birnbaum est partie de la constatation suivante : \u00ab chaque cancer du sein est diff\u00e9rent ; la tumeur de Madame Durand est diff\u00e9rente de la tumeur de Madame Dupont \u00bb.<\/p>\r\n\r\n<p>L\u2019objectif premier de ce projet est de distinguer les tumeurs les plus malignes, celles qui vont donner des m\u00e9tastases. La deuxi\u00e8me \u00e9tape consistera \u00e0 d\u00e9velopper des outils, des tests de pr\u00e9diction pour savoir quelle tumeur va r\u00e9sister au traitement. Il s\u2019agit d\u2019outils de pr\u00e9diction pour la r\u00e9ponse th\u00e9rapeutique.<\/p>\r\n\r\n<p>L\u2019\u00e9tape suivante aura pour but de d\u00e9velopper plus de traitements, en augmentant l\u2019arsenal pour ce qui est du cancer du sein, surtout pour ceux qui sont tr\u00e8s agressifs.<\/p>\r\n\r\n<h3>Minuscules mol\u00e9cules<\/h3>\r\n\r\n<p>L\u2019\u00e9quipe du Dr Birnbaum d\u00e9veloppe actuellement 2 types de th\u00e9rapeutiques : de petites mol\u00e9cules, \u00e0 l\u2019origine de l\u2019appellation du projet \u00ab NANO \u00bb. Il s\u2019agit de nano-th\u00e9rapies, des traitements \u00e0 base d\u2019anticorps qui vont cibler directement les tumeurs agressives.<\/p>\r\n\r\n<p>\u00ab C\u2019est donc une d\u00e9marche tr\u00e8s proactive de l\u2019IPC non seulement dans la d\u00e9couverte de cibles th\u00e9rapeutiques, mais \u00e9galement dans le d\u00e9veloppement de nouveaux m\u00e9dicaments. \u00bb, souligne le Pr Jean-Paul Borg. Il ajoute \u00ab Ce que nous faisons, c\u2019est pour le patient, nous devons concr\u00e9tiser nos recherches avec la d\u00e9couverte de nouvelles strat\u00e9gies th\u00e9rapeutiques, diagnostiques pour que la question cruciale : \u00ab comment gu\u00e9rir nos patientes atteintes d\u2019un cancer du sein m\u00e9tastatique trouve une r\u00e9ponse. \u00bb<\/p>\r\n\r\n<p>La Fondation Groupe EDF apporte son soutien financier en tant que m\u00e9c\u00e8ne \u00e0 l\u2019action du Fonds de dotation de l\u2019Institut Paoli-Calmettes dans le cadre du projet \u00ab NANO-S \u00bb.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Lanc\u00e9 \u00e0 l\u2019Institut Paoli-Calmettes, le projet NANO-S a pour objectif de lutter contre les cancers du sein m\u00e9tastatiques en d\u00e9veloppant des mod\u00e8les et des traitements de nouvelle g\u00e9n\u00e9ration bas\u00e9s sur les nanotechnologies, d\u2019o\u00f9 le nom de \u00ab NANO-S \u00bb. Ce projet cherchera \u00e0 identifier de nouveaux marqueurs diagnostiques ainsi que de nouvelles cibles th\u00e9rapeutiques. Des essais cliniques pourront ainsi \u00eatre mis en place afin de proposer des solutions \u00e0 des patientes pour lesquelles les traitements standard ne sont pas ou plus efficaces.<\/p>\n\n<p><a href=\"http:\/\/www.institutpaolicalmettes.fr\/linstitut\/actualites\/actualite\/article\/la-fondation-groupe-edf-soutient-le-nano-s\/\">Source: Institut Paoli-Calmettes<\/a><\/p>\n\n<h3>Une approche diff\u00e9rente selon l\u2019agressivit\u00e9 des tumeurs<\/h3>\n\n<p>L\u2019\u00e9quipe de chercheurs de Daniel Birnbaum est partie de la constatation suivante : \u00ab chaque cancer du sein est diff\u00e9rent ; la tumeur de Madame Durand est diff\u00e9rente de la tumeur de Madame Dupont \u00bb.<\/p>\n\n<p>L\u2019objectif premier de ce projet est de distinguer les tumeurs les plus malignes, celles qui vont donner des m\u00e9tastases. La deuxi\u00e8me \u00e9tape consistera \u00e0 d\u00e9velopper des outils, des tests de pr\u00e9diction pour savoir quelle tumeur va r\u00e9sister au traitement. Il s\u2019agit d\u2019outils de pr\u00e9diction pour la r\u00e9ponse th\u00e9rapeutique.<\/p>\n\n<p>L\u2019\u00e9tape suivante aura pour but de d\u00e9velopper plus de traitements, en augmentant l\u2019arsenal pour ce qui est du cancer du sein, surtout pour ceux qui sont tr\u00e8s agressifs.<\/p>\n\n<h3>Minuscules mol\u00e9cules<\/h3>\n\n<p>L\u2019\u00e9quipe du Dr Birnbaum d\u00e9veloppe actuellement 2 types de th\u00e9rapeutiques : de petites mol\u00e9cules, \u00e0 l\u2019origine de l\u2019appellation du projet \u00ab NANO \u00bb. Il s\u2019agit de nano-th\u00e9rapies, des traitements \u00e0 base d\u2019anticorps qui vont cibler directement les tumeurs agressives.<\/p>\n\n<p>\u00ab C\u2019est donc une d\u00e9marche tr\u00e8s proactive de l\u2019IPC non seulement dans la d\u00e9couverte de cibles th\u00e9rapeutiques, mais \u00e9galement dans le d\u00e9veloppement de nouveaux m\u00e9dicaments. \u00bb, souligne le Pr Jean-Paul Borg. Il ajoute \u00ab Ce que nous faisons, c\u2019est pour le patient, nous devons concr\u00e9tiser nos recherches avec la d\u00e9couverte de nouvelles strat\u00e9gies th\u00e9rapeutiques, diagnostiques pour que la question cruciale : \u00ab comment gu\u00e9rir nos patientes atteintes d\u2019un cancer du sein m\u00e9tastatique trouve une r\u00e9ponse. \u00bb<\/p>\n\n<p>La Fondation Groupe EDF apporte son soutien financier en tant que m\u00e9c\u00e8ne \u00e0 l\u2019action du Fonds de dotation de l\u2019Institut Paoli-Calmettes dans le cadre du projet \u00ab NANO-S \u00bb.<\/p>"
+        }
+    ],
+    "field_join_form": [
+        {
+            "target_id": "adhesion_a_la_biologie",
+            "default_data": "",
+            "status": "open",
+            "open": "",
+            "close": ""
+        }
+    ],
+    "field_range_joining": [
+        {
+            "value": "2018-10-03",
+            "end_value": "2021-12-31"
+        }
+    ]
+}
