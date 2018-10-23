@@ -1,0 +1,21 @@
+uuid: 5676f6b4-3b63-486e-a262-b5080d672c0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_adresse
+    - node.type.programmes_de_recherche
+  module:
+    - text
+id: node.programmes_de_recherche.field_adresse
+field_name: field_adresse
+entity_type: node
+bundle: programmes_de_recherche
+label: Adresse(s)
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

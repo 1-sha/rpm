@@ -1,0 +1,6 @@
+uuid: 183e9e7b-de30-4aa8-9e5f-5f5ef53789da
+langcode: en
+status: true
+dependencies: {  }
+id: ges
+label: gestionnaire

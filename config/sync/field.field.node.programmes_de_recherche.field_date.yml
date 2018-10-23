@@ -1,0 +1,21 @@
+uuid: 08873f79-7b4a-490e-905d-38558d3409bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.programmes_de_recherche
+  module:
+    - datetime
+id: node.programmes_de_recherche.field_date
+field_name: field_date
+entity_type: node
+bundle: programmes_de_recherche
+label: 'Date de début'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

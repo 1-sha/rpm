@@ -1,0 +1,88 @@
+uuid: 6ffc884f-6eaa-400b-9181-70da50d336a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.programmes_de_recherche
+  module:
+    - content_moderation
+_core:
+  default_config_hash: T_JxNjYlfoRBi7Bj1zs5Xv9xv1btuBkKp5C1tNrjMhI
+id: editorial
+label: Editorial
+type: content_moderation
+type_settings:
+  states:
+    a_valider:
+      published: false
+      default_revision: false
+      label: 'A valider'
+      weight: 6
+    archived:
+      label: Archived
+      weight: 5
+      published: false
+      default_revision: true
+    draft:
+      label: Draft
+      published: false
+      default_revision: false
+      weight: -5
+    published:
+      label: Published
+      published: true
+      default_revision: true
+      weight: 0
+  transitions:
+    a_valider:
+      label: validation
+      from:
+        - a_valider
+      to: published
+      weight: 7
+    archive:
+      label: Archive
+      from:
+        - published
+      to: archived
+      weight: 2
+    archived_draft:
+      label: 'Restore to Draft'
+      from:
+        - archived
+      to: draft
+      weight: 3
+    archived_published:
+      label: Restore
+      from:
+        - archived
+      to: published
+      weight: 4
+    create_new_draft:
+      label: 'Create New Draft'
+      to: draft
+      weight: 0
+      from:
+        - draft
+        - published
+    en_attente_de_validation:
+      label: 'En attente de validation'
+      from:
+        - draft
+      to: a_valider
+      weight: 8
+    publier:
+      label: Publier
+      from:
+        - draft
+      to: published
+      weight: 9
+    rejet_de_validation:
+      label: 'Rejet de validation'
+      from:
+        - a_valider
+      to: draft
+      weight: 6
+  entity_types:
+    node:
+      - programmes_de_recherche

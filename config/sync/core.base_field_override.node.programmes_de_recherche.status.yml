@@ -1,0 +1,22 @@
+uuid: bf4eaeb2-c3c8-4c34-b464-d91eeb254474
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.programmes_de_recherche
+id: node.programmes_de_recherche.status
+field_name: status
+entity_type: node
+bundle: programmes_de_recherche
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

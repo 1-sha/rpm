@@ -1,0 +1,20 @@
+uuid: 0fba8f2b-9264-4b9c-89e1-cf34e988523a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - webform
+id: node.field_join_form
+field_name: field_join_form
+entity_type: node
+type: webform
+settings:
+  target_type: webform
+module: webform
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,114 @@
+uuid: 4e177fdc-baec-4ce6-92bb-5b76f90566f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.programmes_de_recherche.field_adresse
+    - field.field.node.programmes_de_recherche.field_budget
+    - field.field.node.programmes_de_recherche.field_date
+    - field.field.node.programmes_de_recherche.field_date_de_fin
+    - field.field.node.programmes_de_recherche.field_description
+    - field.field.node.programmes_de_recherche.field_join_form
+    - field.field.node.programmes_de_recherche.field_organisateurs
+    - field.field.node.programmes_de_recherche.field_range_joining
+    - field.field.node.programmes_de_recherche.field_visuel
+    - node.type.programmes_de_recherche
+  module:
+    - datetime
+    - datetime_range
+    - image
+    - text
+    - user
+    - webform
+id: node.programmes_de_recherche.default
+targetEntityType: node
+bundle: programmes_de_recherche
+mode: default
+content:
+  content_moderation_control:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_adresse:
+    weight: 13
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_budget:
+    weight: 6
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_date:
+    weight: 4
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_date_de_fin:
+    weight: 5
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_description:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_join_form:
+    weight: 9
+    label: above
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: content
+  field_organisateurs:
+    weight: 11
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_range_joining:
+    weight: 10
+    label: above
+    settings:
+      timezone_override: Europe/Paris
+      format_type: html_date
+      separator: /
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_visuel:
+    weight: 2
+    label: visually_hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  content_moderation_reviewer: true

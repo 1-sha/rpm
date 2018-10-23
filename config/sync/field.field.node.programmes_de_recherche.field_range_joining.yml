@@ -1,0 +1,21 @@
+uuid: 2e29f6b7-09c0-4868-b3a7-7e9b02fbed85
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_range_joining
+    - node.type.programmes_de_recherche
+  module:
+    - datetime_range
+id: node.programmes_de_recherche.field_range_joining
+field_name: field_range_joining
+entity_type: node
+bundle: programmes_de_recherche
+label: 'Range joining'
+description: 'Beggining and ending of the joining/submission period'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange
