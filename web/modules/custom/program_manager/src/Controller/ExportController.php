@@ -4,21 +4,25 @@ namespace Drupal\program_manager\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
+use Drupal\node\NodeInterface;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+use Drupal\Core\Access\AccessResult;
 
 class ExportController extends ControllerBase
 {
-    public function exportProgramAdhesions(string $id)
+    public function exportProgramAdhesions(string $nodeInput)
     {
         $user_storage = $this->entityTypeManager()->getStorage('user');
         $webform_storage = $this->entityTypeManager()->getStorage('webform_submission');
         $node_storage = $this->entityTypeManager()->getStorage('node');
         
         $node = $node_storage->loadByProperties([
-            'nid' => $id
-        ])[$id];
-
-        if ($node->bundle() != 'programmes_de_recherche'){
-            kint($node->bundle());
+            'nid' => $nodeInput
+        ])[$nodeInput];
+        // kint($node);
+        // kint($node->bundle());
+//check validity of node type
+        if ($node->bundle() == 'programmes_de_recherche'){
             $webform_submission = $webform_storage->loadByProperties([
                 'entity_type' => 'node',
                 'entity_id' => $node->id(),
@@ -32,7 +36,7 @@ class ExportController extends ControllerBase
             $array['user'] = $user_storage->loadByProperties([
                 'uid' => $userId
             ])[$userId]->getAccountName();
-                
+                //replace hotel field with hotel name instead of id
             $hotelId = $array['choix_d_un_hotel'];
             $array['choix_d_un_hotel'] = $node_storage->loadByProperties([
                     'nid' => $hotelId
@@ -49,6 +53,18 @@ class ExportController extends ControllerBase
             }
             fclose($fileHandle);
             return new BinaryFileResponse('../export.csv');
+        } else {
+            throw new NotFoundHttpException();
         }
     }
+
+    static public function getAccess(){
+        $route_match = \Drupal::service('current_route_match');
+        $goodNodeBundle = $route_match->getParameter('node')->bundle() == "programmes_de_recherche";
+        $goodUserPermission = \Drupal::currentUser()->hasPermission('access-webform-submission-log');
+        // var_dump($goodNodeBundle, $goodUserPermission);
+        // die();
+        return ($goodNodeBundle && $goodUserPermission) ? AccessResult::allowed() : AccessResult::forbidden();
+        // return true;
+      }
 }

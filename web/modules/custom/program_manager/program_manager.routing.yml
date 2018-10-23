@@ -1,12 +1,12 @@
 pm.export:
-  path: '/node/{id}/export.csv'
+  path: '/node/{nodeInput}/export.csv'
   defaults:
     _title: 'Export of program adhesions'
     _controller: Drupal\program_manager\Controller\ExportController::exportProgramAdhesions
   options:
     parameters:
-      id:
-        type: 'entity:node'
+      nodeInput:
+        type: entity:node:nid
   requirements:
-    # _entry_access: 'webform_submission.view'
-    _entry_access: 'TRUE'
+    # _access: 'TRUE'
+    _custom_access: Drupal\program_manager\Controller\ExportController::getAccess
