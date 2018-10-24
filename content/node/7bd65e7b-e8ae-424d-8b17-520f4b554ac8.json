@@ -30,7 +30,7 @@
     ],
     "vid": [
         {
-            "value": 41
+            "value": 76
         }
     ],
     "langcode": [
@@ -46,7 +46,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2018-10-18T10:19:04+00:00",
+            "value": "2018-10-24T08:57:09+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -108,14 +108,14 @@
     ],
     "changed": [
         {
-            "value": "2018-10-18T10:19:04+00:00",
+            "value": "2018-10-24T08:57:09+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "promote": [
         {
-            "value": true,
+            "value": false,
             "lang": "en"
         }
     ],
@@ -162,6 +162,11 @@
     "field_daily_cost": [
         {
             "value": "102.60"
+        }
+    ],
+    "field_e_mail": [
+        {
+            "value": "contact-hotelmercure@gmail.com"
         }
     ],
     "field_phone_number": [

@@ -35,7 +35,7 @@
     ],
     "vid": [
         {
-            "value": 48
+            "value": 71
         }
     ],
     "langcode": [
@@ -51,7 +51,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2018-10-18T13:12:40+00:00",
+            "value": "2018-10-23T08:42:12+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -130,14 +130,14 @@
     ],
     "changed": [
         {
-            "value": "2018-10-18T13:12:40+00:00",
+            "value": "2018-10-23T08:42:12+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "promote": [
         {
-            "value": true,
+            "value": false,
             "lang": "en"
         }
     ],
@@ -173,6 +173,13 @@
             "lang": "en"
         }
     ],
+    "field_adresse": [
+        {
+            "value": "<p><span>232 Boulevard de Sainte-Marguerite, <\/span><\/p>\r\n\r\n<p><span>13009 <\/span><\/p>\r\n\r\n<p><span>Marseille<\/span><\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p><span>232 Boulevard de Sainte-Marguerite, <\/span><\/p>\n\n<p><span>13009 <\/span><\/p>\n\n<p><span>Marseille<\/span><\/p>"
+        }
+    ],
     "field_budget": [
         {
             "value": 300000
@@ -204,10 +211,17 @@
             "close": ""
         }
     ],
+    "field_organisateurs": [
+        {
+            "value": "<p><strong>Institut Paoli-Calmettes :<\/strong><\/p>\r\n\r\n<ul>\r\n\t<li><a href=\"http:\/\/www.institutpaolicalmettes.fr\/linstitut\/actualites\/actualite\/article\/la-fondation-groupe-edf-soutient-le-nano-s\/\">Site Internet<\/a>&nbsp;<\/li>\r\n<\/ul>\r\n",
+            "format": "basic_html",
+            "processed": "<p><strong>Institut Paoli-Calmettes :<\/strong><\/p>\n\n<ul>\n\t<li><a href=\"http:\/\/www.institutpaolicalmettes.fr\/linstitut\/actualites\/actualite\/article\/la-fondation-groupe-edf-soutient-le-nano-s\/\">Site Internet<\/a>\u00a0<\/li>\n<\/ul>"
+        }
+    ],
     "field_range_joining": [
         {
             "value": "2018-10-03",
-            "end_value": "2021-12-31"
+            "end_value": "2022-11-30"
         }
     ]
 }

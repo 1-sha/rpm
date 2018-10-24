@@ -30,7 +30,7 @@
     ],
     "vid": [
         {
-            "value": 14
+            "value": 65
         }
     ],
     "langcode": [
@@ -46,7 +46,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2018-10-09T12:59:17+00:00",
+            "value": "2018-10-23T08:35:38+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -108,7 +108,7 @@
     ],
     "changed": [
         {
-            "value": "2018-10-09T12:59:17+00:00",
+            "value": "2018-10-23T08:35:38+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -146,9 +146,9 @@
     ],
     "body": [
         {
-            "value": "<p><strong>Research Program Manager<\/strong> a pour but de diffuser l'ensemble des <a href=\"#\">programmes de recherche<\/a> de nos partenaires et de permettre aux professionnels une inscription rapide et facile aux diverses sessions propos\u00e9es tout au long de l'ann\u00e9e<\/p>\r\n\r\n<p>En vue d'assurer un service optimal,&nbsp;<b>Research Program Manager<\/b> propose \u00e9galement une <strong>liste d'h\u00f4tels<\/strong> \u00e0 proximit\u00e9 des lieux de s\u00e9minaires \u00e0 des prix abordables.<\/p>\r\n\r\n<p><a href=\"#\"><strong>Liste des programmes de recherche&nbsp;<\/strong><\/a><\/p>\r\n\r\n<p><a href=\"#\"><strong>Listes des h\u00f4tels<\/strong><\/a><\/p>\r\n\r\n<p><a href=\"http:\/\/localhost\/rpm3\/web\/node\/2\"><strong><span>Informations sur l'adh\u00e9sion aux programmes<\/span><\/strong><\/a><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n",
+            "value": "<p><strong>Research Program Manager<\/strong> a pour but de diffuser l'ensemble des <a href=\"#\">programmes de recherche<\/a> de nos partenaires et de permettre aux professionnels une inscription rapide et facile aux diverses sessions propos\u00e9es tout au long de l'ann\u00e9e<\/p>\r\n\r\n<p>En vue d'assurer un service optimal,&nbsp;<b>Research Program Manager<\/b> propose \u00e9galement une <strong>liste d'h\u00f4tels<\/strong> \u00e0 proximit\u00e9 des lieux de s\u00e9minaires \u00e0 des prix abordables.<\/p>\r\n\r\n<p><a href=\"http:\/\/localhost\/rpm\/web\/programs\"><strong>Liste des programmes de recherche&nbsp;<\/strong><\/a><\/p>\r\n\r\n<p><a href=\"http:\/\/localhost\/rpm\/web\/hotel\"><strong>Listes des h\u00f4tels<\/strong><\/a><\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n",
             "format": "full_html",
-            "processed": "<p><strong>Research Program Manager<\/strong> a pour but de diffuser l'ensemble des <a href=\"#\">programmes de recherche<\/a> de nos partenaires et de permettre aux professionnels une inscription rapide et facile aux diverses sessions propos\u00e9es tout au long de l'ann\u00e9e<\/p>\n\n<p>En vue d'assurer un service optimal,\u00a0<b>Research Program Manager<\/b> propose \u00e9galement une <strong>liste d'h\u00f4tels<\/strong> \u00e0 proximit\u00e9 des lieux de s\u00e9minaires \u00e0 des prix abordables.<\/p>\n\n<p><a href=\"#\"><strong>Liste des programmes de recherche\u00a0<\/strong><\/a><\/p>\n\n<p><a href=\"#\"><strong>Listes des h\u00f4tels<\/strong><\/a><\/p>\n\n<p><a href=\"http:\/\/localhost\/rpm3\/web\/node\/2\"><strong><span>Informations sur l'adh\u00e9sion aux programmes<\/span><\/strong><\/a><\/p>\n\n<p>\u00a0<\/p>\n\n<p>\u00a0<\/p>\n",
+            "processed": "<p><strong>Research Program Manager<\/strong> a pour but de diffuser l'ensemble des <a href=\"#\">programmes de recherche<\/a> de nos partenaires et de permettre aux professionnels une inscription rapide et facile aux diverses sessions propos\u00e9es tout au long de l'ann\u00e9e<\/p>\n\n<p>En vue d'assurer un service optimal,\u00a0<b>Research Program Manager<\/b> propose \u00e9galement une <strong>liste d'h\u00f4tels<\/strong> \u00e0 proximit\u00e9 des lieux de s\u00e9minaires \u00e0 des prix abordables.<\/p>\n\n<p><a href=\"http:\/\/localhost\/rpm\/web\/programs\"><strong>Liste des programmes de recherche\u00a0<\/strong><\/a><\/p>\n\n<p><a href=\"http:\/\/localhost\/rpm\/web\/hotel\"><strong>Listes des h\u00f4tels<\/strong><\/a><\/p>\n\n<p>\u00a0<\/p>\n\n<p>\u00a0<\/p>\n\n<p>\u00a0<\/p>\n",
             "summary": "",
             "lang": "en"
         }

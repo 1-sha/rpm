@@ -17,6 +17,11 @@
                 "lang": "en"
             }
         ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/field_programme_de_recherche_tax": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json"
+            }
+        ],
         "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/field_visuel": [
             {
                 "href": "http:\/\/default\/sites\/default\/files\/2018-10\/Logo-FondationRecherche-red.png"
@@ -35,7 +40,7 @@
     ],
     "vid": [
         {
-            "value": 62
+            "value": 92
         }
     ],
     "langcode": [
@@ -51,7 +56,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2018-10-22T08:40:54+00:00",
+            "value": "2018-10-24T12:56:02+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -89,6 +94,23 @@
                     }
                 ],
                 "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/field_programme_de_recherche_tax": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/programmes_de_recherche"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e2b0ef56-2c29-43c0-b6f5-27d128b9aaf5"
+                    }
+                ]
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/field_visuel": [
@@ -130,7 +152,7 @@
     ],
     "changed": [
         {
-            "value": "2018-10-22T08:40:54+00:00",
+            "value": "2018-10-24T12:56:02+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -197,9 +219,9 @@
     ],
     "field_description": [
         {
-            "value": "<p><strong>Soutenus par un conseil scientifique d\u2019exception et inattaquable \u2013 comptant des chercheurs fran\u00e7ais parmi les meilleurs-<\/strong> dont la renomm\u00e9e d\u00e9passe nos fronti\u00e8res, notamment des membres de l\u2019Acad\u00e9mie des Sciences, ces Programmes de Recherche voudront mettre \u00e0 terme <span><strong>\u00e0 la sous-repr\u00e9sentation du sexe f\u00e9minin dans la recherche cardio-vasculaire<\/strong><\/span>, qu\u2019il s\u2019agisse des essais cliniques, des \u00e9tudes d\u2019intervention ou des travaux sur l\u2019animal.<\/p>\r\n\r\n<p>Il s\u2019agit de prendre en compte la sp\u00e9cificit\u00e9 biologique de l\u2019organisme f\u00e9minin afin d\u2019assurer une protection cardio-vasculaire identique \u00e0 celle de l\u2019homme ; c\u2019est en particulier le cas de l\u2019hypercholest\u00e9rol\u00e9mie, du risque d\u2019isch\u00e9mie et de sa relation avec l\u2019\u00e9volution de ses \u00e9tats hormonaux, \u00e9ventuellement modul\u00e9s par la prise des diff\u00e9rents contraceptifs au long cours de la vie et enfin \u00e0 l\u2019\u00e9tat des vaisseaux veineux, probl\u00e8me particulier \u00e0 la femme.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h3><span><strong>TOUT RESTE DONC A FAIRE<br \/>\r\nPOUR LE C\u0152UR DES FEMMES !<\/strong><\/span><\/h3>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>Il est urgent, au m\u00eame titre qu\u2019on l\u2019a fait pour les hommes, d\u2019\u00e9tudier les femmes qui ont une<br \/>\r\nmaladie cardio-vasculaire par rapport \u00e0 celles qui n\u2019en ont pas, d\u2019analyser les raisons et les diff\u00e9rences ainsi que les facteurs pr\u00e9dictifs pour enrayer cette \u00e9pid\u00e9mie du c\u0153ur affectant des femmes de plus en plus jeunes.<\/p>\r\n\r\n<p>En savoir plus sur :&nbsp;<a href=\"http:\/\/www.fondation-recherche-cardio-vasculaire.org\/\">www.fondation-recherche-cardio-vasculaire.org<\/a><\/p>\r\n",
+            "value": "<p><strong>Soutenus par un conseil scientifique d\u2019exception et inattaquable \u2013 comptant des chercheurs fran\u00e7ais parmi les meilleurs-<\/strong> dont la renomm\u00e9e d\u00e9passe nos fronti\u00e8res, notamment des membres de l\u2019Acad\u00e9mie des Sciences, ces Programmes de Recherche voudront mettre \u00e0 terme <span><strong>\u00e0 la sous-repr\u00e9sentation du sexe f\u00e9minin dans la recherche cardio-vasculaire<\/strong><\/span>, qu\u2019il s\u2019agisse des essais cliniques, des \u00e9tudes d\u2019intervention ou des travaux sur l\u2019animal.<\/p>\r\n\r\n<p>Il s\u2019agit de prendre en compte la sp\u00e9cificit\u00e9 biologique de l\u2019organisme f\u00e9minin afin d\u2019assurer une protection cardio-vasculaire identique \u00e0 celle de l\u2019homme ; c\u2019est en particulier le cas de l\u2019hypercholest\u00e9rol\u00e9mie, du risque d\u2019isch\u00e9mie et de sa relation avec l\u2019\u00e9volution de ses \u00e9tats hormonaux, \u00e9ventuellement modul\u00e9s par la prise des diff\u00e9rents contraceptifs au long cours de la vie et enfin \u00e0 l\u2019\u00e9tat des vaisseaux veineux, probl\u00e8me particulier \u00e0 la femme.<\/p>\r\n\r\n<h5><span><strong>TOUT RESTE DONC A FAIRE <\/strong><\/span><span><strong>POUR LE C\u0152UR DES FEMMES !<\/strong><\/span><\/h5>\r\n\r\n<p>Il est urgent, au m\u00eame titre qu\u2019on l\u2019a fait pour les hommes, d\u2019\u00e9tudier les femmes qui ont une<\/p>\r\n\r\n<p>maladie cardio-vasculaire par rapport \u00e0 celles qui n\u2019en ont pas, d\u2019analyser les raisons et les diff\u00e9rences ainsi que les facteurs pr\u00e9dictifs pour enrayer cette \u00e9pid\u00e9mie du c\u0153ur affectant des femmes de plus en plus jeunes.<\/p>\r\n\r\n<p>En savoir plus sur :&nbsp;<a href=\"http:\/\/www.fondation-recherche-cardio-vasculaire.org\/\">www.fondation-recherche-cardio-vasculaire.org<\/a><\/p>\r\n",
             "format": "basic_html",
-            "processed": "<p><strong>Soutenus par un conseil scientifique d\u2019exception et inattaquable \u2013 comptant des chercheurs fran\u00e7ais parmi les meilleurs-<\/strong> dont la renomm\u00e9e d\u00e9passe nos fronti\u00e8res, notamment des membres de l\u2019Acad\u00e9mie des Sciences, ces Programmes de Recherche voudront mettre \u00e0 terme <span><strong>\u00e0 la sous-repr\u00e9sentation du sexe f\u00e9minin dans la recherche cardio-vasculaire<\/strong><\/span>, qu\u2019il s\u2019agisse des essais cliniques, des \u00e9tudes d\u2019intervention ou des travaux sur l\u2019animal.<\/p>\n\n<p>Il s\u2019agit de prendre en compte la sp\u00e9cificit\u00e9 biologique de l\u2019organisme f\u00e9minin afin d\u2019assurer une protection cardio-vasculaire identique \u00e0 celle de l\u2019homme ; c\u2019est en particulier le cas de l\u2019hypercholest\u00e9rol\u00e9mie, du risque d\u2019isch\u00e9mie et de sa relation avec l\u2019\u00e9volution de ses \u00e9tats hormonaux, \u00e9ventuellement modul\u00e9s par la prise des diff\u00e9rents contraceptifs au long cours de la vie et enfin \u00e0 l\u2019\u00e9tat des vaisseaux veineux, probl\u00e8me particulier \u00e0 la femme.<\/p>\n\n<p>\u00a0<\/p>\n\n<h3><span><strong>TOUT RESTE DONC A FAIRE<br \/>\nPOUR LE C\u0152UR DES FEMMES !<\/strong><\/span><\/h3>\n\n<p>\u00a0<\/p>\n\n<p>Il est urgent, au m\u00eame titre qu\u2019on l\u2019a fait pour les hommes, d\u2019\u00e9tudier les femmes qui ont une<br \/>\nmaladie cardio-vasculaire par rapport \u00e0 celles qui n\u2019en ont pas, d\u2019analyser les raisons et les diff\u00e9rences ainsi que les facteurs pr\u00e9dictifs pour enrayer cette \u00e9pid\u00e9mie du c\u0153ur affectant des femmes de plus en plus jeunes.<\/p>\n\n<p>En savoir plus sur :\u00a0<a href=\"http:\/\/www.fondation-recherche-cardio-vasculaire.org\/\">www.fondation-recherche-cardio-vasculaire.org<\/a><\/p>"
+            "processed": "<p><strong>Soutenus par un conseil scientifique d\u2019exception et inattaquable \u2013 comptant des chercheurs fran\u00e7ais parmi les meilleurs-<\/strong> dont la renomm\u00e9e d\u00e9passe nos fronti\u00e8res, notamment des membres de l\u2019Acad\u00e9mie des Sciences, ces Programmes de Recherche voudront mettre \u00e0 terme <span><strong>\u00e0 la sous-repr\u00e9sentation du sexe f\u00e9minin dans la recherche cardio-vasculaire<\/strong><\/span>, qu\u2019il s\u2019agisse des essais cliniques, des \u00e9tudes d\u2019intervention ou des travaux sur l\u2019animal.<\/p>\n\n<p>Il s\u2019agit de prendre en compte la sp\u00e9cificit\u00e9 biologique de l\u2019organisme f\u00e9minin afin d\u2019assurer une protection cardio-vasculaire identique \u00e0 celle de l\u2019homme ; c\u2019est en particulier le cas de l\u2019hypercholest\u00e9rol\u00e9mie, du risque d\u2019isch\u00e9mie et de sa relation avec l\u2019\u00e9volution de ses \u00e9tats hormonaux, \u00e9ventuellement modul\u00e9s par la prise des diff\u00e9rents contraceptifs au long cours de la vie et enfin \u00e0 l\u2019\u00e9tat des vaisseaux veineux, probl\u00e8me particulier \u00e0 la femme.<\/p>\n\n<h5><span><strong>TOUT RESTE DONC A FAIRE <\/strong><\/span><span><strong>POUR LE C\u0152UR DES FEMMES !<\/strong><\/span><\/h5>\n\n<p>Il est urgent, au m\u00eame titre qu\u2019on l\u2019a fait pour les hommes, d\u2019\u00e9tudier les femmes qui ont une<\/p>\n\n<p>maladie cardio-vasculaire par rapport \u00e0 celles qui n\u2019en ont pas, d\u2019analyser les raisons et les diff\u00e9rences ainsi que les facteurs pr\u00e9dictifs pour enrayer cette \u00e9pid\u00e9mie du c\u0153ur affectant des femmes de plus en plus jeunes.<\/p>\n\n<p>En savoir plus sur :\u00a0<a href=\"http:\/\/www.fondation-recherche-cardio-vasculaire.org\/\">www.fondation-recherche-cardio-vasculaire.org<\/a><\/p>"
         }
     ],
     "field_join_form": [
@@ -216,6 +238,28 @@
             "value": "<p><strong>Fondation recherche cardio-vasculaire<\/strong> (<a href=\"http:\/\/www.fondation-recherche-cardio-vasculaire.org\/coeur-de-femmes\/la-recherche-pour-le-coeur-des-femmes\/lancement-programmes-de-recherche-coeur-de-femmes\/\">site Internet<\/a>)<\/p>\r\n",
             "format": "basic_html",
             "processed": "<p><strong>Fondation recherche cardio-vasculaire<\/strong> (<a href=\"http:\/\/www.fondation-recherche-cardio-vasculaire.org\/coeur-de-femmes\/la-recherche-pour-le-coeur-des-femmes\/lancement-programmes-de-recherche-coeur-de-femmes\/\">site Internet<\/a>)<\/p>"
+        }
+    ],
+    "field_participants": [
+        {
+            "value": "<p><strong>Professeur Jean-Fran\u00e7ois Bach<\/strong><\/p>\r\n\r\n<ul>\r\n\t<li>Professeur Em\u00e9rite \u00e0 l\u2019Universit\u00e9 Paris Descartes, Secr\u00e9taire Perp\u00e9tuel de l\u2019Acad\u00e9mie des Sciences<\/li>\r\n\t<li>Pr\u00e9sident du Conseil Scientifique de la Fondation<\/li>\r\n<\/ul>\r\n",
+            "format": "basic_html",
+            "processed": "<p><strong>Professeur Jean-Fran\u00e7ois Bach<\/strong><\/p>\n\n<ul>\n\t<li>Professeur Em\u00e9rite \u00e0 l\u2019Universit\u00e9 Paris Descartes, Secr\u00e9taire Perp\u00e9tuel de l\u2019Acad\u00e9mie des Sciences<\/li>\n\t<li>Pr\u00e9sident du Conseil Scientifique de la Fondation<\/li>\n<\/ul>"
+        },
+        {
+            "value": "<p><strong>Professeur Margaret Buckingham<\/strong><\/p>\r\n\r\n<ul>\r\n\t<li>Directeur de recherche au CNRS - Professeur \u00e0 l'Institut Pasteur<\/li>\r\n\t<li>Membre de l\u2019Acad\u00e9mie des Sciences<\/li>\r\n<\/ul>\r\n",
+            "format": "basic_html",
+            "processed": "<p><strong>Professeur Margaret Buckingham<\/strong><\/p>\n\n<ul>\n\t<li>Directeur de recherche au CNRS - Professeur \u00e0 l'Institut Pasteur<\/li>\n\t<li>Membre de l\u2019Acad\u00e9mie des Sciences<\/li>\n<\/ul>"
+        },
+        {
+            "value": "<p><strong>Professeur Margaret Buckingham<\/strong><\/p>\r\n\r\n<ul>\r\n\t<li>Directeur de recherche au CNRS - Professeur \u00e0 l'Institut Pasteur<\/li>\r\n\t<li>Membre de l\u2019Acad\u00e9mie des Sciences<\/li>\r\n<\/ul>\r\n",
+            "format": "basic_html",
+            "processed": "<p><strong>Professeur Margaret Buckingham<\/strong><\/p>\n\n<ul>\n\t<li>Directeur de recherche au CNRS - Professeur \u00e0 l'Institut Pasteur<\/li>\n\t<li>Membre de l\u2019Acad\u00e9mie des Sciences<\/li>\n<\/ul>"
+        },
+        {
+            "value": "<p><strong>Professeur Jean-No\u00ebl Fabiani<\/strong><\/p>\r\n\r\n<ul>\r\n\t<li>Professeur \u00e0 l\u2019Universit\u00e9 Paris Descartes, Chef de Service de Chirurgie Cardio-Vasculaire<\/li>\r\n\t<li>H\u00f4pital Europ\u00e9en Georges Pompidou<\/li>\r\n<\/ul>\r\n",
+            "format": "basic_html",
+            "processed": "<p><strong>Professeur Jean-No\u00ebl Fabiani<\/strong><\/p>\n\n<ul>\n\t<li>Professeur \u00e0 l\u2019Universit\u00e9 Paris Descartes, Chef de Service de Chirurgie Cardio-Vasculaire<\/li>\n\t<li>H\u00f4pital Europ\u00e9en Georges Pompidou<\/li>\n<\/ul>"
         }
     ],
     "field_range_joining": [

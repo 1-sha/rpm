@@ -30,7 +30,7 @@
     ],
     "vid": [
         {
-            "value": 8
+            "value": 64
         }
     ],
     "langcode": [
@@ -46,7 +46,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2018-10-09T12:08:12+00:00",
+            "value": "2018-10-23T08:30:26+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -108,7 +108,7 @@
     ],
     "changed": [
         {
-            "value": "2018-10-09T12:08:12+00:00",
+            "value": "2018-10-23T08:30:26+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -120,7 +120,7 @@
     ],
     "sticky": [
         {
-            "value": false,
+            "value": true,
             "lang": "en"
         }
     ],

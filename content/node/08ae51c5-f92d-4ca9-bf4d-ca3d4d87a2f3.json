@@ -17,6 +17,17 @@
                 "lang": "en"
             }
         ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/field_programme_de_recherche_tax": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/8?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/7?_format=hal_json"
+            }
+        ],
         "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/field_visuel": [
             {
                 "href": "http:\/\/default\/sites\/default\/files\/2018-10\/header_logo.png"
@@ -35,7 +46,7 @@
     ],
     "vid": [
         {
-            "value": 63
+            "value": 89
         }
     ],
     "langcode": [
@@ -51,7 +62,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2018-10-22T09:15:15+00:00",
+            "value": "2018-10-24T12:42:40+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -89,6 +100,53 @@
                     }
                 ],
                 "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/field_programme_de_recherche_tax": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/programmes_de_recherche"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c636dccb-e8a1-4893-8936-915af98b2f37"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/8?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/programmes_de_recherche"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7e31ec98-23aa-4632-b1c5-c4f548b1c255"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/7?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/programmes_de_recherche"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9bdc8e20-f2b9-438c-ad80-23719bd8ebf4"
+                    }
+                ]
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/field_visuel": [
@@ -130,7 +188,7 @@
     ],
     "changed": [
         {
-            "value": "2018-10-22T09:15:15+00:00",
+            "value": "2018-10-24T12:42:40+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -231,6 +289,18 @@
             "value": "<p><strong><span>Fran\u00e7ois Villa<\/span><\/strong><\/p>\r\n\r\n<ul>\r\n\t<li><span>Professeur de psychopathologie \u00e0 l\u2019UFR Etudes Psychanalytiques de l\u2019Universit\u00e9 Paris Diderot. <\/span><\/li>\r\n\t<li><span>Responsable de l\u2019axe Psychanalyse et m\u00e9decine du Centre de Recherches Psychanalyse, M\u00e9decine et Soci\u00e9t\u00e9 (CRPMS). <\/span><\/li>\r\n<\/ul>\r\n",
             "format": "basic_html",
             "processed": "<p><strong><span>Fran\u00e7ois Villa<\/span><\/strong><\/p>\n\n<ul>\n\t<li><span>Professeur de psychopathologie \u00e0 l\u2019UFR Etudes Psychanalytiques de l\u2019Universit\u00e9 Paris Diderot. <\/span><\/li>\n\t<li><span>Responsable de l\u2019axe Psychanalyse et m\u00e9decine du Centre de Recherches Psychanalyse, M\u00e9decine et Soci\u00e9t\u00e9 (CRPMS). <\/span><\/li>\n<\/ul>"
+        }
+    ],
+    "field_participants": [
+        {
+            "value": "<p><strong>Sylvie Fainzang<\/strong><\/p>\r\n\r\n<ul>\r\n\t<li>anthropologue de la sant\u00e9, directrice de recherches \u00e0 l\u2019INSERM, CERMES 3 \u2013 CNRS UMR 8211, Universit\u00e9 Paris Descartes. Co-responsable de l\u2019axe de recherches 1.<\/li>\r\n<\/ul>\r\n",
+            "format": "basic_html",
+            "processed": "<p><strong>Sylvie Fainzang<\/strong><\/p>\n\n<ul>\n\t<li>anthropologue de la sant\u00e9, directrice de recherches \u00e0 l\u2019INSERM, CERMES 3 \u2013 CNRS UMR 8211, Universit\u00e9 Paris Descartes. Co-responsable de l\u2019axe de recherches 1.<\/li>\n<\/ul>"
+        },
+        {
+            "value": "<p><strong>Pr Bernard Pachoud<\/strong><\/p>\r\n\r\n<ul>\r\n\t<li>professeur de psychopathologie, psychiatre, Centre de Recherches Psychanalyse M\u00e9decine et Soci\u00e9t\u00e9, Universit\u00e9 Paris Diderot. Responsable de l\u2019axe de recherches 2.<\/li>\r\n<\/ul>\r\n",
+            "format": "basic_html",
+            "processed": "<p><strong>Pr Bernard Pachoud<\/strong><\/p>\n\n<ul>\n\t<li>professeur de psychopathologie, psychiatre, Centre de Recherches Psychanalyse M\u00e9decine et Soci\u00e9t\u00e9, Universit\u00e9 Paris Diderot. Responsable de l\u2019axe de recherches 2.<\/li>\n<\/ul>"
         }
     ],
     "field_range_joining": [
