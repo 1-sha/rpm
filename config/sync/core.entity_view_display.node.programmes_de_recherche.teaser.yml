@@ -22,30 +22,31 @@ targetEntityType: node
 bundle: programmes_de_recherche
 mode: teaser
 content:
-  body:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 101
-    settings:
-      trim_length: 600
-    third_party_settings: {  }
-    region: content
   content_moderation_control:
-    weight: -20
+    weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
+  field_visuel:
+    type: image
+    weight: 2
     region: content
+    label: visually_hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
   links:
-    weight: 100
+    weight: 1
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
-  content_moderation_reviewer: true
+  field_adresse: true
   field_budget: true
+  field_date: true
   field_date_de_fin: true
   field_description: true
+  field_join_form: true
   field_organisateurs: true
-  field_participants: true
-  field_unedate: true
-  field_visuel: true
+  field_range_joining: true

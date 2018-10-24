@@ -10,14 +10,17 @@ dependencies:
     - field.field.node.programmes_de_recherche.field_description
     - field.field.node.programmes_de_recherche.field_join_form
     - field.field.node.programmes_de_recherche.field_organisateurs
+    - field.field.node.programmes_de_recherche.field_participants
     - field.field.node.programmes_de_recherche.field_range_joining
     - field.field.node.programmes_de_recherche.field_visuel
     - node.type.programmes_de_recherche
   module:
     - datetime
+    - datetime_range
     - image
     - text
     - user
+    - webform
 id: node.programmes_de_recherche.default
 targetEntityType: node
 bundle: programmes_de_recherche
@@ -29,7 +32,7 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_adresse:
-    weight: 13
+    weight: 11
     label: above
     settings: {  }
     third_party_settings: {  }
@@ -45,20 +48,20 @@ content:
     type: number_integer
     region: content
   field_date:
-    weight: 5
-    label: above
-    settings:
-      timezone_override: Europe/Paris
-      format_type: short
-    third_party_settings: {  }
-    type: datetime_default
-    region: content
-  field_date_de_debut:
     weight: 4
     label: above
     settings:
-      timezone_override: Europe/Paris
-      format_type: short
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_date_de_fin:
+    weight: 5
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
     third_party_settings: {  }
     type: datetime_default
     region: content
@@ -70,7 +73,7 @@ content:
     type: text_default
     region: content
   field_join_form:
-    weight: 9
+    weight: 7
     label: above
     settings:
       source_entity: true
@@ -78,14 +81,21 @@ content:
     type: webform_entity_reference_entity_view
     region: content
   field_organisateurs:
-    weight: 11
+    weight: 9
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_participants:
+    weight: 10
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_range_joining:
-    weight: 10
+    weight: 8
     label: above
     settings:
       timezone_override: Europe/Paris

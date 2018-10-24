@@ -233,7 +233,7 @@ display:
           row_class: ''
           default_row_class: true
           uses_fields: false
-      title: ''
+      title: Accueil
       header: {  }
       footer: {  }
       relationships: {  }
