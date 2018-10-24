@@ -49,5 +49,4 @@ hidden:
   field_description: true
   field_join_form: true
   field_organisateurs: true
-  field_participants: true
   field_range_joining: true

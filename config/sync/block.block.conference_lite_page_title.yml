@@ -2,6 +2,8 @@ uuid: 1bd825ad-ddb5-4a95-aea6-91230df60a0f
 langcode: en
 status: true
 dependencies:
+  module:
+    - ctools
   theme:
     - conference_lite
 _core:
@@ -14,7 +16,14 @@ provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Page title'
+  label: 'Tous les programmes'
   provider: core
   label_display: '0'
-visibility: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      programmes_de_recherche: programmes_de_recherche
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

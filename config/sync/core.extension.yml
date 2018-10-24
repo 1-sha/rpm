@@ -3,6 +3,7 @@ module:
   admin_toolbar_links_access_filter: 0
   admin_toolbar_tools: 0
   automated_cron: 0
+  big_pipe: 0
   block: 0
   block_content: 0
   breakpoint: 0
@@ -13,7 +14,6 @@ module:
   contact: 0
   content_moderation: 0
   contextual: 0
-  csv_serialization: 0
   ctools: 0
   date_range_formatter: 0
   datetime: 0
@@ -31,10 +31,6 @@ module:
   file_mdm_exif: 0
   file_mdm_font: 0
   filter: 0
-  geolocation: 0
-  geolocation_demo: 0
-  geolocation_leaflet: 0
-  geolocation_leaflet_demo: 0
   hal: 0
   help: 0
   history: 0
@@ -53,7 +49,6 @@ module:
   quickedit: 0
   rdf: 0
   registration_role: 0
-  rest: 0
   search: 0
   serialization: 0
   shortcut: 0
@@ -61,12 +56,10 @@ module:
   system: 0
   taxonomy: 0
   text: 0
-  token: 0
   toolbar: 0
   tour: 0
   user: 0
   userprotect: 0
-  views_data_export: 0
   views_ui: 0
   webform: 0
   webform_node: 0

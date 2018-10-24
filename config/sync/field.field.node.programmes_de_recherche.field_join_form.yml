@@ -11,7 +11,7 @@ id: node.programmes_de_recherche.field_join_form
 field_name: field_join_form
 entity_type: node
 bundle: programmes_de_recherche
-label: 'Join form'
+label: 'S''inscrire'
 description: ''
 required: true
 translatable: false

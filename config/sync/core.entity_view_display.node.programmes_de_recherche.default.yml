@@ -88,7 +88,7 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: webform_entity_reference_entity_view
+    type: text_default
     region: content
   field_participants:
     weight: 10

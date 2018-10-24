@@ -11,7 +11,7 @@ id: node.programmes_de_recherche.field_range_joining
 field_name: field_range_joining
 entity_type: node
 bundle: programmes_de_recherche
-label: 'Range joining'
+label: 'Ouverture de l''inscription'
 description: 'Beggining and ending of the joining/submission period'
 required: true
 translatable: false
