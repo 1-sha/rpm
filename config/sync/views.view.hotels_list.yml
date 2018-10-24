@@ -184,13 +184,14 @@ display:
       path: hotel
       menu:
         type: normal
-        title: Hotel
-        description: ''
+        title: 'Tous les hôtels'
+        description: 'Liste de tous les hôtels disponibles'
         expanded: false
         parent: ''
         weight: -48
         context: '0'
         menu_name: main
+        enabled: true
     cache_metadata:
       max-age: -1
       contexts:

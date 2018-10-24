@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.programmes_de_recherche.field_description
     - field.field.node.programmes_de_recherche.field_join_form
     - field.field.node.programmes_de_recherche.field_organisateurs
+    - field.field.node.programmes_de_recherche.field_participants
     - field.field.node.programmes_de_recherche.field_range_joining
     - field.field.node.programmes_de_recherche.field_visuel
     - image.style.thumbnail
@@ -18,7 +19,6 @@ dependencies:
     - content_moderation
     - datetime
     - datetime_range
-    - flexiform
     - image
     - path
     - text
@@ -43,12 +43,12 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 10
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
   field_adresse:
-    weight: 135
+    weight: 17
     settings:
       rows: 5
       placeholder: ''
@@ -56,26 +56,26 @@ content:
     type: text_textarea
     region: content
   field_budget:
-    weight: 125
+    weight: 9
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
     region: content
   field_date:
-    weight: 131
+    weight: 13
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
     region: content
   field_date_de_fin:
-    weight: 132
+    weight: 14
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
     region: content
   field_description:
-    weight: 124
+    weight: 8
     settings:
       rows: 5
       placeholder: ''
@@ -83,14 +83,22 @@ content:
     type: text_textarea
     region: content
   field_join_form:
-    weight: 129
+    weight: 11
     settings:
       default_data: true
     third_party_settings: {  }
     type: webform_entity_reference_select
     region: content
   field_organisateurs:
-    weight: 133
+    weight: 15
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_participants:
+    weight: 16
     settings:
       rows: 5
       placeholder: ''
@@ -98,13 +106,13 @@ content:
     type: text_textarea
     region: content
   field_range_joining:
-    weight: 130
+    weight: 12
     settings: {  }
     third_party_settings: {  }
     type: daterange_default
     region: content
   field_visuel:
-    weight: 128
+    weight: 10
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -113,13 +121,13 @@ content:
     region: content
   moderation_state:
     type: moderation_state_default
-    weight: 100
+    weight: 6
     settings: {  }
     region: content
     third_party_settings: {  }
   path:
     type: path
-    weight: 30
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -127,26 +135,26 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 15
+    weight: 3
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 120
+    weight: 7
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 16
+    weight: 4
     region: content
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: -5
+    weight: 0
     region: content
     settings:
       size: 60
@@ -154,7 +162,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 1
     settings:
       match_operator: CONTAINS
       size: 60

@@ -1,19 +1,19 @@
-uuid: 62530bec-3aed-448b-a8a2-c4c249a62c25
+uuid: 787b46dc-8592-4ba3-a4ad-07a1b23ccec2
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_phone_number
+    - field.storage.node.field_e_mail
     - node.type.hotel
-id: node.hotel.field_phone_number
-field_name: field_phone_number
+id: node.hotel.field_e_mail
+field_name: field_e_mail
 entity_type: node
 bundle: hotel
-label: Tél.
+label: E-mail
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: string
+field_type: email

@@ -72,6 +72,7 @@ display:
       row:
         type: 'entity:node'
         options:
+          relationship: none
           view_mode: teaser
       fields:
         title:
@@ -173,9 +174,9 @@ display:
       path: programs
       menu:
         type: normal
-        title: Programs
+        title: 'Tous les programmes'
         menu_name: main
-        description: ''
+        description: 'Affichage de tous les programmes de recherche'
         parent: ''
         weight: -49
         expanded: true

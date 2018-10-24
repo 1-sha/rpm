@@ -9,7 +9,7 @@ id: node.hotel.field_daily_cost
 field_name: field_daily_cost
 entity_type: node
 bundle: hotel
-label: 'Daily Cost'
+label: 'Prix minimal'
 description: ''
 required: false
 translatable: false

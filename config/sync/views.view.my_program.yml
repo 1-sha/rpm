@@ -173,7 +173,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: 'My program'
+      title: 'Tous les programmes'
       header: {  }
       footer: {  }
       empty: {  }

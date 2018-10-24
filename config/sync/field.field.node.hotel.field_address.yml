@@ -9,7 +9,7 @@ id: node.hotel.field_address
 field_name: field_address
 entity_type: node
 bundle: hotel
-label: Address
+label: Adresse
 description: ''
 required: false
 translatable: false

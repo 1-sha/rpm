@@ -1,27 +1,28 @@
-uuid: bb27971f-ff0a-4906-883f-f19e49fe0884
+uuid: ea66318b-2f07-4c4f-bdb7-98406809a1ea
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.my_program
+    - views.view.participants
   module:
     - ctools
     - views
   theme:
     - conference_lite
-id: views_block__my_program_block_1
+id: views_block__participants_block_1
 theme: conference_lite
-region: content_top
+region: sidebar_second
 weight: 0
 provider: null
-plugin: 'views_block:my_program-block_1'
+plugin: 'views_block:participants-block_1'
 settings:
-  id: 'views_block:my_program-block_1'
+  id: 'views_block:participants-block_1'
   label: ''
   provider: views
   label_display: visible
   views_label: ''
   items_per_page: none
+  context_mapping: {  }
 visibility:
   'entity_bundle:node':
     id: 'entity_bundle:node'
