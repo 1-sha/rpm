@@ -7,7 +7,6 @@ dependencies:
     - field.field.node.hotel.body
     - field.field.node.hotel.field_address
     - field.field.node.hotel.field_daily_cost
-    - field.field.node.hotel.field_mail
     - field.field.node.hotel.field_phone_number
     - node.type.hotel
   module:
@@ -29,6 +28,5 @@ content:
 hidden:
   field_address: true
   field_daily_cost: true
-  field_mail: true
   field_phone_number: true
   links: true

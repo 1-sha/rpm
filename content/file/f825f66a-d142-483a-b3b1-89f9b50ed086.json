@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/webform\/adhesion_a_la_biologie\/2\/attestation-pole-emploi-2017.pdf"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/19?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 14
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f825f66a-d142-483a-b3b1-89f9b50ed086"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/19?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "89ee3e36-2e69-4bca-b528-a78db958b98f"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "attestation-pole-emploi-2017.pdf"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/webform\/adhesion_a_la_biologie\/2\/attestation-pole-emploi-2017.pdf",
+            "url": "\/sites\/default\/files\/webform\/adhesion_a_la_biologie\/2\/attestation-pole-emploi-2017.pdf"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "application\/pdf"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 206347
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-18T13:50:18+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-18T13:50:21+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/19?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        }
+    },
+    "uid": [
+        {
+            "value": 19
+        }
+    ],
+    "uuid": [
+        {
+            "value": "89ee3e36-2e69-4bca-b528-a78db958b98f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Ele5"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-18T13:45:45+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-19T13:38:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_city": [
+        {
+            "value": "Tartempionville"
+        }
+    ],
+    "field_country": [
+        {
+            "value": "Toncul"
+        }
+    ],
+    "field_first_name": [
+        {
+            "value": "Gertrude"
+        }
+    ],
+    "field_name": [
+        {
+            "value": "Leforestier"
+        }
+    ],
+    "field_organisation_society": [
+        {
+            "value": "Institut Paoli-Calmettes"
+        }
+    ],
+    "field_particular_indications": [
+        {
+            "value": "none"
+        }
+    ],
+    "field_personnal_website": [
+        {
+            "uri": "http:\/\/toussurlesmaladies.com",
+            "title": "",
+            "options": []
+        }
+    ]
+}

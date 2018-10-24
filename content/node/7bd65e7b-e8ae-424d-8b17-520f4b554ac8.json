@@ -1,0 +1,172 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/6?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/hotel"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 6
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7bd65e7b-e8ae-424d-8b17-520f4b554ac8"
+        }
+    ],
+    "vid": [
+        {
+            "value": 41
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "hotel"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-10-18T10:19:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c43b7546-45a9-4afd-a307-fe0620fd91d7"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/hotel\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c43b7546-45a9-4afd-a307-fe0620fd91d7"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "H\u00f4tel Mercure Paris Levallois-Perret",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-12T14:43:35+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-18T10:19:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<img alt=\"H\u00f4tel Mercure - chambre\" data-align=\"center\" data-caption=\"H\u00f4tel Mercure - chambre\" data-entity-type=\"file\" data-entity-uuid=\"b350528d-c710-47d4-af97-6b81ed8b96df\" height=\"308\" src=\"\/rpm\/web\/sites\/default\/files\/inline-images\/hotel-mercure1_0.jpg\" width=\"461\" \/>\r\n<p><span>L'h\u00f4tel Mercure Paris Levallois Perret est situ\u00e9 en bordure de Neuilly-sur-Seine entre l'Espace Champerret et le Palais des Congr\u00e8s de la Porte Maillot. Offrant un acc\u00e8s direct au coeur de Paris, cet \u00e9tablissement chaleureux propose un ensemble de chambres contemporaines et confortables. D\u00e9tendez-vous dans le patio ext\u00e9rieur. Cet h\u00f4tel Mercure est une adresse id\u00e9ale pour vos voyages d'affaires ou de loisirs.<\/span><\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<figure role=\"group\" class=\"caption caption-img align-center\">\n<img alt=\"Image removed.\" data-entity-type=\"file\" data-entity-uuid=\"b350528d-c710-47d4-af97-6b81ed8b96df\" height=\"16\" src=\"\/sites\/default\/files\/inline-images\/hotel-mercure1_0.jpg\" width=\"16\" title=\"This image has been removed. For security reasons, only images from the local domain are allowed.\" class=\"filter-image-invalid\" \/>\n<figcaption>H\u00f4tel Mercure - chambre<\/figcaption>\n<\/figure>\n\n<p><span>L'h\u00f4tel Mercure Paris Levallois Perret est situ\u00e9 en bordure de Neuilly-sur-Seine entre l'Espace Champerret et le Palais des Congr\u00e8s de la Porte Maillot. Offrant un acc\u00e8s direct au coeur de Paris, cet \u00e9tablissement chaleureux propose un ensemble de chambres contemporaines et confortables. D\u00e9tendez-vous dans le patio ext\u00e9rieur. Cet h\u00f4tel Mercure est une adresse id\u00e9ale pour vos voyages d'affaires ou de loisirs.<\/span><\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_address": [
+        {
+            "value": "48 Rue Chaptal, \r\n92300 \r\nLevallois-Perret"
+        }
+    ],
+    "field_daily_cost": [
+        {
+            "value": "102.60"
+        }
+    ],
+    "field_phone_number": [
+        {
+            "value": "01 47 57 24 83"
+        }
+    ]
+}

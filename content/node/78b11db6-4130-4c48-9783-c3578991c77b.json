@@ -1,0 +1,227 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/10?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/programmes_de_recherche"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/field_visuel": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2018-10\/Logo-FondationRecherche-red.png"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 10
+        }
+    ],
+    "uuid": [
+        {
+            "value": "78b11db6-4130-4c48-9783-c3578991c77b"
+        }
+    ],
+    "vid": [
+        {
+            "value": 62
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "programmes_de_recherche"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-10-22T08:40:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c43b7546-45a9-4afd-a307-fe0620fd91d7"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c43b7546-45a9-4afd-a307-fe0620fd91d7"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/field_visuel": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2018-10\/Logo-FondationRecherche-red.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d944f6d0-bdae-45b3-89ed-50ab5c6b4b15"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "\"Coeur de femmes\" Programmes de Recherche sur les maladies cardio-vasculaires f\u00e9minines ",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-19T08:26:37+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-22T08:40:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "moderation_state": [
+        {
+            "value": "published",
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_adresse": [
+        {
+            "value": "<p><strong>Fondation recherche cardio-vasculaire&nbsp;<\/strong><\/p>\r\n\r\n<ul>\r\n\t<li><span>96 Boulevard Maurice Barres, 92200 Neuilly-sur-Seine<\/span><\/li>\r\n<\/ul>\r\n",
+            "format": "basic_html",
+            "processed": "<p><strong>Fondation recherche cardio-vasculaire\u00a0<\/strong><\/p>\n\n<ul>\n\t<li><span>96 Boulevard Maurice Barres, 92200 Neuilly-sur-Seine<\/span><\/li>\n<\/ul>"
+        }
+    ],
+    "field_budget": [
+        {
+            "value": 100000
+        }
+    ],
+    "field_date": [
+        {
+            "value": "2014-09-15"
+        }
+    ],
+    "field_date_de_fin": [
+        {
+            "value": "2019-12-27"
+        }
+    ],
+    "field_description": [
+        {
+            "value": "<p><strong>Soutenus par un conseil scientifique d\u2019exception et inattaquable \u2013 comptant des chercheurs fran\u00e7ais parmi les meilleurs-<\/strong> dont la renomm\u00e9e d\u00e9passe nos fronti\u00e8res, notamment des membres de l\u2019Acad\u00e9mie des Sciences, ces Programmes de Recherche voudront mettre \u00e0 terme <span><strong>\u00e0 la sous-repr\u00e9sentation du sexe f\u00e9minin dans la recherche cardio-vasculaire<\/strong><\/span>, qu\u2019il s\u2019agisse des essais cliniques, des \u00e9tudes d\u2019intervention ou des travaux sur l\u2019animal.<\/p>\r\n\r\n<p>Il s\u2019agit de prendre en compte la sp\u00e9cificit\u00e9 biologique de l\u2019organisme f\u00e9minin afin d\u2019assurer une protection cardio-vasculaire identique \u00e0 celle de l\u2019homme ; c\u2019est en particulier le cas de l\u2019hypercholest\u00e9rol\u00e9mie, du risque d\u2019isch\u00e9mie et de sa relation avec l\u2019\u00e9volution de ses \u00e9tats hormonaux, \u00e9ventuellement modul\u00e9s par la prise des diff\u00e9rents contraceptifs au long cours de la vie et enfin \u00e0 l\u2019\u00e9tat des vaisseaux veineux, probl\u00e8me particulier \u00e0 la femme.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<h3><span><strong>TOUT RESTE DONC A FAIRE<br \/>\r\nPOUR LE C\u0152UR DES FEMMES !<\/strong><\/span><\/h3>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>Il est urgent, au m\u00eame titre qu\u2019on l\u2019a fait pour les hommes, d\u2019\u00e9tudier les femmes qui ont une<br \/>\r\nmaladie cardio-vasculaire par rapport \u00e0 celles qui n\u2019en ont pas, d\u2019analyser les raisons et les diff\u00e9rences ainsi que les facteurs pr\u00e9dictifs pour enrayer cette \u00e9pid\u00e9mie du c\u0153ur affectant des femmes de plus en plus jeunes.<\/p>\r\n\r\n<p>En savoir plus sur :&nbsp;<a href=\"http:\/\/www.fondation-recherche-cardio-vasculaire.org\/\">www.fondation-recherche-cardio-vasculaire.org<\/a><\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p><strong>Soutenus par un conseil scientifique d\u2019exception et inattaquable \u2013 comptant des chercheurs fran\u00e7ais parmi les meilleurs-<\/strong> dont la renomm\u00e9e d\u00e9passe nos fronti\u00e8res, notamment des membres de l\u2019Acad\u00e9mie des Sciences, ces Programmes de Recherche voudront mettre \u00e0 terme <span><strong>\u00e0 la sous-repr\u00e9sentation du sexe f\u00e9minin dans la recherche cardio-vasculaire<\/strong><\/span>, qu\u2019il s\u2019agisse des essais cliniques, des \u00e9tudes d\u2019intervention ou des travaux sur l\u2019animal.<\/p>\n\n<p>Il s\u2019agit de prendre en compte la sp\u00e9cificit\u00e9 biologique de l\u2019organisme f\u00e9minin afin d\u2019assurer une protection cardio-vasculaire identique \u00e0 celle de l\u2019homme ; c\u2019est en particulier le cas de l\u2019hypercholest\u00e9rol\u00e9mie, du risque d\u2019isch\u00e9mie et de sa relation avec l\u2019\u00e9volution de ses \u00e9tats hormonaux, \u00e9ventuellement modul\u00e9s par la prise des diff\u00e9rents contraceptifs au long cours de la vie et enfin \u00e0 l\u2019\u00e9tat des vaisseaux veineux, probl\u00e8me particulier \u00e0 la femme.<\/p>\n\n<p>\u00a0<\/p>\n\n<h3><span><strong>TOUT RESTE DONC A FAIRE<br \/>\nPOUR LE C\u0152UR DES FEMMES !<\/strong><\/span><\/h3>\n\n<p>\u00a0<\/p>\n\n<p>Il est urgent, au m\u00eame titre qu\u2019on l\u2019a fait pour les hommes, d\u2019\u00e9tudier les femmes qui ont une<br \/>\nmaladie cardio-vasculaire par rapport \u00e0 celles qui n\u2019en ont pas, d\u2019analyser les raisons et les diff\u00e9rences ainsi que les facteurs pr\u00e9dictifs pour enrayer cette \u00e9pid\u00e9mie du c\u0153ur affectant des femmes de plus en plus jeunes.<\/p>\n\n<p>En savoir plus sur :\u00a0<a href=\"http:\/\/www.fondation-recherche-cardio-vasculaire.org\/\">www.fondation-recherche-cardio-vasculaire.org<\/a><\/p>"
+        }
+    ],
+    "field_join_form": [
+        {
+            "target_id": "adhesion_a_la_biologie",
+            "default_data": "",
+            "status": "open",
+            "open": "",
+            "close": ""
+        }
+    ],
+    "field_organisateurs": [
+        {
+            "value": "<p><strong>Fondation recherche cardio-vasculaire<\/strong> (<a href=\"http:\/\/www.fondation-recherche-cardio-vasculaire.org\/coeur-de-femmes\/la-recherche-pour-le-coeur-des-femmes\/lancement-programmes-de-recherche-coeur-de-femmes\/\">site Internet<\/a>)<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p><strong>Fondation recherche cardio-vasculaire<\/strong> (<a href=\"http:\/\/www.fondation-recherche-cardio-vasculaire.org\/coeur-de-femmes\/la-recherche-pour-le-coeur-des-femmes\/lancement-programmes-de-recherche-coeur-de-femmes\/\">site Internet<\/a>)<\/p>"
+        }
+    ],
+    "field_range_joining": [
+        {
+            "value": "2014-07-12",
+            "end_value": "2019-10-31"
+        }
+    ]
+}

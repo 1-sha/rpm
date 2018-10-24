@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/21?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        }
+    },
+    "uid": [
+        {
+            "value": 21
+        }
+    ],
+    "uuid": [
+        {
+            "value": "da376c89-78c5-4e87-a013-883eb08e368c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Corinne Alberti"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-19T14:38:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-22T09:05:45+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_city": [
+        {
+            "value": "Paris"
+        }
+    ],
+    "field_country": [
+        {
+            "value": "France"
+        }
+    ],
+    "field_first_name": [
+        {
+            "value": "Corinne"
+        }
+    ],
+    "field_name": [
+        {
+            "value": "Alberti"
+        }
+    ],
+    "field_organisation_society": [
+        {
+            "value": "Universit\u00e9 Paris Diderot"
+        }
+    ],
+    "field_particular_indications": [
+        {
+            "value": "none"
+        }
+    ],
+    "field_personnal_website": [
+        {
+            "uri": "http:\/\/lapersonneenmedecine.uspc.fr",
+            "title": "",
+            "options": []
+        }
+    ]
+}

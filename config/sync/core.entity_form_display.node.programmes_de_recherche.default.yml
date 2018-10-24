@@ -3,15 +3,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.programmes_de_recherche.body
+    - field.field.node.programmes_de_recherche.field_adresse
     - field.field.node.programmes_de_recherche.field_budget
+    - field.field.node.programmes_de_recherche.field_date
     - field.field.node.programmes_de_recherche.field_date_de_fin
     - field.field.node.programmes_de_recherche.field_description
     - field.field.node.programmes_de_recherche.field_join_form
     - field.field.node.programmes_de_recherche.field_organisateurs
-    - field.field.node.programmes_de_recherche.field_participants
     - field.field.node.programmes_de_recherche.field_range_joining
-    - field.field.node.programmes_de_recherche.field_unedate
     - field.field.node.programmes_de_recherche.field_visuel
     - image.style.thumbnail
     - node.type.programmes_de_recherche
@@ -19,6 +18,7 @@ dependencies:
     - content_moderation
     - datetime
     - datetime_range
+    - flexiform
     - image
     - path
     - text
@@ -41,21 +41,20 @@ targetEntityType: node
 bundle: programmes_de_recherche
 mode: default
 content:
-  body:
-    type: text_textarea_with_summary
-    weight: 121
-    settings:
-      rows: 9
-      summary_rows: 3
-      placeholder: ''
-    third_party_settings: {  }
-    region: content
   created:
     type: datetime_timestamp
     weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_adresse:
+    weight: 135
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
   field_budget:
     weight: 125
     settings:
@@ -63,8 +62,14 @@ content:
     third_party_settings: {  }
     type: number
     region: content
+  field_date:
+    weight: 131
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
   field_date_de_fin:
-    weight: 123
+    weight: 132
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
@@ -85,32 +90,18 @@ content:
     type: webform_entity_reference_select
     region: content
   field_organisateurs:
-    weight: 126
+    weight: 133
     settings:
-      size: 60
+      rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: text_textfield
-    region: content
-  field_participants:
-    weight: 127
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textfield
+    type: text_textarea
     region: content
   field_range_joining:
     weight: 130
     settings: {  }
     third_party_settings: {  }
     type: daterange_default
-    region: content
-  field_unedate:
-    weight: 122
-    settings: {  }
-    third_party_settings: {  }
-    type: datetime_default
     region: content
   field_visuel:
     weight: 128
