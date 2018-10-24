@@ -19,7 +19,6 @@ dependencies:
     - content_moderation
     - datetime
     - datetime_range
-    - flexiform
     - image
     - path
     - text
