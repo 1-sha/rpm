@@ -8,7 +8,6 @@ pm.export:
       nodeInput:
         type: entity:node:nid
   requirements:
-    # _access: 'TRUE'
     _custom_access: Drupal\program_manager\Controller\ExportController::getAccess
 
 pm.export.global:
@@ -17,4 +16,4 @@ pm.export.global:
     _title: 'Export of every program adhesion submission'
     _controller: Drupal\program_manager\Controller\ExportController::createExportZip
   requirements:
-    _access: 'TRUE'
+    _permission: 'access-webform-submission-log'
