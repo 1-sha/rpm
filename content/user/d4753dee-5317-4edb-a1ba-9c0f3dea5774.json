@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/25?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        }
+    },
+    "uid": [
+        {
+            "value": 25
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d4753dee-5317-4edb-a1ba-9c0f3dea5774"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Jean-Fran\u00e7ois"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-22T14:50:30+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-22T15:01:57+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_city": [
+        {
+            "value": "Toulouse"
+        }
+    ],
+    "field_country": [
+        {
+            "value": "France"
+        }
+    ],
+    "field_first_name": [
+        {
+            "value": "Jean-Fran\u00e7ois"
+        }
+    ],
+    "field_name": [
+        {
+            "value": "Arnal"
+        }
+    ],
+    "field_organisation_society": [
+        {
+            "value": "Universit\u00e9 Paul Sabati\u00e9"
+        }
+    ],
+    "field_particular_indications": [
+        {
+            "value": "none"
+        }
+    ],
+    "field_personnal_website": [
+        {
+            "uri": "http:\/\/www.fondation-recherche-cardio-vasculaire.org",
+            "title": "",
+            "options": []
+        }
+    ]
+}

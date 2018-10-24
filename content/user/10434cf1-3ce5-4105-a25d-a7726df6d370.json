@@ -1,0 +1,75 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/22?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        }
+    },
+    "uid": [
+        {
+            "value": 22
+        }
+    ],
+    "uuid": [
+        {
+            "value": "10434cf1-3ce5-4105-a25d-a7726df6d370"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Ele8"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-22T08:49:17+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-22T08:51:39+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_city": [
+        {
+            "value": "Nantes"
+        }
+    ],
+    "field_country": [
+        {
+            "value": "France"
+        }
+    ],
+    "field_first_name": [
+        {
+            "value": "Joan"
+        }
+    ],
+    "field_name": [
+        {
+            "value": "Jett"
+        }
+    ],
+    "field_particular_indications": [
+        {
+            "value": "none"
+        }
+    ]
+}

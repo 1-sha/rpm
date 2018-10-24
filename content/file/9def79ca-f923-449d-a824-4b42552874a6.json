@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/2018-10\/IPC_FONDATION%2520EDF_1_0.jpg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 11
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9def79ca-f923-449d-a824-4b42552874a6"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c43b7546-45a9-4afd-a307-fe0620fd91d7"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "IPC_FONDATION%20EDF_1.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2018-10\/IPC_FONDATION%20EDF_1_0.jpg",
+            "url": "\/sites\/default\/files\/2018-10\/IPC_FONDATION%2520EDF_1_0.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 118585
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-18T12:35:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-18T12:36:43+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

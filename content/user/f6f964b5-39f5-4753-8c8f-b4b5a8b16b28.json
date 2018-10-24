@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/26?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        }
+    },
+    "uid": [
+        {
+            "value": 26
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f6f964b5-39f5-4753-8c8f-b4b5a8b16b28"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Jean-Claude"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-22T14:59:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-22T15:01:47+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_city": [
+        {
+            "value": "Paris"
+        }
+    ],
+    "field_country": [
+        {
+            "value": "France"
+        }
+    ],
+    "field_first_name": [
+        {
+            "value": "jean-Claude"
+        }
+    ],
+    "field_name": [
+        {
+            "value": "Ameisen"
+        }
+    ],
+    "field_organisation_society": [
+        {
+            "value": "Universit\u00e9 Paris Diderot"
+        }
+    ],
+    "field_particular_indications": [
+        {
+            "value": "vegan"
+        }
+    ],
+    "field_personnal_website": [
+        {
+            "uri": "http:\/\/www.fondation-recherche-cardio-vasculaire.org",
+            "title": "",
+            "options": []
+        }
+    ]
+}
