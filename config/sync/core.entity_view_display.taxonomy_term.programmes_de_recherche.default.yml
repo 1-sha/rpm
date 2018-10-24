@@ -1,0 +1,30 @@
+uuid: b506e004-61cc-4ccb-988d-886ac9171866
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.programmes_de_recherche.field_tags
+    - taxonomy.vocabulary.programmes_de_recherche
+  module:
+    - text
+id: taxonomy_term.programmes_de_recherche.default
+targetEntityType: taxonomy_term
+bundle: programmes_de_recherche
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_tags:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

@@ -11,6 +11,7 @@ dependencies:
     - field.field.node.programmes_de_recherche.field_join_form
     - field.field.node.programmes_de_recherche.field_organisateurs
     - field.field.node.programmes_de_recherche.field_participants
+    - field.field.node.programmes_de_recherche.field_programme_de_recherche_tax
     - field.field.node.programmes_de_recherche.field_range_joining
     - field.field.node.programmes_de_recherche.field_visuel
     - image.style.thumbnail
@@ -22,6 +23,7 @@ dependencies:
     - flexiform
     - image
     - path
+    - pbf
     - text
     - webform
 third_party_settings:
@@ -105,6 +107,20 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
+    region: content
+  field_programme_de_recherche_tax:
+    weight: 26
+    settings:
+      grant_global: 0
+      grant_public: 1
+      grant_view: 0
+      grant_update: 0
+      grant_delete: 0
+      match_operator: CONTAINS
+      size: '60'
+      placeholder: ''
+    third_party_settings: {  }
+    type: pbf_widget
     region: content
   field_range_joining:
     weight: 12

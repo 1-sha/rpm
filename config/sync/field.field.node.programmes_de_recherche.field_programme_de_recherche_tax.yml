@@ -1,0 +1,72 @@
+uuid: 0474055e-42a1-4fef-844f-a8ce7c645cf9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_programme_de_recherche_tax
+    - node.type.programmes_de_recherche
+    - taxonomy.vocabulary.programmes_de_recherche
+  content:
+    - 'taxonomy_term:programmes_de_recherche:2b217baa-903a-4b64-bc9e-0e4fbdf5ded0'
+    - 'taxonomy_term:programmes_de_recherche:42677512-548d-47ad-86d7-f57eadaab391'
+    - 'taxonomy_term:programmes_de_recherche:8645cfa4-25fc-4b36-8b04-d98fd3cc9280'
+    - 'taxonomy_term:programmes_de_recherche:c636dccb-e8a1-4893-8936-915af98b2f37'
+    - 'taxonomy_term:programmes_de_recherche:e2b0ef56-2c29-43c0-b6f5-27d128b9aaf5'
+  module:
+    - pbf
+id: node.programmes_de_recherche.field_programme_de_recherche_tax
+field_name: field_programme_de_recherche_tax
+entity_type: node
+bundle: programmes_de_recherche
+label: Tags
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    grant_public: 1
+    grant_view: 0
+    grant_update: 0
+    grant_delete: 0
+    target_uuid: 8645cfa4-25fc-4b36-8b04-d98fd3cc9280
+  -
+    grant_public: 1
+    grant_view: 0
+    grant_update: 0
+    grant_delete: 0
+    target_uuid: 42677512-548d-47ad-86d7-f57eadaab391
+  -
+    grant_public: 1
+    grant_view: 0
+    grant_update: 0
+    grant_delete: 0
+    target_uuid: e2b0ef56-2c29-43c0-b6f5-27d128b9aaf5
+  -
+    grant_public: 1
+    grant_view: 0
+    grant_update: 0
+    grant_delete: 0
+    target_uuid: c636dccb-e8a1-4893-8936-915af98b2f37
+  -
+    grant_public: 1
+    grant_view: 0
+    grant_update: 0
+    grant_delete: 0
+    target_uuid: 2b217baa-903a-4b64-bc9e-0e4fbdf5ded0
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      programmes_de_recherche: programmes_de_recherche
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+  synchronized_by: ''
+  priority: 0
+  user_method: user
+  synchronized_with: ''
+  synchronized_from_target: 0
+field_type: pbf

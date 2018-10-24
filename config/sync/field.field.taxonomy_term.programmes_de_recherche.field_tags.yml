@@ -1,0 +1,21 @@
+uuid: 6e9a6e51-a4e0-4c57-94af-6290857f314c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_tags
+    - taxonomy.vocabulary.programmes_de_recherche
+id: taxonomy_term.programmes_de_recherche.field_tags
+field_name: field_tags
+entity_type: taxonomy_term
+bundle: programmes_de_recherche
+label: tags
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

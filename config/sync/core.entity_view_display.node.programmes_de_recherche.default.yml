@@ -11,13 +11,16 @@ dependencies:
     - field.field.node.programmes_de_recherche.field_join_form
     - field.field.node.programmes_de_recherche.field_organisateurs
     - field.field.node.programmes_de_recherche.field_participants
+    - field.field.node.programmes_de_recherche.field_programme_de_recherche_tax
     - field.field.node.programmes_de_recherche.field_range_joining
     - field.field.node.programmes_de_recherche.field_visuel
     - node.type.programmes_de_recherche
   module:
     - datetime
     - datetime_range
+    - ds
     - image
+    - pbf
     - text
     - user
     - webform
@@ -93,6 +96,16 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: text_default
+    region: content
+  field_programme_de_recherche_tax:
+    weight: 12
+    label: above
+    settings:
+      link: true
+    third_party_settings:
+      ds:
+        ds_limit: ''
+    type: pbf_formatter_default
     region: content
   field_range_joining:
     weight: 8
