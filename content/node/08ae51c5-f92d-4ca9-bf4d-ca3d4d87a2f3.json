@@ -1,0 +1,242 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/8?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/programmes_de_recherche"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/field_visuel": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2018-10\/header_logo.png"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 8
+        }
+    ],
+    "uuid": [
+        {
+            "value": "08ae51c5-f92d-4ca9-bf4d-ca3d4d87a2f3"
+        }
+    ],
+    "vid": [
+        {
+            "value": 63
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "programmes_de_recherche"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-10-22T09:15:15+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c43b7546-45a9-4afd-a307-fe0620fd91d7"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c43b7546-45a9-4afd-a307-fe0620fd91d7"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/programmes_de_recherche\/field_visuel": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2018-10\/header_logo.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1fb9fee6-a49d-4bec-a11e-9292bc0c28bc"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "La Personne en m\u00e9decine",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-18T13:56:29+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-22T09:15:15+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "moderation_state": [
+        {
+            "value": "published",
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_adresse": [
+        {
+            "value": "<p><strong>Universit\u00e9 Paris Descartes<\/strong><\/p>\r\n\r\n<ul>\r\n\t<li>12 rue de l'Ecole de Medecine, 75006 Paris<\/li>\r\n<\/ul>\r\n",
+            "format": "basic_html",
+            "processed": "<p><strong>Universit\u00e9 Paris Descartes<\/strong><\/p>\n\n<ul>\n\t<li>12 rue de l'Ecole de Medecine, 75006 Paris<\/li>\n<\/ul>"
+        },
+        {
+            "value": "<p><strong>Universit\u00e9 Paris III Sorbonne Nouvelle<\/strong><\/p>\r\n\r\n<ul>\r\n\t<li>8 Place du Panth\u00e9on, 75005 Paris<\/li>\r\n<\/ul>\r\n",
+            "format": "basic_html",
+            "processed": "<p><strong>Universit\u00e9 Paris III Sorbonne Nouvelle<\/strong><\/p>\n\n<ul>\n\t<li>8 Place du Panth\u00e9on, 75005 Paris<\/li>\n<\/ul>"
+        },
+        {
+            "value": "<p><strong>Universit\u00e9 Paris 13 IRIS<\/strong><\/p>\r\n\r\n<ul>\r\n\t<li>99 Avenue Jean-Baptiste Cl\u00e9ment,&nbsp;<span>93430 Villetaneuse<\/span><\/li>\r\n<\/ul>\r\n",
+            "format": "basic_html",
+            "processed": "<p><strong>Universit\u00e9 Paris 13 IRIS<\/strong><\/p>\n\n<ul>\n\t<li>99 Avenue Jean-Baptiste Cl\u00e9ment,\u00a0<span>93430 Villetaneuse<\/span><\/li>\n<\/ul>"
+        }
+    ],
+    "field_budget": [
+        {
+            "value": 90000
+        }
+    ],
+    "field_date": [
+        {
+            "value": "2018-09-01"
+        }
+    ],
+    "field_date_de_fin": [
+        {
+            "value": "2020-07-04"
+        }
+    ],
+    "field_description": [
+        {
+            "value": "<p>Parce qu\u2019elle est un art au carrefour de plusieurs sciences, tant biom\u00e9dicales que sociales, s\u2019inscrivant dans l\u2019histoire et la soci\u00e9t\u00e9, la m\u00e9decine requiert par nature des recherches pluridisciplinaires. Les \u00e9volutions m\u00e9dicales contemporaines rendent indispensable et urgente une nouvelle alliance entre m\u00e9decine et humanit\u00e9s, compl\u00e9mentaire de l\u2019alliance entre m\u00e9decine et sciences. Les tensions entre art de soigner et science de la vie, recherche de la gu\u00e9rison et promotion de la sant\u00e9, individu et population, ne sont gu\u00e8re nouvelles et font la sp\u00e9cificit\u00e9 de la m\u00e9decine, mais sont exacerb\u00e9es par la transformation des savoirs et des pratiques fond\u00e9s sur l\u2019\u00e9pid\u00e9miologie et la m\u00e9decine des preuves, par l\u2019\u00e9volution des demandes politiques, des logiques \u00e9conomiques et des besoins sociaux, et enfin par les nouvelles conceptions anthropologiques de la maladie, de la sant\u00e9 et du soin. Afin de saisir les logiques et les normes multiples qui la traversent, la m\u00e9decine a besoin de collaborer avec l\u2019histoire, les sciences sociales, la philosophie, l\u2019\u00e9pist\u00e9mologie, l\u2019\u00e9thique mais aussi avec les recherches sur les arts et la litt\u00e9rature, la psychanalyse et le droit.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>Dans un but de connaissance et d\u2019am\u00e9lioration des pratiques et des politiques de sant\u00e9, le programme ne se concentre pas sur \u00ab&nbsp;la m\u00e9decine personnalis\u00e9e&nbsp;\u00bb, mais porte, de mani\u00e8re plus large, sur les figures contemporaines de la personne en m\u00e9decine. Il ambitionne d\u2019\u00e9tudier la subjectivation contemporaine des malades, de leur entourage et des professionnels de sant\u00e9, c\u2019est-\u00e0-dire les mani\u00e8res dont ces personnes font l\u2019exp\u00e9rience de la maladie et de la m\u00e9decine, se con\u00e7oivent, agissent, construisent leurs identit\u00e9s personnelles et sociales. Le programme avance en particulier l\u2019hypoth\u00e8se que les modes de subjectivation des patients et de leur entourage ne peuvent \u00eatre analys\u00e9s que conjointement aux modes de subjectivation des professionnels de sant\u00e9, car ils s\u2019influencent r\u00e9ciproquement. Pour saisir les modes de subjectivation des patients et de leur entourage, le programme se focalise sur l\u2019une des caract\u00e9ristiques anthropologiques contemporaines, constituant un enjeu de soci\u00e9t\u00e9 majeur, qui consiste \u00e0 \u00ab&nbsp;vivre la maladie \u00e0 vie&nbsp;\u00bb (d\u00e8s avant la naissance, \u00e0 travers l\u2019acc\u00e8s ais\u00e9 aux informations biologiques et m\u00e9dicales personnelles, \u00e0 travers la pr\u00e9vention, dans la gestion de la maladie chronique et de l\u2019apr\u00e8s traitement, etc.). Pour saisir les modes de subjectivation des professionnels de sant\u00e9, un axe du programme se consacrera \u00e0 l\u2019histoire et l\u2019actualit\u00e9 de leur formation \u2013 en interrogeant notamment la place et le r\u00f4le qu\u2019y jouent, en France et dans le monde, SHS et humanit\u00e9s m\u00e9dicales.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p>Au plan m\u00e9thodologique, l\u2019alliance m\u00e9decine\/humanit\u00e9s implique de promouvoir tant des recherches en SHS sur la m\u00e9decine, consid\u00e9r\u00e9e comme objet, que des recherches collaboratives impliquant conjointement SHS et sciences biom\u00e9dicales. Il est aussi besoin tant d\u2019analyses globales que d\u2019analyses locales men\u00e9es au plus pr\u00e8s des acteurs et pratiques. La pluridisciplinarit\u00e9 du programme repose sur un parti pris scientifique assum\u00e9 qui vise \u00e0 renouveler les analyses \u00e9pist\u00e9mologiques et \u00e9thiques en m\u00e9decine, en les mettant au double d\u00e9fi, d\u2019une part, des recherches des sciences sociales, et, d\u2019autre part, de recherches novatrices men\u00e9es ensemble par des chercheurs en SHS et en m\u00e9decine.<\/p>\r\n\r\n<p>&nbsp;<\/p>\r\n\r\n<p><strong>Pourquoi des recherches pluri- et interdisciplinaires sur la personne en m\u00e9decine&nbsp;?<\/strong><\/p>\r\n\r\n<p>Afin de conna\u00eetre et d\u2019am\u00e9liorer les pratiques et les politiques de sant\u00e9, le programme \u00ab&nbsp;La Personne en m\u00e9decine&nbsp;\u00bb propose des recherches sur les figures contemporaines de la personne en m\u00e9decine. Il \u00e9tudie la subjectivation contemporaine des malades, de leur entourage et des professionnels de sant\u00e9, c\u2019est-\u00e0-dire les mani\u00e8res dont ces personnes font l\u2019exp\u00e9rience de la maladie et de la m\u00e9decine, se con\u00e7oivent, agissent, construisent leurs identit\u00e9s personnelles et sociales.<\/p>\r\n\r\n<p>Il s\u2019agit de comprendre comment la personne malade exp\u00e9rimente la maladie \u00e0 la fois dans la m\u00e9decine et dans la soci\u00e9t\u00e9, comment elle s\u2019y construit comme acteur psychique, social, \u00e9thique et politique. De la m\u00eame mani\u00e8re, il s\u2019agit d\u2019\u00e9tudier les mani\u00e8res dont les professionnels de sant\u00e9 se forment, s\u2019organisent, travaillent et d\u00e9cident ensemble \u2013 ce qui \u00e9claire les mani\u00e8res dont la personne malade et son entourage sont con\u00e7us, pris en charge et en compte.<\/p>\r\n\r\n<p>La notion de subjectivation permet de d\u00e9crire de mani\u00e8re dynamique la vie des patients et des professionnels de sant\u00e9, comme des sujets enserr\u00e9s dans des relations, des organisations et des institutions. En rompant avec les conceptions de la subjectivit\u00e9 comme pure int\u00e9riorit\u00e9 psychique ou comme capacit\u00e9 d\u00e9cisionnelle, cette notion permet de penser la subjectivit\u00e9 comme&nbsp;strat\u00e9gie d\u2019existence et moyen de gouvernance. Elle met donc l\u2019accent sur les mani\u00e8res dont les patients, leur entourage et les professionnels de sant\u00e9 produisent des subjectivit\u00e9s nouvelles en fonction des pratiques et des discours, et en les transformant.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Parce qu\u2019elle est un art au carrefour de plusieurs sciences, tant biom\u00e9dicales que sociales, s\u2019inscrivant dans l\u2019histoire et la soci\u00e9t\u00e9, la m\u00e9decine requiert par nature des recherches pluridisciplinaires. Les \u00e9volutions m\u00e9dicales contemporaines rendent indispensable et urgente une nouvelle alliance entre m\u00e9decine et humanit\u00e9s, compl\u00e9mentaire de l\u2019alliance entre m\u00e9decine et sciences. Les tensions entre art de soigner et science de la vie, recherche de la gu\u00e9rison et promotion de la sant\u00e9, individu et population, ne sont gu\u00e8re nouvelles et font la sp\u00e9cificit\u00e9 de la m\u00e9decine, mais sont exacerb\u00e9es par la transformation des savoirs et des pratiques fond\u00e9s sur l\u2019\u00e9pid\u00e9miologie et la m\u00e9decine des preuves, par l\u2019\u00e9volution des demandes politiques, des logiques \u00e9conomiques et des besoins sociaux, et enfin par les nouvelles conceptions anthropologiques de la maladie, de la sant\u00e9 et du soin. Afin de saisir les logiques et les normes multiples qui la traversent, la m\u00e9decine a besoin de collaborer avec l\u2019histoire, les sciences sociales, la philosophie, l\u2019\u00e9pist\u00e9mologie, l\u2019\u00e9thique mais aussi avec les recherches sur les arts et la litt\u00e9rature, la psychanalyse et le droit.<\/p>\n\n<p>\u00a0<\/p>\n\n<p>Dans un but de connaissance et d\u2019am\u00e9lioration des pratiques et des politiques de sant\u00e9, le programme ne se concentre pas sur \u00ab\u00a0la m\u00e9decine personnalis\u00e9e\u00a0\u00bb, mais porte, de mani\u00e8re plus large, sur les figures contemporaines de la personne en m\u00e9decine. Il ambitionne d\u2019\u00e9tudier la subjectivation contemporaine des malades, de leur entourage et des professionnels de sant\u00e9, c\u2019est-\u00e0-dire les mani\u00e8res dont ces personnes font l\u2019exp\u00e9rience de la maladie et de la m\u00e9decine, se con\u00e7oivent, agissent, construisent leurs identit\u00e9s personnelles et sociales. Le programme avance en particulier l\u2019hypoth\u00e8se que les modes de subjectivation des patients et de leur entourage ne peuvent \u00eatre analys\u00e9s que conjointement aux modes de subjectivation des professionnels de sant\u00e9, car ils s\u2019influencent r\u00e9ciproquement. Pour saisir les modes de subjectivation des patients et de leur entourage, le programme se focalise sur l\u2019une des caract\u00e9ristiques anthropologiques contemporaines, constituant un enjeu de soci\u00e9t\u00e9 majeur, qui consiste \u00e0 \u00ab\u00a0vivre la maladie \u00e0 vie\u00a0\u00bb (d\u00e8s avant la naissance, \u00e0 travers l\u2019acc\u00e8s ais\u00e9 aux informations biologiques et m\u00e9dicales personnelles, \u00e0 travers la pr\u00e9vention, dans la gestion de la maladie chronique et de l\u2019apr\u00e8s traitement, etc.). Pour saisir les modes de subjectivation des professionnels de sant\u00e9, un axe du programme se consacrera \u00e0 l\u2019histoire et l\u2019actualit\u00e9 de leur formation \u2013 en interrogeant notamment la place et le r\u00f4le qu\u2019y jouent, en France et dans le monde, SHS et humanit\u00e9s m\u00e9dicales.<\/p>\n\n<p>\u00a0<\/p>\n\n<p>Au plan m\u00e9thodologique, l\u2019alliance m\u00e9decine\/humanit\u00e9s implique de promouvoir tant des recherches en SHS sur la m\u00e9decine, consid\u00e9r\u00e9e comme objet, que des recherches collaboratives impliquant conjointement SHS et sciences biom\u00e9dicales. Il est aussi besoin tant d\u2019analyses globales que d\u2019analyses locales men\u00e9es au plus pr\u00e8s des acteurs et pratiques. La pluridisciplinarit\u00e9 du programme repose sur un parti pris scientifique assum\u00e9 qui vise \u00e0 renouveler les analyses \u00e9pist\u00e9mologiques et \u00e9thiques en m\u00e9decine, en les mettant au double d\u00e9fi, d\u2019une part, des recherches des sciences sociales, et, d\u2019autre part, de recherches novatrices men\u00e9es ensemble par des chercheurs en SHS et en m\u00e9decine.<\/p>\n\n<p>\u00a0<\/p>\n\n<p><strong>Pourquoi des recherches pluri- et interdisciplinaires sur la personne en m\u00e9decine\u00a0?<\/strong><\/p>\n\n<p>Afin de conna\u00eetre et d\u2019am\u00e9liorer les pratiques et les politiques de sant\u00e9, le programme \u00ab\u00a0La Personne en m\u00e9decine\u00a0\u00bb propose des recherches sur les figures contemporaines de la personne en m\u00e9decine. Il \u00e9tudie la subjectivation contemporaine des malades, de leur entourage et des professionnels de sant\u00e9, c\u2019est-\u00e0-dire les mani\u00e8res dont ces personnes font l\u2019exp\u00e9rience de la maladie et de la m\u00e9decine, se con\u00e7oivent, agissent, construisent leurs identit\u00e9s personnelles et sociales.<\/p>\n\n<p>Il s\u2019agit de comprendre comment la personne malade exp\u00e9rimente la maladie \u00e0 la fois dans la m\u00e9decine et dans la soci\u00e9t\u00e9, comment elle s\u2019y construit comme acteur psychique, social, \u00e9thique et politique. De la m\u00eame mani\u00e8re, il s\u2019agit d\u2019\u00e9tudier les mani\u00e8res dont les professionnels de sant\u00e9 se forment, s\u2019organisent, travaillent et d\u00e9cident ensemble \u2013 ce qui \u00e9claire les mani\u00e8res dont la personne malade et son entourage sont con\u00e7us, pris en charge et en compte.<\/p>\n\n<p>La notion de subjectivation permet de d\u00e9crire de mani\u00e8re dynamique la vie des patients et des professionnels de sant\u00e9, comme des sujets enserr\u00e9s dans des relations, des organisations et des institutions. En rompant avec les conceptions de la subjectivit\u00e9 comme pure int\u00e9riorit\u00e9 psychique ou comme capacit\u00e9 d\u00e9cisionnelle, cette notion permet de penser la subjectivit\u00e9 comme\u00a0strat\u00e9gie d\u2019existence et moyen de gouvernance. Elle met donc l\u2019accent sur les mani\u00e8res dont les patients, leur entourage et les professionnels de sant\u00e9 produisent des subjectivit\u00e9s nouvelles en fonction des pratiques et des discours, et en les transformant.<\/p>"
+        }
+    ],
+    "field_join_form": [
+        {
+            "target_id": "adhesion_a_la_biologie",
+            "default_data": "",
+            "status": "open",
+            "open": "",
+            "close": ""
+        }
+    ],
+    "field_organisateurs": [
+        {
+            "value": "<p><strong><span>C\u00e9line Lef\u00e8ve<\/span><\/strong><\/p>\r\n\r\n<ul>\r\n\t<li><span>Ma\u00eetre de conf\u00e9rences en philosophie \u00e0 l\u2019Universit\u00e9 Paris Diderot, <\/span><\/li>\r\n\t<li><span>Chercheuse \u00e0 l\u2019UMR 7219 \u2013 SPHERE, <\/span><\/li>\r\n\t<li><span>Directrice du Centre Georges Canguilhem, centre de recherches en histoire, philosophie et \u00e9thique des sciences et de la m\u00e9decine (Institut des Humanit\u00e9s et Sciences de Paris). <\/span><\/li>\r\n<\/ul>\r\n",
+            "format": "basic_html",
+            "processed": "<p><strong><span>C\u00e9line Lef\u00e8ve<\/span><\/strong><\/p>\n\n<ul>\n\t<li><span>Ma\u00eetre de conf\u00e9rences en philosophie \u00e0 l\u2019Universit\u00e9 Paris Diderot, <\/span><\/li>\n\t<li><span>Chercheuse \u00e0 l\u2019UMR 7219 \u2013 SPHERE, <\/span><\/li>\n\t<li><span>Directrice du Centre Georges Canguilhem, centre de recherches en histoire, philosophie et \u00e9thique des sciences et de la m\u00e9decine (Institut des Humanit\u00e9s et Sciences de Paris). <\/span><\/li>\n<\/ul>"
+        },
+        {
+            "value": "<p><strong><span>Fran\u00e7ois Villa<\/span><\/strong><\/p>\r\n\r\n<ul>\r\n\t<li><span>Professeur de psychopathologie \u00e0 l\u2019UFR Etudes Psychanalytiques de l\u2019Universit\u00e9 Paris Diderot. <\/span><\/li>\r\n\t<li><span>Responsable de l\u2019axe Psychanalyse et m\u00e9decine du Centre de Recherches Psychanalyse, M\u00e9decine et Soci\u00e9t\u00e9 (CRPMS). <\/span><\/li>\r\n<\/ul>\r\n",
+            "format": "basic_html",
+            "processed": "<p><strong><span>Fran\u00e7ois Villa<\/span><\/strong><\/p>\n\n<ul>\n\t<li><span>Professeur de psychopathologie \u00e0 l\u2019UFR Etudes Psychanalytiques de l\u2019Universit\u00e9 Paris Diderot. <\/span><\/li>\n\t<li><span>Responsable de l\u2019axe Psychanalyse et m\u00e9decine du Centre de Recherches Psychanalyse, M\u00e9decine et Soci\u00e9t\u00e9 (CRPMS). <\/span><\/li>\n<\/ul>"
+        }
+    ],
+    "field_range_joining": [
+        {
+            "value": "2018-07-01",
+            "end_value": "2020-05-31"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/20?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        }
+    },
+    "uid": [
+        {
+            "value": 20
+        }
+    ],
+    "uuid": [
+        {
+            "value": "44180fdd-2439-4c5a-bee8-148f12d681de"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Ele6"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-19T13:21:24+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-22T09:05:58+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_city": [
+        {
+            "value": "Montauban"
+        }
+    ],
+    "field_country": [
+        {
+            "value": "France"
+        }
+    ],
+    "field_first_name": [
+        {
+            "value": "Ele"
+        }
+    ],
+    "field_name": [
+        {
+            "value": "Riha"
+        }
+    ],
+    "field_organisation_society": [
+        {
+            "value": "Institut Pasteur"
+        }
+    ],
+    "field_particular_indications": [
+        {
+            "value": "none"
+        }
+    ]
+}

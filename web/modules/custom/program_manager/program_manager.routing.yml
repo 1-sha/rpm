@@ -1,0 +1,19 @@
+pm.export:
+  path: '/node/{nodeInput}/export.csv'
+  defaults:
+    _title: 'Export of program adhesions'
+    _controller: Drupal\program_manager\Controller\ExportController::exportProgramAdhesions
+  options:
+    parameters:
+      nodeInput:
+        type: entity:node:nid
+  requirements:
+    _custom_access: Drupal\program_manager\Controller\ExportController::getAccess
+
+pm.export.global:
+  path: '/export.zip'
+  defaults:
+    _title: 'Export of every program adhesion submission'
+    _controller: Drupal\program_manager\Controller\ExportController::createExportZip
+  requirements:
+    _permission: 'access-webform-submission-log'

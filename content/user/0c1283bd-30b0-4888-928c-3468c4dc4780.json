@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/user\/24?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+        }
+    },
+    "uid": [
+        {
+            "value": 24
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0c1283bd-30b0-4888-928c-3468c4dc4780"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Dan"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-22T14:08:55+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-22T15:02:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_city": [
+        {
+            "value": "Marseille"
+        }
+    ],
+    "field_country": [
+        {
+            "value": "France"
+        }
+    ],
+    "field_first_name": [
+        {
+            "value": "Daniel"
+        }
+    ],
+    "field_name": [
+        {
+            "value": "Birnbaum"
+        }
+    ],
+    "field_organisation_society": [
+        {
+            "value": "Institut Paoli-Calmettes"
+        }
+    ],
+    "field_particular_indications": [
+        {
+            "value": "v\u00e9g\u00e9tarien"
+        }
+    ],
+    "field_personnal_website": [
+        {
+            "uri": "http:\/\/www.institutpaolicalmettes.fr",
+            "title": "",
+            "options": []
+        }
+    ]
+}

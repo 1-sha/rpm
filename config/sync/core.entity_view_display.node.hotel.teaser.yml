@@ -28,5 +28,6 @@ content:
 hidden:
   field_address: true
   field_daily_cost: true
+  field_e_mail: true
   field_phone_number: true
   links: true

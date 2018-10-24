@@ -1,0 +1,5 @@
+pm.export:
+  base_route: entity.node.canonical
+  route_name: pm.export
+  class: '\Drupal\program_manager\Plugin\Menu\DynamicExportTask'
+  weight: 0
